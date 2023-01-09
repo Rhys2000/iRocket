@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900EC14A296C204E00D30058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC149296C204E00D30058 /* AppDelegate.swift */; };
+		900EC14C296C204E00D30058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC14B296C204E00D30058 /* SceneDelegate.swift */; };
+		900EC14E296C204E00D30058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC14D296C204E00D30058 /* ViewController.swift */; };
+		900EC151296C204E00D30058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EC14F296C204E00D30058 /* Main.storyboard */; };
+		900EC154296C204E00D30058 /* iRocket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900EC152296C204E00D30058 /* iRocket.xcdatamodeld */; };
+		900EC156296C205000D30058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900EC155296C205000D30058 /* Assets.xcassets */; };
+		900EC159296C205000D30058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EC157296C205000D30058 /* LaunchScreen.storyboard */; };
+		900EC164296C205000D30058 /* iRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC163296C205000D30058 /* iRocketTests.swift */; };
+		900EC16E296C205000D30058 /* iRocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC16D296C205000D30058 /* iRocketUITests.swift */; };
+		900EC170296C205000D30058 /* iRocketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900EC160296C205000D30058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900EC13E296C204E00D30058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900EC145296C204E00D30058;
+			remoteInfo = iRocket;
+		};
+		900EC16A296C205000D30058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 900EC13E296C204E00D30058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900EC145296C204E00D30058;
+			remoteInfo = iRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		900EC146296C204E00D30058 /* iRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900EC149296C204E00D30058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900EC14B296C204E00D30058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		900EC14D296C204E00D30058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900EC150296C204E00D30058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900EC153296C204E00D30058 /* iRocket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRocket.xcdatamodel; sourceTree = "<group>"; };
+		900EC155296C205000D30058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900EC158296C205000D30058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900EC15A296C205000D30058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900EC15F296C205000D30058 /* iRocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		900EC163296C205000D30058 /* iRocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRocketTests.swift; sourceTree = "<group>"; };
+		900EC169296C205000D30058 /* iRocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		900EC16D296C205000D30058 /* iRocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRocketUITests.swift; sourceTree = "<group>"; };
+		900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRocketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900EC143296C204E00D30058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EC15C296C205000D30058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EC166296C205000D30058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900EC13D296C204E00D30058 = {
+			isa = PBXGroup;
+			children = (
+				900EC148296C204E00D30058 /* iRocket */,
+				900EC162296C205000D30058 /* iRocketTests */,
+				900EC16C296C205000D30058 /* iRocketUITests */,
+				900EC147296C204E00D30058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900EC147296C204E00D30058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900EC146296C204E00D30058 /* iRocket.app */,
+				900EC15F296C205000D30058 /* iRocketTests.xctest */,
+				900EC169296C205000D30058 /* iRocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900EC148296C204E00D30058 /* iRocket */ = {
+			isa = PBXGroup;
+			children = (
+				900EC149296C204E00D30058 /* AppDelegate.swift */,
+				900EC14B296C204E00D30058 /* SceneDelegate.swift */,
+				900EC14D296C204E00D30058 /* ViewController.swift */,
+				900EC14F296C204E00D30058 /* Main.storyboard */,
+				900EC155296C205000D30058 /* Assets.xcassets */,
+				900EC157296C205000D30058 /* LaunchScreen.storyboard */,
+				900EC15A296C205000D30058 /* Info.plist */,
+				900EC152296C204E00D30058 /* iRocket.xcdatamodeld */,
+			);
+			path = iRocket;
+			sourceTree = "<group>";
+		};
+		900EC162296C205000D30058 /* iRocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				900EC163296C205000D30058 /* iRocketTests.swift */,
+			);
+			path = iRocketTests;
+			sourceTree = "<group>";
+		};
+		900EC16C296C205000D30058 /* iRocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				900EC16D296C205000D30058 /* iRocketUITests.swift */,
+				900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */,
+			);
+			path = iRocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900EC145296C204E00D30058 /* iRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900EC173296C205000D30058 /* Build configuration list for PBXNativeTarget "iRocket" */;
+			buildPhases = (
+				900EC142296C204E00D30058 /* Sources */,
+				900EC143296C204E00D30058 /* Frameworks */,
+				900EC144296C204E00D30058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRocket;
+			productName = iRocket;
+			productReference = 900EC146296C204E00D30058 /* iRocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900EC15E296C205000D30058 /* iRocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900EC176296C205000D30058 /* Build configuration list for PBXNativeTarget "iRocketTests" */;
+			buildPhases = (
+				900EC15B296C205000D30058 /* Sources */,
+				900EC15C296C205000D30058 /* Frameworks */,
+				900EC15D296C205000D30058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900EC161296C205000D30058 /* PBXTargetDependency */,
+			);
+			name = iRocketTests;
+			productName = iRocketTests;
+			productReference = 900EC15F296C205000D30058 /* iRocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		900EC168296C205000D30058 /* iRocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900EC179296C205000D30058 /* Build configuration list for PBXNativeTarget "iRocketUITests" */;
+			buildPhases = (
+				900EC165296C205000D30058 /* Sources */,
+				900EC166296C205000D30058 /* Frameworks */,
+				900EC167296C205000D30058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				900EC16B296C205000D30058 /* PBXTargetDependency */,
+			);
+			name = iRocketUITests;
+			productName = iRocketUITests;
+			productReference = 900EC169296C205000D30058 /* iRocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900EC13E296C204E00D30058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					900EC145296C204E00D30058 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					900EC15E296C205000D30058 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 900EC145296C204E00D30058;
+					};
+					900EC168296C205000D30058 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 900EC145296C204E00D30058;
+					};
+				};
+			};
+			buildConfigurationList = 900EC141296C204E00D30058 /* Build configuration list for PBXProject "iRocket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900EC13D296C204E00D30058;
+			productRefGroup = 900EC147296C204E00D30058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900EC145296C204E00D30058 /* iRocket */,
+				900EC15E296C205000D30058 /* iRocketTests */,
+				900EC168296C205000D30058 /* iRocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900EC144296C204E00D30058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EC159296C205000D30058 /* LaunchScreen.storyboard in Resources */,
+				900EC156296C205000D30058 /* Assets.xcassets in Resources */,
+				900EC151296C204E00D30058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EC15D296C205000D30058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EC167296C205000D30058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900EC142296C204E00D30058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EC14E296C204E00D30058 /* ViewController.swift in Sources */,
+				900EC154296C204E00D30058 /* iRocket.xcdatamodeld in Sources */,
+				900EC14A296C204E00D30058 /* AppDelegate.swift in Sources */,
+				900EC14C296C204E00D30058 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EC15B296C205000D30058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EC164296C205000D30058 /* iRocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EC165296C205000D30058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EC170296C205000D30058 /* iRocketUITestsLaunchTests.swift in Sources */,
+				900EC16E296C205000D30058 /* iRocketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900EC161296C205000D30058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900EC145296C204E00D30058 /* iRocket */;
+			targetProxy = 900EC160296C205000D30058 /* PBXContainerItemProxy */;
+		};
+		900EC16B296C205000D30058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 900EC145296C204E00D30058 /* iRocket */;
+			targetProxy = 900EC16A296C205000D30058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		900EC14F296C204E00D30058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900EC150296C204E00D30058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900EC157296C205000D30058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900EC158296C205000D30058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900EC171296C205000D30058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900EC172296C205000D30058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900EC174296C205000D30058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iRocket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhys.iRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900EC175296C205000D30058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iRocket/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhys.iRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		900EC177296C205000D30058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhys.iRocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRocket";
+			};
+			name = Debug;
+		};
+		900EC178296C205000D30058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhys.iRocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRocket.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRocket";
+			};
+			name = Release;
+		};
+		900EC17A296C205000D30058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhys.iRocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iRocket;
+			};
+			name = Debug;
+		};
+		900EC17B296C205000D30058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhys.iRocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iRocket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900EC141296C204E00D30058 /* Build configuration list for PBXProject "iRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EC171296C205000D30058 /* Debug */,
+				900EC172296C205000D30058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900EC173296C205000D30058 /* Build configuration list for PBXNativeTarget "iRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EC174296C205000D30058 /* Debug */,
+				900EC175296C205000D30058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900EC176296C205000D30058 /* Build configuration list for PBXNativeTarget "iRocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EC177296C205000D30058 /* Debug */,
+				900EC178296C205000D30058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900EC179296C205000D30058 /* Build configuration list for PBXNativeTarget "iRocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EC17A296C205000D30058 /* Debug */,
+				900EC17B296C205000D30058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		900EC152296C204E00D30058 /* iRocket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				900EC153296C204E00D30058 /* iRocket.xcdatamodel */,
+			);
+			currentVersion = 900EC153296C204E00D30058 /* iRocket.xcdatamodel */;
+			path = iRocket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 900EC13E296C204E00D30058 /* Project object */;
+}
