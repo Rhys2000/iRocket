@@ -17,6 +17,8 @@
 		900EC164296C205000D30058 /* iRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC163296C205000D30058 /* iRocketTests.swift */; };
 		900EC16E296C205000D30058 /* iRocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC16D296C205000D30058 /* iRocketUITests.swift */; };
 		900EC170296C205000D30058 /* iRocketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */; };
+		900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC17C296C26D700D30058 /* VesselViewController.swift */; };
+		900EC17F296C270D00D30058 /* Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC17E296C270D00D30058 /* Vessel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		900EC169296C205000D30058 /* iRocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900EC16D296C205000D30058 /* iRocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRocketUITests.swift; sourceTree = "<group>"; };
 		900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRocketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		900EC17C296C26D700D30058 /* VesselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselViewController.swift; sourceTree = "<group>"; };
+		900EC17E296C270D00D30058 /* Vessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vessel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				900EC157296C205000D30058 /* LaunchScreen.storyboard */,
 				900EC15A296C205000D30058 /* Info.plist */,
 				900EC152296C204E00D30058 /* iRocket.xcdatamodeld */,
+				900EC17C296C26D700D30058 /* VesselViewController.swift */,
+				900EC17E296C270D00D30058 /* Vessel.swift */,
 			);
 			path = iRocket;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				900EC14E296C204E00D30058 /* ViewController.swift in Sources */,
+				900EC17F296C270D00D30058 /* Vessel.swift in Sources */,
 				900EC154296C204E00D30058 /* iRocket.xcdatamodeld in Sources */,
+				900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */,
 				900EC14A296C204E00D30058 /* AppDelegate.swift in Sources */,
 				900EC14C296C204E00D30058 /* SceneDelegate.swift in Sources */,
 			);
