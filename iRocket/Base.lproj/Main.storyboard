@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="2676" y="101"/>
         </scene>
-        <!--View Controller-->
+        <!--Vessel View Controller-->
         <scene sceneID="ibQ-fd-iil">
             <objects>
-                <viewController id="KCu-cP-5uV" customClass="ViewController" customModule="iRocket" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KCu-cP-5uV" customClass="VesselViewController" customModule="iRocket" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fok-v3-EG5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,8 +113,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fHv-Pp-9Lh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Vessels" image="ferry" catalog="system" id="faB-aM-4SQ"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eQ9-wU-cqE">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eQ9-wU-cqE">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

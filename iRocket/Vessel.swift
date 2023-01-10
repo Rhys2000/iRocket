@@ -16,7 +16,8 @@ struct Vessel: Codable {
     let ownerWebsite: String
     let operatorName: String
     let operatorWebsite: String
-    let vesselType: [VesselType]
+    let originalVesselPurpose: VesselPurpose
+    let currentVesselPurpose: [VesselPurpose]
     let countryRegistration: Country
     let homePort: String
     let homePortCoordinates: [Double] //Latitude then Longitude
@@ -27,9 +28,30 @@ struct Vessel: Codable {
     //let marineFleetLink: String
 }
 
-enum VesselType: String, Codable {
+//Class create a global variable with all the vessels contained in the vessels.json file. Decodes the json data and creates an array of Vessel objects
+public class VesselDataLoader {
+    @Published var vesselData = [Vessel]()
+    
+    init() {
+        if let fileLocation = Bundle.main.url(forResource: "vessels", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: fileLocation)
+                let jsonDecoder = JSONDecoder()
+                let dataFromJson = try jsonDecoder.decode([Vessel].self, from: data)
+                
+                self.vesselData = dataFromJson
+                
+            } catch {
+                print(error)
+            }
+        }
+    }
+}
+
+enum VesselPurpose: String, Codable {
     case ASDS = "ASDS" //Autonomous Spaceport Droneship
-    case OSV = "OSV" //Droneship Support Vessel
+    case OSV = "OSV" //Offshore Supply Vessel
+    case DSV = "DSV" //Droneship Support Vessel
     case DRV = "DRV" //Dragon Recovery Vessel
     case FC = "FC" //Fairing Catching Vessel
     case FR = "FR" //Fairing Recovery Vessel

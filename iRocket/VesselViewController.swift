@@ -13,8 +13,15 @@ class VesselViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Vessels"
+        view.backgroundColor = .blue
+        navigationController?.navigationBar.backgroundColor = .green
+        print(navigationController?.navigationBar.bounds)
+        print(tabBarController?.tabBar.frame.size)
         // Do any additional setup after loading the view.
+        print(view.bounds)
+        
+        //iPhone 12 Pro Dimensions: Width = 390.0, Height = 844.0 -> NavigationBar Width = 390.0, Height = 96.0, Starting Point (0, 0)
     }
     
 
