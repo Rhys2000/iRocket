@@ -19,6 +19,7 @@
 		900EC170296C205000D30058 /* iRocketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */; };
 		900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC17C296C26D700D30058 /* VesselViewController.swift */; };
 		900EC17F296C270D00D30058 /* Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC17E296C270D00D30058 /* Vessel.swift */; };
+		900EC181296F8B2A00D30058 /* vessels.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC180296F8B2A00D30058 /* vessels.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		900EC16F296C205000D30058 /* iRocketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRocketUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		900EC17C296C26D700D30058 /* VesselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselViewController.swift; sourceTree = "<group>"; };
 		900EC17E296C270D00D30058 /* Vessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vessel.swift; sourceTree = "<group>"; };
+		900EC180296F8B2A00D30058 /* vessels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vessels.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				900EC152296C204E00D30058 /* iRocket.xcdatamodeld */,
 				900EC17C296C26D700D30058 /* VesselViewController.swift */,
 				900EC17E296C270D00D30058 /* Vessel.swift */,
+				900EC180296F8B2A00D30058 /* vessels.json */,
 			);
 			path = iRocket;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				900EC159296C205000D30058 /* LaunchScreen.storyboard in Resources */,
+				900EC181296F8B2A00D30058 /* vessels.json in Resources */,
 				900EC156296C205000D30058 /* Assets.xcassets in Resources */,
 				900EC151296C204E00D30058 /* Main.storyboard in Resources */,
 			);
@@ -454,8 +458,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,8 +484,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
