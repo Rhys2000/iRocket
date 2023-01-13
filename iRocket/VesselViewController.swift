@@ -6,9 +6,16 @@
 
 import UIKit
 
-class VesselViewController: UIViewController {
+class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    //Initialization of the TableViewObject that will display a card for each vessel contained in the vesselData arrary
     let vesselTableView = UITableView()
+    
+    //Initialization of the SearchController object which will allows users to use scope bars to filter their searches, as well as type the name of the vessel they would like to search for
+    let vesselSearchController = UISearchController()
+    
+    //Array that contains all individual Vessel objects that were loaded from the vessels.json file using the VesselDataLoader class
+    let vesselData = VesselDataLoader().vesselData
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,21 +23,38 @@ class VesselViewController: UIViewController {
         //ViewController Title
         title = "Vessels"
         
-        // **** All of these variables should be trandformed into global variables ****
+        navigationItem.searchController = vesselSearchController
+        navigationItem.hidesSearchBarWhenScrolling = false
         
-        //iPhone 12 Pro Dimensions: Width = 390.0, Height = 844.0 -> NavigationBar Width = 390.0, Height = 96.0, Starting Point (0, 0)
+        vesselSearchController.searchBar.scopeButtonTitles = ["All", "Active", "Retired"]
+        vesselSearchController.searchBar.returnKeyType = UIReturnKeyType.done
+        vesselSearchController.searchBar.enablesReturnKeyAutomatically = false
         
-        //Add together the height of the NavigationBar and TabBar so that we can determine the height of the usable space in the ViewController to displlay content depending on their specific device
-        let topAndBottomMargin = Double((navigationController?.navigationBar.frame.size.height)!) + Double((tabBarController?.tabBar.frame.size.height)!)
-
-        //Set variables to hold the values of both the height and the width of the contentView where information will be displayed to the user
-        let contentViewHeight = Double(view.frame.size.height) - topAndBottomMargin
-        let contentViewWidth = Double(view.frame.size.width)
-        
-        //Variable to scale up or down the size of objects in the view depending on the available content space on the user's device
-        let scaleFactor = contentViewHeight / contentViewWidth
-        
-        print(contentViewHeight, contentViewWidth, scaleFactor)
-        
+        vesselTableView.register(VesselTableViewCell.self, forCellReuseIdentifier: VesselTableViewCell.cellIdentifier)
+        vesselTableView.delegate = self
+        vesselTableView.dataSource = self
+        view.addSubview(vesselTableView)
+    }
+    
+    //Sets the boundaries of the VesselTableView to be the height and width of the screen of the users device
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        vesselTableView.frame = view.bounds
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return vesselData.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = vesselTableView.dequeueReusableCell(withIdentifier: VesselTableViewCell.cellIdentifier, for: indexPath) as? VesselTableViewCell else { return UITableViewCell() }
+        cell.createVesselPreview(with: vesselData[indexPath.row])
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let defaultWidth: Double = 390 //View width on an iPhone 12 Pro
+        let scaleFactor = Double(view.frame.width) / defaultWidth
+        return CGFloat(250 * scaleFactor)
     }
 }

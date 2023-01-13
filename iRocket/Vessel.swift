@@ -1,7 +1,6 @@
 //
 //  Vessel.swift
 //  iRocket
-//
 //  Created by Rhys Julian-Jones on 1/9/23.
 //
 
@@ -9,23 +8,25 @@ import Foundation
 
 struct Vessel: Codable {
     let name: String
+    let abbreviation: String
     let formerNames: [String]
-    let description: [String]
-    let imoNumber: Int //Can be optional. Not every Vessel imo number is known. Temporarily set to a necessity while other basic goals are completed first
+    let idNumber: Int //IMONumber or MMSI Number depending on availability
     let owner: String
-    let ownerWebsite: String
-    let operatorName: String
-    let operatorWebsite: String
+    let ownerWebsite: String //Double check all the json data for this key i fillled out
+    let employerName: String
+    let employerWebsite: String
     let originalVesselPurpose: VesselPurpose
-    let currentVesselPurpose: [VesselPurpose]
+    let currentVesselPurpose: [VesselPurpose] //DoubleCheck values with launches.json from previous project
     let countryRegistration: Country
     let homePort: String
     let homePortCoordinates: [Double] //Latitude then Longitude
     let yearBuilt: Int
-    let hullDimensions: [Double]
-    let serviceYears: [Int]
-    //let photographerCredit: String
-    //let marineFleetLink: String
+    let hullDimensions: [Double] //Length then Width in meters
+    let serviceYears: [Int] //Starting Year then Ending Year, If Ending Year is 0 then vessel is still active within fleet
+    let status: Status //Can be changed to a computed variable based on years of service
+    let photographerCredit: String
+    let marineFleetLink: String
+    let description: [String]
 }
 
 //Class create a global variable with all the vessels contained in the vessels.json file. Decodes the json data and creates an array of Vessel objects
@@ -55,7 +56,13 @@ enum VesselPurpose: String, Codable {
     case DRV = "DRV" //Dragon Recovery Vessel
     case FC = "FC" //Fairing Catching Vessel
     case FR = "FR" //Fairing Recovery Vessel
+    case BARGE = "BARGE" //Barge
     case TUG = "TUG" //Tugboat
+}
+
+enum Status: String, Codable {
+    case active = "Active"
+    case retired = "Retired"
 }
 
 // Will need to be moved from this file into a more general .swift file. Temporary solution while other basic goals are completed first

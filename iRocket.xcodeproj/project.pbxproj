@@ -20,6 +20,7 @@
 		900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC17C296C26D700D30058 /* VesselViewController.swift */; };
 		900EC17F296C270D00D30058 /* Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC17E296C270D00D30058 /* Vessel.swift */; };
 		900EC181296F8B2A00D30058 /* vessels.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC180296F8B2A00D30058 /* vessels.json */; };
+		900EC18B2970AA1400D30058 /* VesselTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC18A2970AA1400D30058 /* VesselTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		900EC17C296C26D700D30058 /* VesselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselViewController.swift; sourceTree = "<group>"; };
 		900EC17E296C270D00D30058 /* Vessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vessel.swift; sourceTree = "<group>"; };
 		900EC180296F8B2A00D30058 /* vessels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vessels.json; sourceTree = "<group>"; };
+		900EC18A2970AA1400D30058 /* VesselTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				900EC17C296C26D700D30058 /* VesselViewController.swift */,
 				900EC17E296C270D00D30058 /* Vessel.swift */,
 				900EC180296F8B2A00D30058 /* vessels.json */,
+				900EC18A2970AA1400D30058 /* VesselTableViewCell.swift */,
 			);
 			path = iRocket;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				900EC14E296C204E00D30058 /* ViewController.swift in Sources */,
+				900EC18B2970AA1400D30058 /* VesselTableViewCell.swift in Sources */,
 				900EC17F296C270D00D30058 /* Vessel.swift in Sources */,
 				900EC154296C204E00D30058 /* iRocket.xcdatamodeld in Sources */,
 				900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */,
