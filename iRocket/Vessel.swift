@@ -12,7 +12,7 @@ struct Vessel: Codable {
     let formerNames: [String]
     let idNumber: Int //IMONumber or MMSI Number depending on availability
     let owner: String
-    let ownerWebsite: String //Double check all the json data for this key i fillled out
+    let ownerWebsite: String //Double check all the json data for this key is filled out
     let employerName: String
     let employerWebsite: String
     let originalVesselPurpose: VesselPurpose
@@ -51,11 +51,14 @@ public class VesselDataLoader {
 
 enum VesselPurpose: String, Codable {
     case ASDS = "ASDS" //Autonomous Spaceport Droneship
+    case BSTV = "BSTV" //Booster Splashdown Telemetry Vessel
     case OSV = "OSV" //Offshore Supply Vessel
     case DSV = "DSV" //Droneship Support Vessel
     case DRV = "DRV" //Dragon Recovery Vessel
-    case FC = "FC" //Fairing Catching Vessel
-    case FR = "FR" //Fairing Recovery Vessel
+    case BSV = "BSV" //Booster Recovery Vessel
+    case FRV = "FRV" //Fairing Recovery Vessel
+    case CB = "CB" //Crew Boat
+    case PASSENGER = "Passenger" //Passanger
     case BARGE = "BARGE" //Barge
     case TUG = "TUG" //Tugboat
 }
