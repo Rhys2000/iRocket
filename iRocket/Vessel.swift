@@ -12,11 +12,11 @@ struct Vessel: Codable {
     let formerNames: [String]
     let idNumber: Int //IMONumber or MMSI Number depending on availability
     let owner: String
-    let ownerWebsite: String //Double check all the json data for this key is filled out
+    let ownerWebsite: String
     let employerName: String
     let employerWebsite: String
     let originalVesselPurpose: VesselPurpose
-    let currentVesselPurpose: [VesselPurpose] //DoubleCheck values with launches.json from previous project
+    let currentVesselPurpose: [VesselPurpose]
     let countryRegistration: Country
     let homePort: String
     let homePortCoordinates: [Double] //Latitude then Longitude
