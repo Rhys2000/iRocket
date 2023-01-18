@@ -11,51 +11,129 @@ class VesselTableViewCell: UITableViewCell {
     
     static let cellIdentifier = "VesselTableViewCell"
     
-    private let backgroundImage = UIView()
-    private let nameLabel = UILabel()
+    private var scaleFactor = CGFloat()
+    private var cellPadding = CGFloat()
+    private var textPadding = CGFloat()
+    private var cornerRadius = CGFloat()
+    private var fontSize = CGFloat()
     
-    private let padding = 10
+    private let imageLayer = UIImageView()
+    private let backgroundLayer = UIView()
+    
+    private let photoCreditLayer = UILabel()
+    
+    private let nameLayerTag = UILabel()
+    private let nameLayerText = UILabel()
+    
+    private let statusLayerTag = UILabel()
+    private let statusLayerText = UILabel()
+    
+    private let portLayerTag = UILabel()
+    private let portLayerText = UILabel()
+    
+    private let employerLayerTag = UILabel()
+    private let employerLayerText = UILabel()
     
     public func createVesselPreview(with currentVessel: Vessel) {
-        backgroundImage.backgroundColor = .magenta
-        backgroundImage.layer.cornerRadius = 10.0
         
-        nameLabel.text = " \(currentVessel.name) "
-        nameLabel.font = .boldSystemFont(ofSize: 22)
-        nameLabel.textColor = .black
-        nameLabel.backgroundColor = .white
-        nameLabel.sizeToFit()
-        print(nameLabel.text!, nameLabel.frame.size)
-        nameLabel.layer.opacity = 0.6
-        nameLabel.layer.cornerRadius = 10.0
-        nameLabel.clipsToBounds = true
-        nameLabel.adjustsFontSizeToFitWidth = true
-        scaleToDevice(with: nameLabel)
-    }
+        scaleFactor = contentView.frame.width / 390
+        textPadding = 5.0 * scaleFactor
+        cornerRadius = 10.0 * scaleFactor
+        cellPadding = 10.0 * scaleFactor
+        fontSize = 17.0 * scaleFactor
+        
+        imageLayer.image = UIImage(named: currentVessel.name.replacingOccurrences(of: " ", with: ""))
+        imageLayer.contentMode = .scaleAspectFill
+        imageLayer.clipsToBounds = true
+        imageLayer.layer.cornerRadius = cornerRadius
+        imageLayer.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        
+        backgroundLayer.backgroundColor = .gray
+        backgroundLayer.layer.cornerRadius = cornerRadius
+        backgroundLayer.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+        
+        photoCreditLayer.backgroundColor = .darkGray
+        photoCreditLayer.text = " 📸 PC: \(currentVessel.photographerCredit) "
+        photoCreditLayer.textColor = .white
+        photoCreditLayer.font = .systemFont(ofSize: 10 * scaleFactor)
+        photoCreditLayer.sizeToFit()
+        photoCreditLayer.layer.cornerRadius = (photoCreditLayer.frame.height / 2)
+        photoCreditLayer.layer.masksToBounds = true
     
-    func scaleToDevice(with currentObject: UILabel) {
-        currentObject.frame.size.width = currentObject.frame.width * (contentView.frame.width / 390)
-        currentObject.frame.size.height = currentObject.frame.height * (contentView.frame.width / 390)
-        currentObject.font = .boldSystemFont(ofSize: 22 * (contentView.frame.width / 390))
-        layoutSubviews()
+        nameLayerTag.text = "Name: "
+        nameLayerTag.font = .boldSystemFont(ofSize: fontSize)
+        nameLayerTag.sizeToFit()
+        
+        nameLayerText.text = currentVessel.name
+        nameLayerText.font = .systemFont(ofSize: fontSize)
+        nameLayerText.sizeToFit()
+        
+        statusLayerTag.text = "Stat: "
+        statusLayerTag.font = .boldSystemFont(ofSize: fontSize)
+        statusLayerTag.sizeToFit()
+        
+        statusLayerText.backgroundColor = (currentVessel.status == .active ? .green : .red)
+        statusLayerText.text = " \(currentVessel.status.rawValue) "
+        statusLayerText.font = .systemFont(ofSize: fontSize)
+        statusLayerText.layer.cornerRadius = 3.0 * scaleFactor
+        statusLayerText.layer.masksToBounds = true
+        statusLayerText.sizeToFit()
+        
+        portLayerTag.text = "Port: "
+        portLayerTag.font = .boldSystemFont(ofSize: fontSize)
+        portLayerTag.sizeToFit()
+        
+        portLayerText.text = currentVessel.homePort
+        portLayerText.font = .systemFont(ofSize: fontSize)
+        portLayerText.sizeToFit()
+        
+        employerLayerTag.text = "Employer: "
+        employerLayerTag.font = .boldSystemFont(ofSize: fontSize)
+        employerLayerTag.sizeToFit()
+    
+        employerLayerText.text = currentVessel.employerName
+        employerLayerText.font = .systemFont(ofSize: fontSize)
+        employerLayerText.sizeToFit()
     }
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.addSubview(backgroundImage)
-        contentView.addSubview(nameLabel)
+        contentView.addSubview(imageLayer)
+        contentView.addSubview(backgroundLayer)
+        contentView.addSubview(photoCreditLayer)
+        contentView.addSubview(nameLayerTag)
+        contentView.addSubview(nameLayerText)
+        contentView.addSubview(statusLayerTag)
+        contentView.addSubview(statusLayerText)
+        contentView.addSubview(portLayerTag)
+        contentView.addSubview(portLayerText)
+        contentView.addSubview(employerLayerTag)
+        contentView.addSubview(employerLayerText)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        imageLayer.frame = CGRect(x: cellPadding, y: cellPadding, width: contentView.frame.width - (2 * cellPadding), height: 200 * scaleFactor)
+        backgroundLayer.frame = CGRect(x: cellPadding, y: imageLayer.frame.maxY, width: contentView.frame.width - (2 * cellPadding), height: 55 * scaleFactor)
+        
+        photoCreditLayer.frame.origin = CGPoint(x: imageLayer.frame.maxX - textPadding - photoCreditLayer.frame.width, y: cellPadding + textPadding)
+        
+        nameLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: imageLayer.frame.maxY + textPadding)
+        nameLayerText.frame.origin = CGPoint(x: nameLayerTag.frame.maxX, y: imageLayer.frame.maxY + textPadding)
+        
+        statusLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.maxX - textPadding - statusLayerText.frame.width - statusLayerTag.frame.width, y: imageLayer.frame.maxY + textPadding)
+        statusLayerText.frame.origin = CGPoint(x: statusLayerTag.frame.maxX, y: statusLayerTag.frame.minY)
+        
+        portLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: backgroundLayer.frame.maxY - textPadding - portLayerTag.frame.height)
+        portLayerText.frame.origin = CGPoint(x: portLayerTag.frame.maxX, y: portLayerTag.frame.minY)
+        
+        employerLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.maxX - textPadding - employerLayerTag.frame.width - employerLayerText.frame.width, y: backgroundLayer.frame.maxY - textPadding - employerLayerTag.frame.height)
+        employerLayerText.frame.origin = CGPoint(x: employerLayerTag.frame.maxX, y: employerLayerTag.frame.minY)
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        backgroundImage.frame = CGRect(x: padding, y: padding, width: Int(contentView.frame.width) - (2 * padding), height: Int(contentView.frame.height) - (2 * padding))
-        nameLabel.frame.origin = CGPoint(x: CGFloat(padding + 5), y: CGFloat(padding + 5))
-        //nameLabel.frame.size.height = CGFloat(100)
-        print(nameLabel.text!, nameLabel.frame.size)
-        //print(contentView.frame.width, contentView.frame.height)
-    }
 }

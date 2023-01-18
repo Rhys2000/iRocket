@@ -23,7 +23,7 @@ struct Vessel: Codable {
     let yearBuilt: Int
     let hullDimensions: [Double] //Length then Width in meters
     let serviceYears: [Int] //Starting Year then Ending Year, If Ending Year is 0 then vessel is still active within fleet
-    let status: Status //Can be changed to a computed variable based on years of service
+    let status: VesselStatus
     let photographerCredit: String
     let marineFleetLink: String
     let description: [String]
@@ -63,7 +63,7 @@ enum VesselPurpose: String, Codable {
     case TUG = "TUG" //Tugboat
 }
 
-enum Status: String, Codable {
+enum VesselStatus: String, Codable {
     case active = "Active"
     case retired = "Retired"
 }

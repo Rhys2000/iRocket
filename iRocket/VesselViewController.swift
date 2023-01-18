@@ -55,6 +55,6 @@ class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let defaultWidth: Double = 390 //View width on an iPhone 12 Pro
         let scaleFactor = Double(view.frame.width) / defaultWidth
-        return CGFloat(250 * scaleFactor)
+        return CGFloat(275 * scaleFactor)
     }
 }
