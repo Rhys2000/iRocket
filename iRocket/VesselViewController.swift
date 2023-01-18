@@ -23,13 +23,6 @@ class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //ViewController Title
         title = "Vessels"
         
-        navigationItem.searchController = vesselSearchController
-        navigationItem.hidesSearchBarWhenScrolling = false
-        
-        vesselSearchController.searchBar.scopeButtonTitles = ["All", "Active", "Retired"]
-        vesselSearchController.searchBar.returnKeyType = UIReturnKeyType.done
-        vesselSearchController.searchBar.enablesReturnKeyAutomatically = false
-        
         vesselTableView.register(VesselTableViewCell.self, forCellReuseIdentifier: VesselTableViewCell.cellIdentifier)
         vesselTableView.delegate = self
         vesselTableView.dataSource = self
