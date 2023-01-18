@@ -52,6 +52,13 @@ class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let viewController = storyboard?.instantiateViewController(withIdentifier: VesselDetailViewController.identifier) as? VesselDetailViewController
+        viewController?.nameString = vesselData[indexPath.row].name
+        self.navigationController?.pushViewController(viewController!, animated: true)
+        vesselTableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let defaultWidth: Double = 390 //View width on an iPhone 12 Pro
         let scaleFactor = Double(view.frame.width) / defaultWidth

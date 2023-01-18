@@ -107,6 +107,21 @@
             </objects>
             <point key="canvasLocation" x="1227" y="101"/>
         </scene>
+        <!--Vessel Detail View Controller-->
+        <scene sceneID="h0h-07-J2d">
+            <objects>
+                <viewController storyboardIdentifier="VesselDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hih-eM-6mM" customClass="VesselDetailViewController" customModule="iRocket" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wmc-3Y-dWI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qL4-Ye-jkI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7y-vp-ccP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1227" y="777"/>
+        </scene>
         <!--Vessels-->
         <scene sceneID="2XP-0u-ytk">
             <objects>
@@ -189,6 +204,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2Gx-7K-mOZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eCn-Zh-4Pi">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
