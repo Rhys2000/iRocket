@@ -8,7 +8,7 @@ import UIKit
 
 class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    //Initialization of the TableViewObject that will display a card for each vessel contained in the vesselData arrary
+    //Initialization of the TableViewObject that will display a card for each vessel contained in the vesselData array
     let vesselTableView = UITableView()
     
     //Initialization of the SearchController object which will allows users to use scope bars to filter their searches, as well as type the name of the vessel they would like to search for
@@ -29,7 +29,7 @@ class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDa
         view.addSubview(vesselTableView)
     }
     
-    //Sets the boundaries of the VesselTableView to be the height and width of the screen of the users device
+    //Sets the boundaries of the vesselTableView to be the height and width of the screen of the users device
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         vesselTableView.frame = view.bounds

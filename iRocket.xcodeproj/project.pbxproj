@@ -22,6 +22,10 @@
 		900EC181296F8B2A00D30058 /* vessels.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC180296F8B2A00D30058 /* vessels.json */; };
 		900EC18B2970AA1400D30058 /* VesselTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC18A2970AA1400D30058 /* VesselTableViewCell.swift */; };
 		900EC18D2977A1AE00D30058 /* VesselDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC18C2977A1AE00D30058 /* VesselDetailViewController.swift */; };
+		900EC18F2978708300D30058 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC18E2978708300D30058 /* Location.swift */; };
+		900EC1912978ADC700D30058 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1902978ADC700D30058 /* LocationViewController.swift */; };
+		900EC1932978B66900D30058 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1922978B66900D30058 /* LocationTableViewCell.swift */; };
+		900EC1952978B86C00D30058 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC1942978B86B00D30058 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		900EC180296F8B2A00D30058 /* vessels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vessels.json; sourceTree = "<group>"; };
 		900EC18A2970AA1400D30058 /* VesselTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselTableViewCell.swift; sourceTree = "<group>"; };
 		900EC18C2977A1AE00D30058 /* VesselDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselDetailViewController.swift; sourceTree = "<group>"; };
+		900EC18E2978708300D30058 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		900EC1902978ADC700D30058 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		900EC1922978B66900D30058 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		900EC1942978B86B00D30058 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +127,15 @@
 				900EC157296C205000D30058 /* LaunchScreen.storyboard */,
 				900EC15A296C205000D30058 /* Info.plist */,
 				900EC152296C204E00D30058 /* iRocket.xcdatamodeld */,
+				900EC17E296C270D00D30058 /* Vessel.swift */,
 				900EC17C296C26D700D30058 /* VesselViewController.swift */,
 				900EC18A2970AA1400D30058 /* VesselTableViewCell.swift */,
-				900EC17E296C270D00D30058 /* Vessel.swift */,
-				900EC180296F8B2A00D30058 /* vessels.json */,
 				900EC18C2977A1AE00D30058 /* VesselDetailViewController.swift */,
+				900EC180296F8B2A00D30058 /* vessels.json */,
+				900EC18E2978708300D30058 /* Location.swift */,
+				900EC1902978ADC700D30058 /* LocationViewController.swift */,
+				900EC1922978B66900D30058 /* LocationTableViewCell.swift */,
+				900EC1942978B86B00D30058 /* locations.json */,
 			);
 			path = iRocket;
 			sourceTree = "<group>";
@@ -251,6 +263,7 @@
 			files = (
 				900EC159296C205000D30058 /* LaunchScreen.storyboard in Resources */,
 				900EC181296F8B2A00D30058 /* vessels.json in Resources */,
+				900EC1952978B86C00D30058 /* locations.json in Resources */,
 				900EC156296C205000D30058 /* Assets.xcassets in Resources */,
 				900EC151296C204E00D30058 /* Main.storyboard in Resources */,
 			);
@@ -281,8 +294,11 @@
 				900EC18B2970AA1400D30058 /* VesselTableViewCell.swift in Sources */,
 				900EC17F296C270D00D30058 /* Vessel.swift in Sources */,
 				900EC154296C204E00D30058 /* iRocket.xcdatamodeld in Sources */,
+				900EC18F2978708300D30058 /* Location.swift in Sources */,
+				900EC1912978ADC700D30058 /* LocationViewController.swift in Sources */,
 				900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */,
 				900EC14A296C204E00D30058 /* AppDelegate.swift in Sources */,
+				900EC1932978B66900D30058 /* LocationTableViewCell.swift in Sources */,
 				900EC18D2977A1AE00D30058 /* VesselDetailViewController.swift in Sources */,
 				900EC14C296C204E00D30058 /* SceneDelegate.swift in Sources */,
 			);

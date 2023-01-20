@@ -22,14 +22,14 @@ struct Vessel: Codable {
     let homePortCoordinates: [Double] //Latitude then Longitude
     let yearBuilt: Int
     let hullDimensions: [Double] //Length then Width in meters
-    let serviceYears: [Int] //Starting Year then Ending Year, If Ending Year is 0 then vessel is still active within fleet
+    let serviceYears: [Int] //Starting Year then Ending Year; If Ending Year is 0 then vessel is still active within fleet
     let status: VesselStatus
     let photographerCredit: String
     let marineFleetLink: String
     let description: [String]
 }
 
-//Class create a global variable with all the vessels contained in the vessels.json file. Decodes the json data and creates an array of Vessel objects
+//This class creates a global variable with all the vessels contained in the vessels.json file. Decodes the json data and creates an array of Vessel objects
 public class VesselDataLoader {
     @Published var vesselData = [Vessel]()
     
@@ -61,11 +61,13 @@ enum VesselPurpose: String, Codable {
     case PASSENGER = "Passenger" //Passanger
     case BARGE = "BARGE" //Barge
     case TUG = "TUG" //Tugboat
+    case Default = "Default" //Default case for initialization of Vessel objects
 }
 
 enum VesselStatus: String, Codable {
     case active = "Active"
     case retired = "Retired"
+    case Default = "Default" //Default case for initialization of Vessel objects
 }
 
 // Will need to be moved from this file into a more general .swift file. Temporary solution while other basic goals are completed first
@@ -322,4 +324,16 @@ enum Country: String, Codable {
     case YEM = "YEM" //Yemen
     case ZMB = "ZMB" //Zambia
     case ZWE = "ZWE" //Zimbabwe
+    case Default = "Default" //Default case for when initialization objects before specific object data is known
+    
+    func getFlagEmoji() -> String {
+        switch self {
+        case .USA:
+            return " 🇺🇸"
+        case .MHL:
+            return " 🇲🇭"
+        default:
+            return ""
+        }
+    }
 }
