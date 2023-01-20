@@ -26,6 +26,18 @@
 		900EC1912978ADC700D30058 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1902978ADC700D30058 /* LocationViewController.swift */; };
 		900EC1932978B66900D30058 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1922978B66900D30058 /* LocationTableViewCell.swift */; };
 		900EC1952978B86C00D30058 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC1942978B86B00D30058 /* locations.json */; };
+		900EC197297A47ED00D30058 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC196297A47ED00D30058 /* Launch.swift */; };
+		900EC199297A481000D30058 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC198297A481000D30058 /* Vehicle.swift */; };
+		900EC19B297A483600D30058 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC19A297A483600D30058 /* LaunchViewController.swift */; };
+		900EC19D297A484800D30058 /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC19C297A484800D30058 /* VehicleViewController.swift */; };
+		900EC19F297A485F00D30058 /* VehicleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC19E297A485F00D30058 /* VehicleTableViewCell.swift */; };
+		900EC1A1297A488700D30058 /* LaunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1A0297A488700D30058 /* LaunchTableViewCell.swift */; };
+		900EC1A3297A48ED00D30058 /* launches.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC1A2297A48EC00D30058 /* launches.json */; };
+		900EC1A5297A495200D30058 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1A4297A495200D30058 /* Satellite.swift */; };
+		900EC1A7297A49A700D30058 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC1A6297A49A700D30058 /* vehicles.json */; };
+		900EC1A9297A49BD00D30058 /* SatelliteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1A8297A49BD00D30058 /* SatelliteTableViewCell.swift */; };
+		900EC1AB297A49CE00D30058 /* SatelliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1AA297A49CE00D30058 /* SatelliteViewController.swift */; };
+		900EC1AD297A4A5200D30058 /* satellites.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC1AC297A4A5100D30058 /* satellites.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +81,18 @@
 		900EC1902978ADC700D30058 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		900EC1922978B66900D30058 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		900EC1942978B86B00D30058 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		900EC196297A47ED00D30058 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		900EC198297A481000D30058 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		900EC19A297A483600D30058 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		900EC19C297A484800D30058 /* VehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
+		900EC19E297A485F00D30058 /* VehicleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTableViewCell.swift; sourceTree = "<group>"; };
+		900EC1A0297A488700D30058 /* LaunchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchTableViewCell.swift; sourceTree = "<group>"; };
+		900EC1A2297A48EC00D30058 /* launches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launches.json; sourceTree = "<group>"; };
+		900EC1A4297A495200D30058 /* Satellite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
+		900EC1A6297A49A700D30058 /* vehicles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
+		900EC1A8297A49BD00D30058 /* SatelliteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTableViewCell.swift; sourceTree = "<group>"; };
+		900EC1AA297A49CE00D30058 /* SatelliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteViewController.swift; sourceTree = "<group>"; };
+		900EC1AC297A4A5100D30058 /* satellites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = satellites.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +160,18 @@
 				900EC1902978ADC700D30058 /* LocationViewController.swift */,
 				900EC1922978B66900D30058 /* LocationTableViewCell.swift */,
 				900EC1942978B86B00D30058 /* locations.json */,
+				900EC196297A47ED00D30058 /* Launch.swift */,
+				900EC19A297A483600D30058 /* LaunchViewController.swift */,
+				900EC1A0297A488700D30058 /* LaunchTableViewCell.swift */,
+				900EC1A2297A48EC00D30058 /* launches.json */,
+				900EC198297A481000D30058 /* Vehicle.swift */,
+				900EC19C297A484800D30058 /* VehicleViewController.swift */,
+				900EC19E297A485F00D30058 /* VehicleTableViewCell.swift */,
+				900EC1A6297A49A700D30058 /* vehicles.json */,
+				900EC1A4297A495200D30058 /* Satellite.swift */,
+				900EC1AA297A49CE00D30058 /* SatelliteViewController.swift */,
+				900EC1A8297A49BD00D30058 /* SatelliteTableViewCell.swift */,
+				900EC1AC297A4A5100D30058 /* satellites.json */,
 			);
 			path = iRocket;
 			sourceTree = "<group>";
@@ -261,8 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900EC1A7297A49A700D30058 /* vehicles.json in Resources */,
+				900EC1AD297A4A5200D30058 /* satellites.json in Resources */,
 				900EC159296C205000D30058 /* LaunchScreen.storyboard in Resources */,
 				900EC181296F8B2A00D30058 /* vessels.json in Resources */,
+				900EC1A3297A48ED00D30058 /* launches.json in Resources */,
 				900EC1952978B86C00D30058 /* locations.json in Resources */,
 				900EC156296C205000D30058 /* Assets.xcassets in Resources */,
 				900EC151296C204E00D30058 /* Main.storyboard in Resources */,
@@ -290,17 +329,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900EC199297A481000D30058 /* Vehicle.swift in Sources */,
+				900EC1A9297A49BD00D30058 /* SatelliteTableViewCell.swift in Sources */,
+				900EC19D297A484800D30058 /* VehicleViewController.swift in Sources */,
 				900EC14E296C204E00D30058 /* ViewController.swift in Sources */,
 				900EC18B2970AA1400D30058 /* VesselTableViewCell.swift in Sources */,
 				900EC17F296C270D00D30058 /* Vessel.swift in Sources */,
 				900EC154296C204E00D30058 /* iRocket.xcdatamodeld in Sources */,
+				900EC19B297A483600D30058 /* LaunchViewController.swift in Sources */,
 				900EC18F2978708300D30058 /* Location.swift in Sources */,
+				900EC19F297A485F00D30058 /* VehicleTableViewCell.swift in Sources */,
+				900EC1AB297A49CE00D30058 /* SatelliteViewController.swift in Sources */,
 				900EC1912978ADC700D30058 /* LocationViewController.swift in Sources */,
 				900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */,
+				900EC1A5297A495200D30058 /* Satellite.swift in Sources */,
 				900EC14A296C204E00D30058 /* AppDelegate.swift in Sources */,
 				900EC1932978B66900D30058 /* LocationTableViewCell.swift in Sources */,
 				900EC18D2977A1AE00D30058 /* VesselDetailViewController.swift in Sources */,
+				900EC197297A47ED00D30058 /* Launch.swift in Sources */,
 				900EC14C296C204E00D30058 /* SceneDelegate.swift in Sources */,
+				900EC1A1297A488700D30058 /* LaunchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
