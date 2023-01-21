@@ -21,7 +21,7 @@ struct Location: Codable {
     let status: LocationStatus
 }
 
-//This class creates a global variable with all the locationss contained in the locations.json file. Decodes the json data and creates an array of Location objects
+//This class creates a global variable with all the locations contained in the locations.json file. Decodes the json data and creates an array of Location objects
 public class LocationDataLoader {
     @Published var locationData = [Location]()
     

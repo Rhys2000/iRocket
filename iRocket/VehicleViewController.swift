@@ -1,29 +1,51 @@
 //
 //  VehicleViewController.swift
 //  iRocket
-//
 //  Created by Rhys Julian-Jones on 1/19/23.
 //
 
 import UIKit
 
-class VehicleViewController: UIViewController {
+class VehicleViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    //Initialization of the TableView Object that will display a card for each vehicle contained in the vehicleData array
+    let vehicleTableView = UITableView()
+    
+    //Array that contains all individual Vessel objects that were loaded from the vessels.json file using the VesselDataLoader class
+    let vehicleData = VehicleDataLoader().vehicleData
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //ViewController Title
+        title = "Vehicles"
+        
+        vehicleTableView.register(VehicleTableViewCell.self, forCellReuseIdentifier: VehicleTableViewCell.cellIdentifier)
+        vehicleTableView.delegate = self
+        vehicleTableView.dataSource = self
+        view.addSubview(vehicleTableView)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //Sets the boundaries of the locationTableView to be the height and width of the screen of the users device
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        vehicleTableView.frame = view.bounds
     }
-    */
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return vehicleData.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = vehicleTableView.dequeueReusableCell(withIdentifier: VehicleTableViewCell.cellIdentifier, for: indexPath) as? VehicleTableViewCell else { return UITableViewCell() }
+        cell.createVehiclePreview(with: vehicleData[indexPath.row])
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let defaultWidth: Double = 390 //View width on an iPhone 12 Pro
+        let scaleFactor = Double(view.frame.width) / defaultWidth
+        return CGFloat(240 * scaleFactor)
+    }
 
 }

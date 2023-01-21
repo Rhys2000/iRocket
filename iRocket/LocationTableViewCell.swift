@@ -39,7 +39,6 @@ class LocationTableViewCell: UITableViewCell {
         cellPadding = 10.0 * scaleFactor
         fontSize = 16.0 * scaleFactor
         
-        imageLayer.backgroundColor = .brown
         imageLayer.image = UIImage(named: currentLocation.shortName.replacingOccurrences(of: " ", with: ""))
         imageLayer.contentMode = .scaleAspectFill
         imageLayer.clipsToBounds = true

@@ -1,5 +1,20 @@
 [
     {
-        
+        "name" : "Falcon 1",
+        "rocketFamily" : "Falcon",
+        "providerName" : "SpaceX",
+        "numberOfVariants" : 1,
+        "orbitClass" : "Orbital",
+        "reusable" : "Expended",
+        "status" : "Retired",
+    },
+    {
+        "name" : "Falcon 9",
+        "rocketFamily" : "Falcon",
+        "providerName" : "SpaceX",
+        "numberOfVariants" : 7,
+        "orbitClass" : "Orbital",
+        "reusable" : "Partially",
+        "status" : "Active",
     },
 ]
