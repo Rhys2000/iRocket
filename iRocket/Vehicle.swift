@@ -5,6 +5,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Vehicle: Codable {
     let name: String
@@ -42,14 +43,41 @@ enum OrbitClass: String, Codable {
 }
 
 enum VehicleStatus: String, Codable {
-    case active = "Active"
+    case operational = "Operational"
     case retired = "Retired"
     case development = "Development"
-    case investigatiion = "Investigation"
+    case grounded = "Grounded"
+    case testing = "Testing"
+    
+    func getStatusColor() -> UIColor {
+        switch self {
+        case .operational:
+            return .systemGreen
+        case .retired:
+            return .red
+        case .development:
+            return .purple
+        case .grounded:
+            return .systemYellow
+        case .testing:
+            return .orange
+        }
+    }
 }
 
 enum Reuse: String, Codable {
     case partial = "Partially"
     case full = "Fully"
     case expend = "Expended"
+    
+    func getReuseColor() -> UIColor {
+        switch self {
+        case .expend:
+            return .darkGray
+        case .partial:
+            return .systemGray
+        case .full:
+            return .lightGray
+        }
+    }
 }

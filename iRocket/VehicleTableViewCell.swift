@@ -57,84 +57,75 @@ class VehicleTableViewCell: UITableViewCell {
         imageLayer.layer.cornerRadius = cornerRadius
         imageLayer.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMinXMinYCorner]
         
-        backgroundLayer.backgroundColor = .green
+        backgroundLayer.backgroundColor = .gray
         backgroundLayer.layer.cornerRadius = cornerRadius
         backgroundLayer.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
         
-        nameLayerTag.backgroundColor = .yellow
         nameLayerTag.text = "Name:"
         nameLayerTag.font = .boldSystemFont(ofSize: fontSize)
         nameLayerTag.sizeToFit()
         
-        nameLayerText.backgroundColor = .yellow
         nameLayerText.text = currentVehicle.name
-        nameLayerText.font = .systemFont(ofSize: fontSize)
+        nameLayerText.font = .boldSystemFont(ofSize: fontSize)
+        nameLayerText.textColor = .white
         nameLayerText.sizeToFit()
         
-        familyLayerTag.backgroundColor = .orange
         familyLayerTag.text = "Family:"
         familyLayerTag.font = .boldSystemFont(ofSize: fontSize)
         familyLayerTag.sizeToFit()
         
-        familyLayerText.backgroundColor = .orange
         familyLayerText.text = currentVehicle.rocketFamily
-        familyLayerText.font = .systemFont(ofSize: fontSize)
+        familyLayerText.font = .boldSystemFont(ofSize: fontSize)
+        familyLayerText.textColor = .white
         familyLayerText.sizeToFit()
         
-        providerLayerTag.backgroundColor = .cyan
         providerLayerTag.text = "Provider:"
         providerLayerTag.font = .boldSystemFont(ofSize: fontSize)
         providerLayerTag.sizeToFit()
         
-        providerLayerText.backgroundColor = .cyan
         providerLayerText.text = currentVehicle.providerName
-        providerLayerText.font = .systemFont(ofSize: fontSize)
+        providerLayerText.font = .boldSystemFont(ofSize: fontSize)
+        providerLayerText.textColor = .white
         providerLayerText.sizeToFit()
         
-        variantLayerTag.backgroundColor = .brown
         variantLayerTag.text = "Variants:"
         variantLayerTag.font = .boldSystemFont(ofSize: fontSize)
         variantLayerTag.sizeToFit()
         
-        variantLayerText.backgroundColor = .brown
         variantLayerText.text = "\(currentVehicle.numberOfVariants)"
-        variantLayerText.font = .systemFont(ofSize: fontSize)
+        variantLayerText.font = .boldSystemFont(ofSize: fontSize)
+        variantLayerText.textColor = .white
         variantLayerText.sizeToFit()
         
-        classLayerTag.backgroundColor = .purple
         classLayerTag.text = "Class:"
         classLayerTag.font = .boldSystemFont(ofSize: fontSize)
         classLayerTag.sizeToFit()
         
-        classLayerText.backgroundColor = .purple
-        //classLayerText.backgroundColor = (currentVehicle.orbitClass == .orbital ? .black : .link) //May want to move this into enum
-        classLayerText.text = " \(currentVehicle.orbitClass.rawValue) "
+        classLayerText.backgroundColor = (currentVehicle.orbitClass == .orbital ? .black : .link)
+        classLayerText.text = "  \(currentVehicle.orbitClass.rawValue)  "
         classLayerText.textColor = .white
-        classLayerText.font = .systemFont(ofSize: fontSize)
+        classLayerText.font = .boldSystemFont(ofSize: fontSize)
         classLayerText.layer.cornerRadius = cornerRadius
         classLayerText.layer.masksToBounds = true
         classLayerText.sizeToFit()
         
-        reusableLayerTag.backgroundColor = .gray
         reusableLayerTag.text = "Reusability:"
         reusableLayerTag.font = .boldSystemFont(ofSize: fontSize)
         reusableLayerTag.sizeToFit()
         
-        reusableLayerText.backgroundColor = .gray
-        reusableLayerText.text = " \(currentVehicle.reusable.rawValue) "
+        reusableLayerText.backgroundColor = currentVehicle.reusable.getReuseColor()
+        reusableLayerText.text = "  \(currentVehicle.reusable.rawValue)  "
         reusableLayerText.textColor = .white
-        reusableLayerText.font = .systemFont(ofSize: fontSize)
+        reusableLayerText.font = .boldSystemFont(ofSize: fontSize)
         reusableLayerText.layer.cornerRadius = cornerRadius
         reusableLayerText.layer.masksToBounds = true
         reusableLayerText.sizeToFit()
         
-        statusLayerTag.backgroundColor = .magenta
         statusLayerTag.text = "Status:"
         statusLayerTag.font = .boldSystemFont(ofSize: fontSize)
         statusLayerTag.sizeToFit()
         
-        statusLayerText.backgroundColor = .magenta
-        //statusLayerText.backgroundColor = (currentVehicle.status == .active ? .systemGreen : .red) //Move this into enum
+        statusLayerText.backgroundColor = currentVehicle.status.getStatusColor()
         statusLayerText.text = " \(currentVehicle.status.rawValue) "
         statusLayerText.textColor = .white
         statusLayerText.font = .boldSystemFont(ofSize: fontSize)
@@ -191,8 +182,8 @@ class VehicleTableViewCell: UITableViewCell {
         for i in 1...6 {
             let y: CGFloat = (labelSpacing * CGFloat(i)) + (nameLayerTag.frame.height * CGFloat(i)) + (labelSpacing / 2) + (textPadding / 2)
             let textSeparator = UIView(frame: CGRect(x: backgroundLayer.frame.minX + textPadding, y: y, width: backgroundLayer.frame.width - (2 * textPadding), height: 2))
-            textSeparator.backgroundColor = UIColor.red
-            textSeparator.layer.opacity = 0.6
+            textSeparator.backgroundColor = .lightGray
+            textSeparator.layer.opacity = 0.8
             textSeparator.layer.cornerRadius = 1.0
             textSeparator.layer.masksToBounds = true
             contentView.addSubview(textSeparator)
