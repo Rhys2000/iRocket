@@ -9,7 +9,7 @@ import UIKit
 
 class VehicleTableViewCell: UITableViewCell {
 
-    static let cellIdentifier = "LocationTableViewCell"
+    static let cellIdentifier = "VehicleTableViewCell"
     
     private var scaleFactor = CGFloat()
     private var cellPadding = CGFloat()
@@ -189,7 +189,7 @@ class VehicleTableViewCell: UITableViewCell {
             contentView.addSubview(textSeparator)
         }
         
-        nameLayerText.frame.origin = CGPoint(x: reusableLayerTag.frame.maxX +  (2 * textPadding), y: nameLayerTag.frame.minY)
+        nameLayerText.frame.origin = CGPoint(x: reusableLayerTag.frame.maxX + (2 * textPadding), y: nameLayerTag.frame.minY)
         
         familyLayerText.frame.origin = CGPoint(x: reusableLayerTag.frame.maxX + (2 * textPadding), y: familyLayerTag.frame.minY)
         

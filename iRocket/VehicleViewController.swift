@@ -11,7 +11,7 @@ class VehicleViewController: UIViewController, UITableViewDelegate, UITableViewD
     //Initialization of the TableView Object that will display a card for each vehicle contained in the vehicleData array
     let vehicleTableView = UITableView()
     
-    //Array that contains all individual Vessel objects that were loaded from the vessels.json file using the VesselDataLoader class
+    //Array that contains all individual Vehicle objects that were loaded from the vehicles.json file using the VehicleDataLoader class
     let vehicleData = VehicleDataLoader().vehicleData
 
     override func viewDidLoad() {
@@ -26,7 +26,7 @@ class VehicleViewController: UIViewController, UITableViewDelegate, UITableViewD
         view.addSubview(vehicleTableView)
     }
     
-    //Sets the boundaries of the locationTableView to be the height and width of the screen of the users device
+    //Sets the boundaries of the vehicleTableView to be the height and width of the screen of the users device
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         vehicleTableView.frame = view.bounds
