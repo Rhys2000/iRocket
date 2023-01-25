@@ -1,7 +1,6 @@
 //
 //  LaunchViewController.swift
 //  iRocket
-//
 //  Created by Rhys Julian-Jones on 1/19/23.
 //
 
@@ -14,25 +13,25 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     //Array that contains all individual Launch objects that were loaded from the launches.json file using the LaunchDataLoader class
     let launchData = LaunchDataLoader().launchData
-    
-    var cellHeight = CGFloat()
+    var previewCellArray = [LaunchTableViewCell]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //ViewController Title
-        title = "Manifest"
+        title = "Launches"
 
         launchTableView.register(LaunchTableViewCell.self, forCellReuseIdentifier: LaunchTableViewCell.cellIdentifier)
         launchTableView.delegate = self
         launchTableView.dataSource = self
-        view.addSubview(launchTableView)
-    }
-    
-    //Sets the boundaries of the launchTableView to be the height and width of the screen of the users device
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         launchTableView.frame = view.bounds
+        view.addSubview(launchTableView)
+        
+        for launchDatum in launchData {
+            let cell = LaunchTableViewCell()
+            cell.createLaunchPreview(with: launchDatum, using: view.frame.width)
+            previewCellArray.append(cell)
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,15 +39,12 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = launchTableView.dequeueReusableCell(withIdentifier: LaunchTableViewCell.cellIdentifier, for: indexPath) as? LaunchTableViewCell else { return UITableViewCell() }
-        cell.createLaunchPreview(with: launchData[indexPath.row])
-        cellHeight = cell.height
-        return cell
+        return previewCellArray[indexPath.row]
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let defaultWidth: Double = 390 //View width on an iPhone 12 Pro
-        let scaleFactor = Double(view.frame.width) / defaultWidth
-        return CGFloat(cellHeight * scaleFactor)
+        //let defaultWidth: Double = 390 //View width on an iPhone 12 Pro
+        //let scaleFactor = Double(view.frame.width) / defaultWidth
+        return previewCellArray[indexPath.row].height //* scaleFactor
     }
 }

@@ -11,7 +11,10 @@ class LaunchTableViewCell: UITableViewCell {
 
     static let cellIdentifier = "LaunchTableViewCell"
     
-    public var height: CGFloat = 240
+    private let dateFormatter = DateFormatter()
+    private let calendar = Calendar.current
+    
+    public var height = CGFloat()
     
     private var scaleFactor = CGFloat()
     private var cellPadding = CGFloat()
@@ -23,69 +26,107 @@ class LaunchTableViewCell: UITableViewCell {
     private let backgroundLayer = UIView()
     
     private let nameLayerText = UILabel()
+    
+    private let providerLayerTag = UILabel()
     private let providerLayerText = UILabel()
+    
+    private let vehicleLayerTag = UILabel()
     private let vehicleLayerText = UILabel()
+    
     private let locationLayerText = UILabel()
     
-    private let dateLayerTag = UILabel()
     private let dateLayerText = UILabel()
     
-    public func createLaunchPreview(with currentLaunch: Launch) {
+    private let tempLayer = UIView()
+    
+    public func createLaunchPreview(with currentLaunch: Launch, using width: CGFloat) {
         
-        scaleFactor = contentView.frame.width / 390
+        scaleFactor = width / 390
         textPadding = 5.0 * scaleFactor
         cornerRadius = 10.0 * scaleFactor
         cellPadding = 10.0 * scaleFactor
         fontSize = 15.0 * scaleFactor
-        
-        //Image = 140 wide, Background = 230 wide
+
+        let locationInformation = LocationDataLoader().locationData.first(where: {$0.shortName == currentLaunch.locationName})!
+        let padInformation = locationInformation.launchPads.first(where: {$0.abbreviation == currentLaunch.locationPad})!
+
+        //Image = 120 wide, Background = 250 wide
         imageLayer.backgroundColor = .brown
         imageLayer.image = UIImage(named: ("\(currentLaunch.vehicleName) \(currentLaunch.vehicleVariant)").replacingOccurrences(of: " ", with: ""))
         imageLayer.contentMode = .scaleAspectFill
         imageLayer.clipsToBounds = true
         imageLayer.layer.cornerRadius = cornerRadius
         imageLayer.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMinXMinYCorner]
-        
+
         backgroundLayer.backgroundColor = .gray
         backgroundLayer.layer.cornerRadius = cornerRadius
         backgroundLayer.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
-        
-        nameLayerText.text = currentLaunch.name
+
+        nameLayerText.text = "\(currentLaunch.name)"
+        if(currentLaunch.abbreviatedName != "") {
+            nameLayerText.text! += " (\(currentLaunch.abbreviatedName))"
+        }
         nameLayerText.font = .boldSystemFont(ofSize: 20.0 * scaleFactor)
         nameLayerText.textColor = .white
-        nameLayerText.sizeToFit()
-        
+        nameLayerText.numberOfLines = 3
+        nameLayerText.frame.size = updateLabelFrame(width: 240, label: nameLayerText)
+
+        providerLayerTag.text = "Provider: "
+        providerLayerTag.font = .boldSystemFont(ofSize: fontSize)
+        providerLayerTag.sizeToFit()
+
         providerLayerText.text = currentLaunch.launchProvider
         providerLayerText.font = .boldSystemFont(ofSize: fontSize)
         providerLayerText.textColor = .white
         providerLayerText.sizeToFit()
-        
+
+        vehicleLayerTag.text = "Vehicle: "
+        vehicleLayerTag.font = .boldSystemFont(ofSize: fontSize)
+        vehicleLayerTag.sizeToFit()
+
         vehicleLayerText.text = "\(currentLaunch.vehicleName) \(currentLaunch.vehicleVariant)"
         vehicleLayerText.font = .boldSystemFont(ofSize: fontSize)
         vehicleLayerText.textColor = .white
         vehicleLayerText.sizeToFit()
-        
-        locationLayerText.text = ""
-        locationLayerText.font = .boldSystemFont(ofSize: fontSize)
-        locationLayerText.textColor = .white
-        
-        let locationData = LocationDataLoader().locationData
-        var currentLocation: Location
-        for place in locationData {
-            if place.shortName == currentLaunch.locationName {
-                currentLocation = place
-            }
-        }
 
-        
-//        dateLayerTag.text = "Date: "
-//        dateLayerTag.font = .boldSystemFont(ofSize: fontSize)
-//        dateLayerTag.sizeToFit()
-//
-//        dateLayerText.text = currentLaunch.liftOffTime
-//        dateLayerText.font = .systemFont(ofSize: fontSize)
-//        dateLayerText.textColor = .white
-//        dateLayerText.sizeToFit()
+        locationLayerText.text = "\(padInformation.name) (\(padInformation.abbreviation)), \(locationInformation.fullName) (\(locationInformation.abbreviation)), \(locationInformation.cityState), \(locationInformation.country) \(locationInformation.country.getFlagEmoji())"
+        locationLayerText.font = .boldSystemFont(ofSize: 12.0 * scaleFactor)
+        locationLayerText.textColor = .white
+        locationLayerText.numberOfLines = 0
+        locationLayerText.frame.size = updateLabelFrame(width: 240, label: locationLayerText)
+
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        dateFormatter.locale = Locale(identifier: "en-US")
+        let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: currentLaunch.liftOffTime)!)
+        dateFormatter.dateFormat = "E, MMMM d, yyyy h:mm:ss a (zzz)"
+        dateLayerText.text = dateFormatter.string(from: calendar.date(from: localComponents)!)
+        dateLayerText.font = .boldSystemFont(ofSize: fontSize)
+        dateLayerText.textColor = .blue
+        dateLayerText.numberOfLines = 0
+        dateLayerText.frame.size = updateLabelFrame(width: 240, label: dateLayerText)
+
+        imageLayer.frame = CGRect(x: cellPadding, y: cellPadding, width: 120 * scaleFactor, height: contentView.frame.height - (2 * cellPadding))
+        backgroundLayer.frame = CGRect(x: imageLayer.frame.maxX, y: imageLayer.frame.minY, width: 250 * scaleFactor, height: contentView.frame.height - (2 * cellPadding))
+
+        nameLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: backgroundLayer.frame.minY + textPadding)
+
+        providerLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: nameLayerText.frame.maxY + textPadding)
+        providerLayerText.frame.origin = CGPoint(x: providerLayerTag.frame.maxX, y: providerLayerTag.frame.minY)
+
+        vehicleLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: providerLayerText.frame.maxY + textPadding)
+        vehicleLayerText.frame.origin = CGPoint(x: providerLayerTag.frame.maxX, y: vehicleLayerTag.frame.minY)
+
+        locationLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: vehicleLayerText.frame.maxY + textPadding)
+
+        dateLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: locationLayerText.frame.maxY + textPadding)
+
+        tempLayer.frame.origin = CGPoint(x: backgroundLayer.frame.minX, y: dateLayerText.frame.maxY)
+
+        contentView.frame.size.height = dateLayerText.frame.maxY + textPadding + cellPadding
+
+        imageLayer.frame.size.height = CGFloat(contentView.frame.maxY - (2 * cellPadding))
+        backgroundLayer.frame.size.height = CGFloat(contentView.frame.maxY - (2 * cellPadding))
+        height = contentView.frame.size.height
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -93,33 +134,23 @@ class LaunchTableViewCell: UITableViewCell {
         contentView.addSubview(imageLayer)
         contentView.addSubview(backgroundLayer)
         contentView.addSubview(nameLayerText)
+        contentView.addSubview(providerLayerTag)
         contentView.addSubview(providerLayerText)
+        contentView.addSubview(vehicleLayerTag)
         contentView.addSubview(vehicleLayerText)
         contentView.addSubview(locationLayerText)
-//        contentView.addSubview(dateLayerTag)
-//        contentView.addSubview(dateLayerText)
+        contentView.addSubview(dateLayerText)
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        imageLayer.frame = CGRect(x: cellPadding, y: cellPadding, width: 140 * scaleFactor, height: contentView.frame.height - (2 * cellPadding))
-        backgroundLayer.frame = CGRect(x: imageLayer.frame.maxX, y: imageLayer.frame.minY, width: 230 * scaleFactor, height: contentView.frame.height - (2 * cellPadding))
-        
-        nameLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: backgroundLayer.frame.minY + textPadding)
-        
-        providerLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: nameLayerText.frame.maxY + textPadding)
-        
-        vehicleLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: providerLayerText.frame.maxY + textPadding)
-        
-        locationLayerText.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: vehicleLayerText.frame.maxY + textPadding)
-        
-//        dateLayerTag.frame.origin = CGPoint(x: backgroundLayer.frame.minX + textPadding, y: nameLayerText.frame.maxY + textPadding)
-//        dateLayerText.frame = CGRect(x: dateLayerTag.frame.maxX, y: dateLayerTag.frame.minY, width: backgroundLayer.frame.width - (2 * textPadding) - dateLayerTag.frame.width, height: 100)
-    }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+    
+    func updateLabelFrame(width: CGFloat, label: UILabel) -> CGSize {
+        let maxSize = CGSize(width: width, height: 1000)
+        let size = label.sizeThatFits(maxSize)
+        return size
+    }
 }

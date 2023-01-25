@@ -118,26 +118,70 @@ public class LaunchDataLoader {
 
 enum LaunchStatus: String, Codable {
     case success = "Success"
+    case partial = "Partial Success"
     case failure = "Failure"
+    case prelaunchExplosion = "Prelaunch Explosion"
     case upcoming = "Upcoming"
-    case prefail = "Prelaunch Failure"
 }
 
 enum OrbitDestination: String, Codable {
-    case LEO = "LEO"
-    case GEO = "GEO"
-    case GTO = "GTO"
+    case LEO = "LEO" //Low Earth Orbit
+    case GEO = "GEO" //Geostationary Equatorial Orbit
+    case GTO = "GTO" //Geostationary Transfer Orbit
+    case ISS = "ISS" //International Space Station
+    case PLEO = "PLEO" //Polar Low Earth Orbit
+    case SEL1 = "SEL1" //Sun-Earth Lagrange Point 1
+    case SSO = "SSO" //Sun-Synchronous Orbit
+    case HELIO = "HELIO" //Heliocentric Orbit
+    case MEO = "MEO" //Medium Earth Orbit
+    case HEO = "HEO" //High Earth Orbit
 }
 
 enum RecoveryMethod: String, Codable {
-    case droneship = "Droneship"
-    case RTLS = "RTLS"
     case parachute = "Parachute"
+    case splashdown = "Splashdown"
+    case droneship = "Droneship"
+    case returnToLaunchSite = "Return To Launch Site"
+    case netCatch = "Net Catch"
     case notAvailable = "NA"
 }
     
 enum RecoveryStatus: String, Codable {
     case success = "Success"
     case failure = "Failure"
+    case unknown = "Unknown"
+    case partial = "Partial Success"
     case notAvailable = "NA"
 }
+
+//{
+//    "cosparCode" : "",
+//    "name" : "",
+//    "alternativeName" : "",
+//    "abbreviatedName" : "",
+//    "liftOffTime" : "",
+//    "locationName" : "",
+//    "locationPad" : "",
+//    "vehicleName" : "",
+//    "vehicleVariant" : "",
+//    "launchProvider" : "SpaceX",
+//    "customerArray" : ["USAFA"],
+//    "orbitDestination" : "",
+//    "staticFire" : ,
+//    "staticFireToLaunchWindow" : "",
+//    "boosters" : [""],
+//    "boosterRecoveryAttempted" : [],
+//    "boosterRecoveryMethod" : [""],
+//    "boosterRecoveryLocation" : [""],
+//    "boosterRecoveryDistance" : [""],
+//    "boosterRecoveryStatus" : [""],
+//    "fairingFlights" : [, ],
+//    "fairingRecoveryAttempted" : ,
+//    "fairingRecoveryMethod" : [""],
+//    "fairingRecoveryLocation" : [""],
+//    "fairingRecoveryDistance" : "",
+//    "fairingRecoveryStatus" : [""],
+//    "supportShips" : [""],
+//    "shipRoles" : [""],
+//    "status" : "",
+//},
