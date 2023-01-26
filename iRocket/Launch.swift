@@ -84,7 +84,7 @@ struct Launch: Codable {
     let fairingRecoveryDistance: String
     
     //
-    let fairingRecoveryStatus: [RecoveryStatus]
+    let fairingRecoveryStatus: [RecoveryStatus] //If fairing half is cracked in any way - Failure | If fairing half was uncovered when broguht back - Partial Success | If fairing half was caught or covered in a tarp when it was expected to splashdown - Success | If fairing half was meant to be caught but splashed down - Partial Success
     
     //
     let supportShips: [String]
@@ -135,6 +135,8 @@ enum OrbitDestination: String, Codable {
     case HELIO = "HELIO" //Heliocentric Orbit
     case MEO = "MEO" //Medium Earth Orbit
     case HEO = "HEO" //High Earth Orbit
+    case SUB = "SUB" //Suborbital Trajectory
+    case TLI = "TLI" //Trans-Lunar Injection Orbit
 }
 
 enum RecoveryMethod: String, Codable {
@@ -151,6 +153,8 @@ enum RecoveryStatus: String, Codable {
     case failure = "Failure"
     case unknown = "Unknown"
     case partial = "Partial Success"
+    case aborted = "Aborted"
+    case pending = "Pending"
     case notAvailable = "NA"
 }
 
@@ -165,7 +169,7 @@ enum RecoveryStatus: String, Codable {
 //    "vehicleName" : "",
 //    "vehicleVariant" : "",
 //    "launchProvider" : "SpaceX",
-//    "customerArray" : ["USAFA"],
+//    "customerArray" : [""],
 //    "orbitDestination" : "",
 //    "staticFire" : ,
 //    "staticFireToLaunchWindow" : "",
