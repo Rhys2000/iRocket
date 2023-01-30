@@ -96,12 +96,43 @@
         "country" : "USA",
         "launchPads" : [
                             {
-                                "name" : "",
-                                "abbreviation" : "",
+                                "name" : "Concrete Pad",
+                                "abbreviation" : "CP",
+                                "leasee" : "SpaceX",
+                            },
+                            {
+                                "name" : "Suborbital Pad A",
+                                "abbreviation" : "SP-A",
+                                "leasee" : "SpaceX",
+                            },
+                            {
+                                "name" : "Suborbital Pad B",
+                                "abbreviation" : "SP-B",
                                 "leasee" : "SpaceX",
                             },
                        ],
         "yearsActive" : ["07252019", "0"],
         "status" : "Active",
+    },
+    {
+        "shortName" : "McGregor",
+        "mediumName" : "",
+        "fullName" : "SpaceX McGregor Test Facility",
+        "abbreviation" : "McX",
+        "formerNames" : [""],
+        "owner" : "Space Exploration Technologies Corporation",
+        "ownerAbbreviation" : "SpaceX",
+        "coordinates" : [31.39200, -97.45651],
+        "cityState" : "McGregor, TX",
+        "country" : "USA",
+        "launchPads" : [
+                            {
+                                "name" : "Test Pad 1",
+                                "abbreviation" : "TP-1",
+                                "leasee" : "SpaceX",
+                            },
+                       ],
+        "yearsActive" : ["09212012", "08222014"],
+        "status" : "Retired",
     },
 ]

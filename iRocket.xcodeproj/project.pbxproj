@@ -38,6 +38,7 @@
 		900EC1A9297A49BD00D30058 /* SatelliteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1A8297A49BD00D30058 /* SatelliteTableViewCell.swift */; };
 		900EC1AB297A49CE00D30058 /* SatelliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EC1AA297A49CE00D30058 /* SatelliteViewController.swift */; };
 		900EC1AD297A4A5200D30058 /* satellites.json in Resources */ = {isa = PBXBuildFile; fileRef = 900EC1AC297A4A5100D30058 /* satellites.json */; };
+		9034C7CD298834CC0006E80E /* VesselDetailAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9034C7CC298834CC0006E80E /* VesselDetailAboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		900EC1A8297A49BD00D30058 /* SatelliteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTableViewCell.swift; sourceTree = "<group>"; };
 		900EC1AA297A49CE00D30058 /* SatelliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteViewController.swift; sourceTree = "<group>"; };
 		900EC1AC297A4A5100D30058 /* satellites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = satellites.json; sourceTree = "<group>"; };
+		9034C7CC298834CC0006E80E /* VesselDetailAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselDetailAboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				900EC1AA297A49CE00D30058 /* SatelliteViewController.swift */,
 				900EC1A8297A49BD00D30058 /* SatelliteTableViewCell.swift */,
 				900EC1AC297A4A5100D30058 /* satellites.json */,
+				9034C7CC298834CC0006E80E /* VesselDetailAboutViewController.swift */,
 			);
 			path = iRocket;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				900EC19B297A483600D30058 /* LaunchViewController.swift in Sources */,
 				900EC18F2978708300D30058 /* Location.swift in Sources */,
 				900EC19F297A485F00D30058 /* VehicleTableViewCell.swift in Sources */,
+				9034C7CD298834CC0006E80E /* VesselDetailAboutViewController.swift in Sources */,
 				900EC1AB297A49CE00D30058 /* SatelliteViewController.swift in Sources */,
 				900EC1912978ADC700D30058 /* LocationViewController.swift in Sources */,
 				900EC17D296C26D700D30058 /* VesselViewController.swift in Sources */,

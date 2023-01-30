@@ -47,7 +47,7 @@ class VesselViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let viewController = storyboard?.instantiateViewController(withIdentifier: VesselDetailViewController.identifier) as? VesselDetailViewController
-        viewController?.nameString = vesselData[indexPath.row].name
+        viewController?.currentVessel = vesselData[indexPath.row]
         self.navigationController?.pushViewController(viewController!, animated: true)
         vesselTableView.deselectRow(at: indexPath, animated: true)
     }
