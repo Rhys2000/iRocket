@@ -16,8 +16,8 @@ struct Vessel: Codable {
     let ownerWebsite: String
     let operatorName: String
     let operatorWebsite: String
-    let employerName: String
-    let employerWebsite: String
+    let chartererName: String
+    let chartererWebsite: String
     let vesselPurpose: [VesselPurpose]
     let countryRegistration: Country
     let homePort: String
