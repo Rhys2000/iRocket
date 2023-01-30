@@ -5,18 +5,20 @@
 //
 
 import Foundation
+import UIKit
 
 struct Vessel: Codable {
-    let name: String
+    let vesselName: String
     let abbreviation: String
     let formerNames: [String]
-    let idNumber: Int //IMONumber or MMSI Number depending on availability
-    let owner: String
+    let idNumber: String //IMONumber or MMSI Number depending on availability
+    let ownerName: String
     let ownerWebsite: String
+    let operatorName: String
+    let operatorWebsite: String
     let employerName: String
     let employerWebsite: String
-    let originalVesselPurpose: VesselPurpose
-    let currentVesselPurpose: [VesselPurpose]
+    let vesselPurpose: [VesselPurpose]
     let countryRegistration: Country
     let homePort: String
     let homePortCoordinates: [Double] //Latitude then Longitude
@@ -52,22 +54,53 @@ public class VesselDataLoader {
 enum VesselPurpose: String, Codable {
     case ASDS = "ASDS" //Autonomous Spaceport Droneship
     case BSTV = "BSTV" //Booster Splashdown Telemetry Vessel
-    case OSV = "OSV" //Offshore Supply Vessel
     case DSV = "DSV" //Droneship Support Vessel
     case DRV = "DRV" //Dragon Recovery Vessel
     case BSV = "BSV" //Booster Recovery Vessel
     case FRV = "FRV" //Fairing Recovery Vessel
-    case CB = "CB" //Crew Boat
-    case PASSENGER = "Passenger" //Passanger
-    case BARGE = "BARGE" //Barge
     case TUG = "TUG" //Tugboat
     case Default = "Default" //Default case for initialization of Vessel objects
+    
+    func decodeVesselPurpose() -> String {
+        switch self {
+        case .ASDS:
+            return "Autonomous Spaceport Droneship"
+        case .BSTV:
+            return "Booster Splashdown Telemetry Vehicle"
+        case .DSV:
+            return "Droneship Support Vessel"
+        case .DRV:
+            return "Dragon Recovery Vessel"
+        case .BSV:
+            return "Booster Recovery Vessel"
+        case .FRV:
+            return "Fairing Recovery Vessel"
+        case .TUG:
+            return "Tugboat"
+        case .Default:
+            return "Default Case"
+        }
+    }
 }
 
 enum VesselStatus: String, Codable {
     case active = "Active"
+    case refurbishment = "Refurbishment"
     case retired = "Retired"
     case Default = "Default" //Default case for initialization of Vessel objects
+    
+    func getStatusColor() -> UIColor {
+        switch self {
+        case .active:
+            return .systemGreen
+        case .refurbishment:
+            return .systemYellow
+        case .retired:
+            return .systemRed
+        case .Default:
+            return .systemBlue
+        }
+    }
 }
 
 // Will need to be moved from this file into a more general .swift file. Temporary solution while other basic goals are completed first

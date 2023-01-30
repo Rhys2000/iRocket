@@ -41,7 +41,7 @@ class VesselTableViewCell: UITableViewCell {
         cellPadding = 10.0 * scaleFactor
         fontSize = 17.0 * scaleFactor
         
-        imageLayer.image = UIImage(named: currentVessel.name.replacingOccurrences(of: " ", with: ""))
+        imageLayer.image = UIImage(named: currentVessel.vesselName.replacingOccurrences(of: " ", with: ""))
         imageLayer.contentMode = .scaleAspectFill
         imageLayer.clipsToBounds = true
         imageLayer.layer.cornerRadius = cornerRadius
@@ -63,7 +63,7 @@ class VesselTableViewCell: UITableViewCell {
         nameLayerTag.font = .boldSystemFont(ofSize: fontSize)
         nameLayerTag.sizeToFit()
         
-        nameLayerText.text = currentVessel.name
+        nameLayerText.text = currentVessel.vesselName
         nameLayerText.font = .systemFont(ofSize: fontSize)
         nameLayerText.sizeToFit()
         
