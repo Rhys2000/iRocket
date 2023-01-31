@@ -87,7 +87,7 @@ class VesselTableViewCell: UITableViewCell {
         employerLayerTag.font = .boldSystemFont(ofSize: fontSize)
         employerLayerTag.sizeToFit()
     
-        employerLayerText.text = currentVessel.employerName
+        employerLayerText.text = currentVessel.chartererName
         employerLayerText.font = .systemFont(ofSize: fontSize)
         employerLayerText.sizeToFit()
     }

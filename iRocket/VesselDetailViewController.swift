@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MapKit
 
 class LinkTapGestureRecognizer: UITapGestureRecognizer {
     var link: String?
@@ -15,7 +16,7 @@ class VesselDetailViewController: UIViewController {
     
     static let identifier = "VesselDetailViewController"
     
-    var currentVessel = Vessel(vesselName: "", abbreviation: "", formerNames: [""], idNumber: "", ownerName: "", ownerWebsite: "", operatorName: "", operatorWebsite: "", employerName: "", employerWebsite: "", vesselPurpose: [.Default], countryRegistration: .Default, homePort: "", homePortCoordinates: [0], yearBuilt: 0, hullDimensions: [0], serviceYears: [0], status: .Default, photographerCredit: "", marineFleetLink: "", description: [""])
+    var currentVessel = Vessel(vesselName: "", abbreviation: "", formerNames: [""], idNumber: "", ownerName: "", ownerWebsite: "", operatorName: "", operatorWebsite: "", chartererName: "", chartererWebsite: "", vesselPurpose: [.Default], countryRegistration: .Default, homePort: "", homePortCoordinates: [0], yearBuilt: 0, hullDimensions: [0], serviceYears: [0], status: .Default, photographerCredit: "", marineFleetLink: "", description: [""])
     
     private let scrollView = UIScrollView()
     
@@ -67,6 +68,18 @@ class VesselDetailViewController: UIViewController {
     
     private let marineFleetLabel = UILabel()
     private let marineFleetData = UILabel()
+    
+    private let portTitle = UILabel()
+    private let portMap = MKMapView()
+    
+    private let milestoneTitle = UILabel()
+    private let milestoneLabel = UILabel()
+    
+    private let missionTitle = UILabel()
+    private let missionLabel = UILabel()
+    
+    private let specificationTitle = UILabel()
+    //private let specificationSheet =
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -243,14 +256,14 @@ class VesselDetailViewController: UIViewController {
         employerLabel.frame.origin = CGPoint(x: 20, y: operatorLabel.frame.maxY + 5)
         scrollView.addSubview(employerLabel)
         
-        employerData.text = " \(currentVessel.employerName) "
+        employerData.text = " \(currentVessel.chartererName) "
         employerData.font = .boldSystemFont(ofSize: employerData.font.pointSize)
         employerData.textColor = .white
         employerData.sizeToFit()
         employerData.isUserInteractionEnabled = true
-        let employerLink = LinkTapGestureRecognizer(target: self, action: #selector(openLink(sender:)))
-        employerLink.link = currentVessel.employerWebsite
-        employerData.addGestureRecognizer(employerLink)
+        let chartererLink = LinkTapGestureRecognizer(target: self, action: #selector(openLink(sender:)))
+        chartererLink.link = currentVessel.chartererWebsite
+        employerData.addGestureRecognizer(chartererLink)
         employerData.layer.cornerRadius = 10.0
         employerData.layer.masksToBounds = true
         employerData.layer.borderWidth = 1.0
@@ -365,7 +378,29 @@ class VesselDetailViewController: UIViewController {
         marineFleetData.frame.origin = CGPoint(x: marineFleetLabel.frame.maxX, y: marineFleetLabel.frame.minY)
         scrollView.addSubview(marineFleetData)
         
-        scrollView.contentSize = CGSize(width: view.frame.width, height: marineFleetData.frame.maxY + 10)
+        portTitle.text = "Vessel Port of Calling"
+        portTitle.font = .boldSystemFont(ofSize: 24)
+        portTitle.textColor = .white
+        portTitle.sizeToFit()
+        portTitle.textAlignment = .center
+        portTitle.frame = CGRect(x: 10, y: marineFleetData.frame.maxY + 10, width: view.frame.width - 20, height: portTitle.frame.height)
+        scrollView.addSubview(portTitle)
+        
+        portMap.mapType = .hybridFlyover
+        portMap.isZoomEnabled = true
+        portMap.setRegion(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: currentVessel.homePortCoordinates[0], longitude: currentVessel.homePortCoordinates[1]), span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)), animated: true)
+        portMap.frame = CGRect(x: 20, y: portTitle.frame.maxY + 10, width: view.frame.width - 40, height: view.frame.width - 40)
+        scrollView.addSubview(portMap)
+        
+        milestoneTitle.text = "Vessel Milestones"
+        milestoneTitle.font = .boldSystemFont(ofSize: 24)
+        milestoneTitle.textColor = .white
+        milestoneTitle.sizeToFit()
+        milestoneTitle.textAlignment = .center
+        milestoneTitle.frame = CGRect(x: 10, y: portMap.frame.maxY + 10, width: view.frame.width - 20, height: milestoneTitle.frame.height)
+        scrollView.addSubview(milestoneTitle)
+        
+        scrollView.contentSize = CGSize(width: view.frame.width, height: 2000)
         
     }
     
