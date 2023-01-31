@@ -58,6 +58,7 @@ enum VesselPurpose: String, Codable {
     case DRV = "DRV" //Dragon Recovery Vessel
     case BSV = "BSV" //Booster Recovery Vessel
     case FRV = "FRV" //Fairing Recovery Vessel
+    case FCV = "FCV" //Fairing Catching Vessel
     case TUG = "TUG" //Tugboat
     case Default = "Default" //Default case for initialization of Vessel objects
     
@@ -75,6 +76,8 @@ enum VesselPurpose: String, Codable {
             return "Booster Recovery Vessel"
         case .FRV:
             return "Fairing Recovery Vessel"
+        case .FCV:
+            return "Fairing Catching Vessel"
         case .TUG:
             return "Tugboat"
         case .Default:

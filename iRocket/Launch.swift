@@ -90,7 +90,7 @@ struct Launch: Codable {
     let supportShips: [String]
     
     //
-    let shipRoles: [String]
+    let shipRoles: [[String]]
     
     //The most recent status or outcome of the Launch
     let status: LaunchStatus
