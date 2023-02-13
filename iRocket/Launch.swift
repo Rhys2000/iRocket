@@ -97,6 +97,9 @@ struct Launch: Codable {
     
     //The most recent status or outcome of the Launch
     let status: LaunchStatus
+    
+    //Description of the Launch by the launch provider
+    let description: [String]
 }
 
 //This class creates a global variable with all the launches contained in the launches.json file. Decodes the json data and creates an array of Launch objects
@@ -163,33 +166,34 @@ enum RecoveryStatus: String, Codable {
 
 //{
 //    "cosparCode" : "",
-//    "name" : "United States Crewed Vehicle - 6",
-//    "alternativeName" : "SpaceX Crew-6",
-//    "abbreviatedName" : "Crew-6",
-//    "liftOffTime" : "2023-02-26T07:07:00+0000",
-//    "locationName" : "Kennedy",
-//    "locationPad" : "LC-39A",
-//    "vehicleName" : "Falcon 9",
-//    "vehicleVariant" : "Block 5",
-//    "launchProvider" : "SpaceX",
-//    "customerArray" : ["NASA"],
-//    "orbitDestination" : "ISS",
+//    "name" : "",
+//    "alternativeName" : "",
+//    "abbreviatedName" : "",
+//    "liftOffTime" : "YYYY-MM-DDTHH:mm:ss+0000",
+//    "locationName" : "",
+//    "locationPad" : "",
+//    "vehicleName" : "",
+//    "vehicleVariant" : "",
+//    "launchProvider" : "",
+//    "customerArray" : [""],
+//    "orbitDestination" : "",
 //    "crewedLaunch" : "",
-//    "staticFire" : "true",
+//    "staticFire" : "",
 //    "staticFireToLaunchWindow" : "",
-//    "boosters" : ["B1078-1"],
-//    "boosterRecoveryAttempted" : ["true"],
-//    "boosterRecoveryMethod" : ["Droneship"],
+//    "boosters" : [""],
+//    "boosterRecoveryAttempted" : [""],
+//    "boosterRecoveryMethod" : [""],
 //    "boosterRecoveryLocation" : [""],
 //    "boosterRecoveryDistance" : [""],
-//    "boosterRecoveryStatus" : ["Pending"],
+//    "boosterRecoveryStatus" : [""],
 //    "fairingFlights" : [""],
-//    "fairingRecoveryAttempted" : ["false"],
-//    "fairingRecoveryMethod" : ["NA"],
+//    "fairingRecoveryAttempted" : [""],
+//    "fairingRecoveryMethod" : [""],
 //    "fairingRecoveryLocation" : [""],
 //    "fairingRecoveryDistance" : "",
-//    "fairingRecoveryStatus" : ["NA"],
+//    "fairingRecoveryStatus" : [""],
 //    "supportShips" : [""],
 //    "shipRoles" : [[""]],
-//    "status" : "Upcoming",
+//    "status" : "",
+//    "description" : [""],
 //},
