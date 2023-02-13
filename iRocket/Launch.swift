@@ -21,7 +21,7 @@ struct Launch: Codable {
     let abbreviatedName: String
     
     //LiftOffTime of the Launch in the format YYYY-MM-DDThh:mm:ssTZD (ISO 8601). These times will be entered in UTC then coverted to the individual user's time zone. May not follow this format if exact launch time is not public information
-    let liftOffTime: String
+    let liftOffTime: String //Date Realistically
     
     //Associated with shortName for Location. The Location or launch site where the Vehicle will liftOff from
     let locationName: String
@@ -44,8 +44,11 @@ struct Launch: Codable {
     //The intended orbit the Satellites will be deployed into once separating from the upper stage of the vehicle
     let orbitDestination: OrbitDestination
     
+    //Boolean to state whether the mission was crewed
+    let crewedLaunch: String //Bool Realistically
+    
     //States whether or not a staic fire was performed during this launch
-    let staticFire: Bool
+    let staticFire: String //Bool Realistically
     
     //Should be an Int but because the value can be nil, read in as a String
     let staticFireToLaunchWindow: String
@@ -53,43 +56,43 @@ struct Launch: Codable {
     //Name of the booster or boosters that took part in the Launch
     let boosters: [String]
     
-    //States whether or not a booster was attempted to be recovered
-    let boosterRecoveryAttempted: [Bool]
+    //States whether or not a booster was attempted to be recovered. Is an array for vehicles with more than one booster
+    let boosterRecoveryAttempted: [String] //Bool Realistically
     
-    //
+    //States the way that the booster used on this launch was recovered. Is an array for vehicles with more than one booster
     let boosterRecoveryMethod: [RecoveryMethod]
     
-    //
+    //States where the booster being recovered was meant to land. Is an array for vehicles with more than one booster
     let boosterRecoveryLocation: [String]
     
-    //
-    let boosterRecoveryDistance: [String]
+    //Double value describing how far down range the booster landed in kilometers. Is an array for vehicles with more than one booster
+    let boosterRecoveryDistance: [String] //Double Realistically
     
-    //
+    //Outcome for the booster recovery attempt. Is an array for vehicles with more than one booster
     let boosterRecoveryStatus: [RecoveryStatus]
     
-    //
-    let fairingFlights: [Int]
+    //Number of flights for the fairing half used on the launch. Is an array because fairings come in two halves
+    let fairingFlights: [String] //Int Realistically
     
-    //
-    let fairingRecoveryAttempted: Bool
+    //States whether or not a fairing piece was attempted to be recovered. Is an array because fairings come in two halves
+    let fairingRecoveryAttempted: [String] //Bool Realistically
     
-    //
+    //States the way that a fairing half used on this launch was recovered. Is an array because fairings come in two halves
     let fairingRecoveryMethod: [RecoveryMethod]
     
-    //
+    //States where the fairing half being recovered was meant to land. Is an array because fairings come in two halves
     let fairingRecoveryLocation: [String]
     
-    //
-    let fairingRecoveryDistance: String
+    //Double value describing how far down range the fairing halves landed downrange in kilometers.
+    let fairingRecoveryDistance: String //Double Realistically
     
-    //
+    //Outcome for the fairing half recovery attempt. Is an array because fairings come in two halves
     let fairingRecoveryStatus: [RecoveryStatus] //If fairing half is cracked in any way - Failure | If fairing half was uncovered when broguht back - Partial Success | If fairing half was caught or covered in a tarp when it was expected to splashdown - Success | If fairing half was meant to be caught but splashed down - Partial Success
     
-    //
+    //Names of the vessels that played a part in the recovery of boosters or fairings from this launch
     let supportShips: [String]
     
-    //
+    //The different roles each vessel played during the launch
     let shipRoles: [[String]]
     
     //The most recent status or outcome of the Launch
@@ -160,32 +163,33 @@ enum RecoveryStatus: String, Codable {
 
 //{
 //    "cosparCode" : "",
-//    "name" : "",
-//    "alternativeName" : "",
-//    "abbreviatedName" : "",
-//    "liftOffTime" : "",
-//    "locationName" : "",
-//    "locationPad" : "",
-//    "vehicleName" : "",
-//    "vehicleVariant" : "",
+//    "name" : "United States Crewed Vehicle - 6",
+//    "alternativeName" : "SpaceX Crew-6",
+//    "abbreviatedName" : "Crew-6",
+//    "liftOffTime" : "2023-02-26T07:07:00+0000",
+//    "locationName" : "Kennedy",
+//    "locationPad" : "LC-39A",
+//    "vehicleName" : "Falcon 9",
+//    "vehicleVariant" : "Block 5",
 //    "launchProvider" : "SpaceX",
-//    "customerArray" : [""],
-//    "orbitDestination" : "",
-//    "staticFire" : ,
+//    "customerArray" : ["NASA"],
+//    "orbitDestination" : "ISS",
+//    "crewedLaunch" : "",
+//    "staticFire" : "true",
 //    "staticFireToLaunchWindow" : "",
-//    "boosters" : [""],
-//    "boosterRecoveryAttempted" : [],
-//    "boosterRecoveryMethod" : [""],
+//    "boosters" : ["B1078-1"],
+//    "boosterRecoveryAttempted" : ["true"],
+//    "boosterRecoveryMethod" : ["Droneship"],
 //    "boosterRecoveryLocation" : [""],
 //    "boosterRecoveryDistance" : [""],
-//    "boosterRecoveryStatus" : [""],
-//    "fairingFlights" : [, ],
-//    "fairingRecoveryAttempted" : ,
-//    "fairingRecoveryMethod" : [""],
+//    "boosterRecoveryStatus" : ["Pending"],
+//    "fairingFlights" : [""],
+//    "fairingRecoveryAttempted" : ["false"],
+//    "fairingRecoveryMethod" : ["NA"],
 //    "fairingRecoveryLocation" : [""],
 //    "fairingRecoveryDistance" : "",
-//    "fairingRecoveryStatus" : [""],
+//    "fairingRecoveryStatus" : ["NA"],
 //    "supportShips" : [""],
-//    "shipRoles" : [""],
-//    "status" : "",
+//    "shipRoles" : [[""]],
+//    "status" : "Upcoming",
 //},
