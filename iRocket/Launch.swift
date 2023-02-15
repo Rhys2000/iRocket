@@ -100,6 +100,9 @@ struct Launch: Codable {
     
     //Description of the Launch by the launch provider
     let description: [String]
+    
+    //Link to the live streamed broadcast of the Launch
+    let livestreamLink: String
 }
 
 //This class creates a global variable with all the launches contained in the launches.json file. Decodes the json data and creates an array of Launch objects

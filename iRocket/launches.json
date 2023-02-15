@@ -30,13 +30,14 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Failure",
-        "description" : [""],
+        "description" : ["SpaceX is developing a family of launch vehicles intended to reduce the cost and increase the reliability of access to space ultimately by a factor of ten. With the Falcon 1, Falcon 5 and Falcon 9 launch vehicles, SpaceX is able to offer light, medium and heavy lift capabilities and deliver spacecraft into any inclination and altitude, from low Earth orbit to geosynchronous orbit to planetary missions. On launch day, Falcon 1 will make history for several notable reasons: It will be the first privately developed, liquid fueled rocket to reach orbit, It will be the world's first all new orbital rocket in over a decade, The main engine of Falcon 1 (Merlin) will be the first all new American hydrocarbon engine for an orbital rocket to fly in 40 years and only the second new American booster engine of any kind in twenty-five years, The Falcon 1 is the only rocket flying 21st century avionics, which require a small fraction of the power and mass of other systems, It will be the world's only semi-reusable orbital rocket apart from the Shuttle, and most importantly, Falcon 1, priced at $6.7 million, will provide the lowest cost per flight to orbit of any launch vehicle in the world, despite receiving a design reliability rating equivalent to that of the best launch vehicles currently flying in the United States.", "The maiden flight will take place from the Kwajalein Atoll of the Marshall Islands. The customer for this mission is DARPA and the Air Force. The payload will be FalconSat-2, part of the Air Force Academy’s satellite program that will measure space plasma phenomena, which can adversely affect GPS and other civil and military space-based communications. The target orbit is 450 kilometers (just above the International Space Station) at an inclination of 39 degrees.", "Located in El Segundo, California, the company was founded by CEO Elon Musk in June 2002. SpaceX is the third company founded by Mr. Musk. Previously he co-founded PayPal, Inc., the world's leading electronic payment system, which sold to online auction giant eBayTM for $1.5 billion in 2002. SpaceX has a 300 acre facility in central Texas for propulsion and structural testing as well as an office in Washington D.C. SpaceX has three launch sites and approximately 160 employees."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=0a_00nJ_Y88",
     },
     {
         "cosparCode" : "2007-F02",
         "name" : "Falcon 1 Flight 2",
-        "alternativeName" : "Flight 2",
-        "abbreviatedName" : "",
+        "alternativeName" : "DemoFlight 2",
+        "abbreviatedName" : "Demo-2",
         "liftOffTime" : "2007-03-21T01:10:00+0000",
         "locationName" : "Kwajalein",
         "locationPad" : "",
@@ -63,10 +64,11 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Failure",
-        "description" : [""],
+        "description" : ["Demo-2 is the second flight of the Falcon 1 launch vehicle developed by Space Exploration Technologies in El Segundo, and is scheduled for launch first quarter FY07. The customer for this mission is Defense Advanced Research Projects Agency (DARPA) under the DARPA/USAF Falcon program. The Falcon program has a focus on low-cost, responsive spacelift capability.", "On this mission, dubbed the Demo-2 mission, the vehicle will carry ~50 kg of experiments and associated hardware from the launch site at Omelek into a 685 km circular orbit with 9° inclination. The payload consists of the Autonomous Flight Safety System (AFSS) and the Low Cost Tracking and Data Relay Satellite System (TDRSS) Transmitter (LCT2), developed by National Aeronautics and Space Administration (NASA) and the mechanical adapter hardware required to interface the payload with the launch vehicle. The AFSS and LCT2 payloads are not deployed, but there will be a separation demonstration of an inert payload immediately after second stage 1st burn main engine shutdown.", "The primary DARPA objective for this mission is to gather flight data on the Falcon 1 launch vehicle and supporting systems. A secondary objective is to separate a payload into LEO, to place the second stage into the planned final orbit, and demonstratiing AFSS using the LCT2 for telemetering data back to Kwajalein and to Wallops Flight Facility. The AFSS and LCT2 represent early steps in providing low-cost space-based range services for communications, tracking, and on-board autonomous flight termination. The AFSS is operating in a shadow mode for this mission."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=Lk4zQ2wP-Nc",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2008-F01",
         "name" : "Falcon 1 Flight 3",
         "alternativeName" : "The Explorers Flight",
         "abbreviatedName" : "",
@@ -96,7 +98,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Failure",
-        "description" : [""],
+        "description" : ["The Falcon 1 Flight 3 mission carries a total of approximately 170 kilograms (375 pounds) of payload, consisting of three separating satellite payloads; Trailblazer, PRESat, and NanoSail-D, which are all carried on the Secondary Payload Adaptor and Separation System (SPASS) which is owned and developed by ATSB of Malaysia. The SPASS, as well as a number of other systems and payloads, remain attached to the second stage.", "The Falcon 1 launch facilities are situated on Omelek Island, part of the United States Army Kwajalein Atoll (USAKA), located in the central Pacific about 2,500 miles southwest of Hawaii. During flight preparations and launch, SpaceX employs the extensive range safety, tracking, telemetry and other services provided by the Reagan Test Site (RTS) at USAKA.", "Falcon 1 is on the pad at the SpaceX Kwajalein Atoll launch site, and is undergoing final checkouts for Flight 3. We have two Range availabilities for launch: July 29 to August 5 and another in late August to early September, with a daily launch window of 4:00-9:00 p.m. (PDT) / 7:00 p.m. - midnight (EDT)."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=v0w9p3U8860",
     },
     {
         "cosparCode" : "2008-048",
@@ -129,7 +132,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Falcon 1 is on the pad at the SpaceX launch site on Omelek Island, where it has completed a successful static fire and is undergoing final checkouts for Flight 4. SpaceX has two Range availabilities for Flight 4 launch: Sept 28 to Oct 1 and another in late October, with a daily launch window of 4:00 - 9:00 p.m. (PDT) / 7:00 p.m. - midnight (EDT).", "The Falcon 1 Flight 4 vehicle carries a payload mass simulator of approximately 165 kg (364 lbs), designed and built by SpaceX specifically for this mission. Consisting of a hexagonal aluminum alloy chamber 1.5 meters (5 feet) tall, the payload attaches to the standard Falcon 1 payload mounting structure. It does not separate, but remains attached to the second stage as it orbits the Earth.", "Falcon 1 launch facilities are situated on Omelek Island, part of the United States Army Kwajalein Atoll (USAKA), located in the central Pacific about 2,500 miles southwest of Hawaii. During flight preparations and launch, SpaceX employs the extensive range safety, tracking, telemetry and other services provided by the Reagan Test Site (RTS) at USAKA."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=dLQ2tZEH6G0",
     },
     {
         "cosparCode" : "2009-037",
@@ -162,7 +166,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX announced that it had completed construction of the fifth Falcon 1 rocket and was transporting the vehicle to the Kwajalein Atoll launch complex where it was to be launched on 21 April 2009, which would be 20 April 2009 in the United States. Less than a week before the scheduled launch date, Malaysian news reported that unsafe vibration levels had been detected in the rocket and repairs were expected to take about six weeks. On 20 April 2009, SpaceX announced in a press release that the launch had been postponed because of a potential compatibility issue between the RazakSAT spacecraft and the Falcon 1 launch vehicle. A concern had been identified regarding the potential impact of predicted vehicle environments on the satellite. On 1 June, SpaceX announced that the next launch window would open Monday, 13 July and extend through Tuesday, 14 July, with a daily window to open at 21:00 UTC (09:00 local time).", "The launch on Monday, 13 July was successful, placing RazakSAT into its initial parking orbit. Thirty-eight minutes later, the rocket's second-stage engine fired again to circularize the orbit. The payload was then successfully deployed. After the launch Elon Musk, founder and CEO of SpaceX, told a reporter the launch had been a success. \"We nailed the orbit to well within target parameters...pretty much a bullseye\" Musk said. The Falcon 1 upper stage is still in low Earth orbit as of 2021."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=GHs6QyB5GWM",
     },
     {
         "cosparCode" : "2010-026",
@@ -195,7 +200,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Falcon 9 is on the pad at the SpaceX launch site, Space Launch Complex 40, on Cape Canaveral Air Force Station, Florida, where it is undergoing final checkouts for its inaugural flight. The first test launch attempt is currently scheduled for Friday 4 June, 2010, with a second day on Saturday 5 June, 2010. On both days, the launch window opens at 11:00 AM Eastern / 8:00 AM Pacific / 1500 UTC, and lasts for four hours.", "The Falcon 9 is an all-new vehicle, designed and developed in the 21st Century, and launching from a completely remodeled launch site. With this launch attempt SpaceX seeks to demonstrate the complete Falcon 9 system, which includes all of the ground operations, range and launch support systems, as well as the Falcon 9 rocket itself.", "On this initial test flight, the Falcon 9 will be carrying a Dragon spacecraft qualification unit, gathering valuable aerodynamic and performance data for the Falcon 9 configuration that will fly on the following Commercial Orbital Transportation Services (COTS) and Commercial Resupply Services (CRS) missions for NASA. The Dragon on this demonstration flight is structurally and aerodynamically equivalent to a fully operational Dragon spacecraft. However, it lacks some elements such as heat shield, thrusters and a recovery system, so it is on a one-way mission and will not be recovered.", "The Falcon 9 launch site at Space Launch Complex 40 (SLC-40), on Cape Canaveral Air Force Station (CCAFS), is located on the Atlantic coast of Florida, approximately 5.5 km (3.5 miles) southeast of NASA's space shuttle launch site. Starting in 1965, SLC-40 saw the launch of a total of 55 Titan III and Titan IV rockets, including the 1997 launch of NASA's Cassini spacecraft, now orbiting Saturn. The Titan rockets were among the largest vehicles in the US fleet – second only to the giant Saturn V moon rocket. The last Titan IV launch from SLC-40 occurred in April of 2005, and in November of 2007 SpaceX received permission to begin upgrading and renovating the complex for Falcon 9 launches. During flight preparations and launch, SpaceX employs the extensive range safety, tracking, telemetry and other services provided by CCAFS.", "The success of the inaugural Falcon 9 flight will be measured as a percentage of how many flight milestones SpaceX is able to complete during this first launch attempt. It is important to note that since this is a test launch, SpaceX’s primary goal is to collect as much data as possible. It would be a great day if we reach orbital velocity, but still a good day if the first stage functions correctly, even if the second stage malfunctions. It would be a bad day if something happens on the launch pad itself and we’re not able to gain any flight data. On a bad day, it will be disappointing, but one launch does not make or break SpaceX as a company, nor commercial spaceflight as an industry. The Atlas rocket only succeeded on its 13th flight, and today it is the most reliable vehicle in the American fleet. Regardless of the outcome, this first launch attempt represents a key milestone for both SpaceX and the commercial spaceflight industry."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=H6hYEqrP56I",
     },
     {
         "cosparCode" : "2010-066",
@@ -228,7 +234,8 @@
         "supportShips" : ["American Champion"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is currently targeting Tuesday, December 7th, 2010 for the first launch attempt of the first demo flight for the Commercial Orbital Transportation Services (COTS) program, with December 8th and 9th and backup dates. This is the first-ever test flight of a Dragon spacecraft, an entirely new spacecraft designed in the last decade, and only the second ever test flight of the Falcon 9 launch vehicle. It also marks the first time a commercial company is attempting to re-enter a spacecraft from orbit. On the days identified, the launch window opens at 9:03 AM EST / 6:03 AM PST / 15:03 UTC and closes at 12:20 PM EST / 9:20 PST / 18:20 UTC.", "This is the first flight under NASA’s Commercial Orbital Transportation Services (COTS) program to develop commercial supply services to the International Space Station and encourage the growth of the commercial space industry. COTS is also an acronym used by government acquisition officials for commercial off-the -shelf, meaning that the government should, when possible, take advantage of commercially available products of equal quality and utility when doing so is the most cost-effective option. After the Space Shuttle retires, SpaceX will make at least 12 flights to carry cargo to and from the International Space Station as part of a Commercial Resupply Services (CRS) contract for NASA awarded in 2008. The $1.6 billion contract represents a minimum of 12 flights, with an option to order additional missions for up to $3.1 billion. Only SpaceX has the ability to return cargo from the station. This has been a strong government-commercial partnership. SpaceX has only come this far by building upon the incredible achievements of NASA, having NASA as an anchor tenant for launch, and receiving expert advice and mentorship throughout the development process. With the savings NASA will see by using SpaceX for low-Earth transportation, billions of dollars are freed up for other activities such as accelerating exploration efforts that go beyond low-Earth orbit, advanced telescopes and Earth science missions. The Falcon 9 rocket and Dragon spacecraft were designed to one day carry astronauts; both the COTS and CRS missions will yield valuable flight experience toward this goal.", "The Dragon spacecraft, although much smaller, is just as complex as the Falcon 9. In addition to being the first flight of an operational Dragon, there are many new systems and elements that will be tested for the first time in space — structural integrity of the pressure vessel, precision firing of the 18 SpaceX Draco engines, telemetry, guidance, navigation and control systems, the heat shield, and parachutes—to name a few. It is also the first attempt by acommercial company to recover a spacecraft reentering from low-Earth orbit, a feat only performed by 5 nations - the United States, Russia, China, Japan, and India – and the European Space Agency. The June 4th launch included a Dragon that was aerodynamically equivalent to a fully operational Dragon spacecraft but lacked elements such as the heat shield, propulsion thrusters, avionics, or a recovery system, and was not recovered.", "After travelling approximately 50,000 miles, the Dragon spacecraft is expected to land in the Pacific Ocean about 500 miles off of the coast of Mexico approximately three and a half hours after launch. The landing location is controlled by firing the Draco thrusters during reentry. On this mission, Dragon would be recovered by ship. Long term, once SpaceX has proven our ability to control reentry accurately, we intend to add deployable landing gear to touch down on land. In a carefully timed sequence of events, dual drogue parachutes deploy at 45,000 feet to stabilize and slow the spacecraft. Full deployment of the drogues triggers the release of the main parachutes, each 116 feet in diameter, at about 10,000 feet, with the drogues detaching from the spacecraft. Main parachutes further slow the spacecraft's decent to approximately 16-18 ft/sec. Oversized parachutes are critical in ensuring a safe landing for crew members. Even if Dragon were to lose one of its main parachutes, the two remaining chutes would still ensure a safe landing. Both the Dragon spacecraft and the first stage of the Falcon 9 are designed to be reusable. Reusability is a key element to SpaceX’s long term goal of increasing the reliability and reducing the cost of spaceflight by a factor of ten. NASA’s MV Freedom Star recovery ship, normally responsible for recovering the space shuttle’s solid rocket boosters, will be used should recovery of Falcon 9 rocket’s first stage be possible. Reusability is a long term goal. SpaceX expects to make progress on this goal, but full recovery will take many missions to achieve."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=cdLITgWKe_0",
     },
     {
         "cosparCode" : "2012-027",
@@ -261,7 +268,8 @@
         "supportShips" : ["American Champion"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["For the first time in history, a private corporation is set to prove it can deliver cargo to the International Space Station. At the Cape Canaveral Air Force Station, Fla., a Falcon 9 rocket belonging to Space Exploration Technologies (SpaceX), is being prepared to place its Dragon spacecraft into orbit on a test mission to the orbital outpost. Working for the past six years under NASA’s Commercial Orbital Transportation Services program (COTS), both SpaceX and Orbital Sciences Corp. have been pursuing independent efforts to design, test and fly two brand new cargo vehicles. These will provide the United States with safe, reliable and efficient cargo delivery services to the orbiting complex NASA built with its international partners.", "The first COTS demonstration flight that SpaceX completed was in December 2010, where it proved that it could launch, orbit and recover its Dragon spacecraft. Prior to that, the maiden flight of the Falcon 9 demonstrated it could launch a Dragon capsule simulator atop a Falcon 9 rocket. This upcoming mission will prove that Dragon can rendezvous and berth with the International Space Station. After launching from the Cape Canaveral Air Force Station, Dragon will begin its journey to the space station. Just under 10 minutes after launch, Dragon will reach its preliminary orbit, deploy its solar arrays and begin a carefully choreographed series of engine firings to reach the station. During this part of the flight, Dragon will demonstrate the first set of tests as part of its COTS milestone requirements. The spacecraft will perform a test of its Absolute GPS (AGPS) system, using global positioning system satellites to determine its location. It also will conduct a free drift demonstration, allowing the spacecraft to float freely with all of its thrusters inhibited. Then Dragon will perform a demonstration of its abort capability, to ensure it could move away from the station if necessary.", "The Dragon spacecraft is targeted to land in the Pacific Ocean, a few hundred miles west of Southern California. The landing location is controlled by firing the Draco thrusters during reentry. In a carefully timed sequence of events, dual drogue parachutes deploy at 45,000 feet to stabilize and slow the spacecraft. Full deployment of the drogues triggers the release of the main parachutes, each 116 feet in diameter, at about 10,000 feet, with the drogues detaching from the spacecraft. Main parachutes further slow the spacecraft's descent to approximately 16 to 18 feet per second. Oversized parachutes are critical in ensuring a safe landing for crew members. Even if Dragon were to lose one of its main parachutes, the two remaining chutes would still ensure a safe landing. SpaceX will use a 185 -foot working barge equipped with a crane and pulled by a tug boat, an 80 -foot crew boat, and two 25 -foot rigid hull inflatable boats (RIB) to conduct recovery operations. On board will be approximately a dozen SpaceX engineers and technicians as well as a 4 -person dive team. When Dragon returns, the boats will be waiting outside the targeted landing area, which is a few days’ journey from land. Once Dragon lands in the water, the 25 - foot boats will carry the experienced dive team to the floating spacecraft. They will secure the vehicle and tow it to the barge, where the crane will pick it up and place it on deck. On this mission, Dragon will be recovered by ship. Long term, once SpaceX has proven the ability to control reentry accurately, we intend to add deployable landing gear to touch down on land."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=O90FROx8J3Y",
     },
     {
         "cosparCode" : "",
@@ -294,7 +302,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Friday, September 21, SpaceX's Grasshopper vertical takeoff and landing test vehicle (VTVL) took its first test flight hop from the company's rocket testing facility in McGregor, Texas.", "The short hop of approximately 6 feet is the first major milestone for Grasshopper, and a critical step toward a reusable first stage for SpaceX's proven Falcon 9 rocket. As seen in the video, Grasshopper consists of a Falcon 9 first stage, a Merlin-1D engine, four steel landing legs, and a steel support structure.", "SpaceX is working to develop vehicles that are fully and rapidly reusable, a key element to radically reducing cost and increasing the efficiency of spaceflight. Testing of Grasshopper continues, with the next big milestone -- a hover at roughly 100 feet -- expected in the next several months."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=pzXlUw2WhcE",
     },
     {
         "cosparCode" : "2012-054",
@@ -327,7 +336,8 @@
         "supportShips" : ["American Islander"],
         "shipRoles" : [["DRV"]],
         "status" : "Partial Success",
-        "description" : [""],
+        "description" : ["On the heels of a successful debut flight to the International Space Station in May, SpaceX is set to launch its next Dragon resupply mission to the orbital outpost. Launch of this first commercial resupply mission (SpaceX CRS-1) to the complex is set for 8:35PM EDT Sunday, October 7 from Launch Complex 40 at the Cape Canaveral Air Force Station, Florida. If all goes as planned, Dragon will arrive at the station on Wednesday, October 10, when it will be grappled and berthed to the complex for an expected two-week visit. Dragon is scheduled to return to Earth on October 28 for a parachute-assisted splashdown off the coast of southern California. Dragon is the only space station cargo craft capable of returning a significant amount of supplies back to Earth, including experiments. Dragon will be filled with about 1,000 pounds of supplies, including critical materials to support the 166 investigations planned for the station’s Expedition 33 crew, of which 63 will be new. Dragon will return with about 734 pounds of scientific materials, including results from human research, biotechnology, materials and education experiments, as well as about 504 pounds of space station hardware.", "SpaceX CRS-1 is the first of at least 12 missions to the International Space Station that SpaceX will fly for NASA under the Commercial Resupply Services (CRS) contract. In December 2008, NASA announced that SpaceX’s Falcon 9 launch vehicle and Dragon spacecraft had been selected to resupply the space station after the end of the space shuttle program in 2011. Under the CRS contract, SpaceX will restore an American capability to deliver and return significant amounts of cargo, including science experiments, to the orbiting laboratory – a capability not available since the retirement of the space shuttle.", "Prior to this flight, SpaceX successfully completed two demonstration flights using Falcon 9 and Dragon under NASA’s Commercial Orbital Transportation Services (COTS) program. The second of those missions, from May 22–31, 2012, marked the first time that a private company had launched a spacecraft into orbit, successfully attached to the station, delivered a payload, and returned safely to Earth—a highly challenging technical feat previously accomplished only by governments."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=tRTYh71D9P0",
     },
     {
         "cosparCode" : "",
@@ -360,7 +370,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On November 1, 2012, SpaceX's Grasshopper -- a 10-story vertical takeoff and landing (VTVL) vehicle -- lifted nearly two stories in an 8-second duration test hop. The rocket rose 17.7 feet (5.4 meters), hovered, and touched back down safely on the pad at SpaceX's rocket development facility in McGregor, Texas.", "The Grasshopper program is a critical step toward achieving SpaceX's goal of developing fully and rapidly reusable rockets. With Grasshopper, SpaceX engineers are testing the technology that would allow a launched rocket to land intact, rather than burning up upon reentry to Earth's atmosphere.", "Grasshopper consists of a Falcon 9 rocket first stage, Merlin 1D engine, four steel landing legs with hydraulic dampers, and a steel support structure. For a sense of its scale, note the blue pick-up truck to the left of Grasshopper in the photo above."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=n-VjaBSSnqs",
     },
     {
         "cosparCode" : "",
@@ -393,7 +404,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX's Grasshopper took a 12-story leap towards full and rapid rocket reusability in a test flight conducted December 17, 2012 at SpaceX’s rocket development facility in McGregor, Texas. Grasshopper, SpaceX’s vertical takeoff and landing vehicle (VTVL), rose 131 feet (40 meters), hovered and landed safely on the pad using closed loop thrust vector and throttle control. The total test duration was 29 seconds.", "Grasshopper stands 10 stories tall and consists of a Falcon 9 rocket first stage, Merlin 1D engine, four steel landing legs with hydraulic dampers, and a steel support structure. The 12-story flight marks a significant increase over the height and length of hover of Grasshopper’s previous test flights, which took place earlier this fall. In September, Grasshopper flew to 1.8 meters (6 feet), and in November, it flew to 5.4 meters (17.7 feet/2 stories) including a brief hover. Testing of Grasshopper will continue with successively more sophisticated flights expected over the next several months."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=B4PEXLODw9c",
     },
     {
         "cosparCode" : "2013-010",
@@ -426,7 +438,8 @@
         "supportShips" : ["American Islander"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["After SpaceX’s successful first official resupply mission to the International Space Station last October, SpaceX is set to launch its second Commercial Resupply (CRS) mission to the orbiting lab. The SpaceX CRS-2 mission is targeting launch at 10:10AM EST Friday, March 1 from Launch Complex 40 at the Cape Canaveral Air Force Station, Florida. If all goes as planned, Dragon will arrive at station on Saturday, March 2, where it will be grappled and berthed to the complex for an expected three-week visit. Dragon is scheduled to return to Earth on March 25 for a parachute-assisted splashdown off the coast of Baja California. Dragon is the only cargo craft capable of returning a significant amount of supplies from station to Earth, including experiments.", "SpaceX CRS-2 is the second of at least 12 missions to the International Space Station that SpaceX will fly for NASA under the CRS contract. In December 2008, NASA announced that SpaceX’s Falcon 9 launch vehicle and Dragon spacecraft had been selected to resupply the space station after the end of the space shuttle program in 2011. Under the CRS contract, SpaceX is restoring an American capability to deliver and return significant amounts of cargo, including science experiments, to and from the orbiting laboratory.", "Dragon will be filled with about 1,200 pounds of supplies, including critical materials to support the 160 investigations – 50 of which are new – planned for the station’s Expedition 34 crew. Dragon will return with about 2,300 pounds of cargo, which includes crew supplies, scientific materials (including results from human research), biotechnology, materials and education experiments, as well as space station hardware."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=ik0ElKl5kW4",
     },
     {
         "cosparCode" : "",
@@ -459,7 +472,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Thursday, March 7, 2013, SpaceX’s Grasshopper doubled its highest leap to date to rise 24 stories or 80.1 meters (262.8 feet), hovering for approximately 34 seconds and landing safely using closed loop thrust vector and throttle control. Grasshopper touched down with its most accurate precision thus far on the centermost part of the launch pad. At touchdown, the thrust to weight ratio of the vehicle was greater than one, proving a key landing algorithm for Falcon 9. The test was completed at SpaceX’s rocket development facility in McGregor, Texas.", "Grasshopper, SpaceX’s vertical takeoff and landing (VTVL) vehicle, continues SpaceX’s work toward one of its key goals – developing fully and rapidly reusable rockets, a feat that will transform space exploration by radically reducing its cost. With Grasshopper, SpaceX engineers are testing the technology that would enable a launched rocket to land intact, rather than burning up upon reentry to the Earth’s atmosphere.", "This is Grasshopper’s fourth in a series of test flights, with each test demonstrating exponential increases in altitude. Last September, Grasshopper flew to 2.5 meters (8.2 feet), in November, it flew to 5.4 meters (17.7 feet) and in December, it flew to 40 meters (131 feet). Grasshopper stands 10 stories tall and consists of a Falcon 9 rocket first stage tank, Merlin 1D engine, four steel and aluminum landing legs with hydraulic dampers, and a steel support structure."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=orUjSkc2pG0",
     },
     {
         "cosparCode" : "",
@@ -492,7 +506,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX's Grasshopper flies 820 feet, tripling its March 7th leap. Grasshopper is a 10-story Vertical Takeoff Vertical Landing (VTVL) vehicle that SpaceX has designed to test the technologies needed to return a rocket back to Earth intact. While most rockets are designed to burn up in the atmosphere during reentry, SpaceX's rockets are being designed to return to the launch pad for a vertical landing."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=NoxiK7K28PU",
     },
     {
         "cosparCode" : "",
@@ -525,7 +540,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On June 14, SpaceX's Grasshopper flew 325 m (1066 feet)--higher than Manhattan's Chrysler Building--before smoothly landing back on the pad. For the first time in this test, Grasshopper made use of its full navigation sensor suite with the F9-R closed loop control flight algorithms to accomplish a precision landing. Most rockets are equipped with sensors to determine position, but these sensors are generally not accurate enough to accomplish the type of precision landing necessary with Grasshopper.", "Previous Grasshopper tests relied on the other rocket sensors but for this test, an additional, higher accuracy sensor was in the control loop. In other words, SpaceX was directly controlling the vehicle based on new sensor readings, adding a new level of accuracy in sensing the distance between Grasshopper and the ground, enabling a more precise landing.", "Grasshopper is a 10-story Vertical Takeoff Vertical Landing (VTVL) vehicle designed to test the technologies needed to return a rocket back to Earth intact. While most rockets are designed to burn up on atmosphere reentry, SpaceX rockets are being designed not only to withstand reentry, but also to return to the launch pad for a vertical landing. The Grasshopper VTVL vehicle represents a critical step towards this goal. Grasshopper consists of a Falcon 9 rocket first stage tank, Merlin 1D engine, four steel and aluminum landing legs with hydraulic dampers, and a steel support structure."],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -558,7 +574,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On August 13th, the Falcon 9 test rig (code name Grasshopper) completed a divert test, flying to a 250m altitude with a 100m lateral maneuver before returning to the center of the pad. The test demonstrated the vehicle's ability to perform more aggressive steering maneuvers than have been attempted in previous flights.", "Grasshopper is taller than a ten story building, which makes the control problem particularly challenging. Diverts like this are an important part of the trajectory in order to land the rocket precisely back at the launch site after reentering from space at hypersonic velocity."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=2t15vP1PyoA",
     },
     {
         "cosparCode" : "2013-055",
@@ -591,7 +608,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Sunday, Sept. 29th, SpaceX successfully completed the demonstration mission of its upgraded Falcon 9 rocket, delivering the CASSIOPE, CUSat, DANDE and POPACS satellites to their targeted orbits. All of the satellite owners are in contact with their spacecraft and are reporting nominal operations.", "This was the first Falcon 9 launch using SpaceX’s new 17 foot diameter fairing, designed and built in house by SpaceX.  The fairing separates using pneumatic pushers instead of explosives and is large enough to fit a city bus.  This was also the first launch from SpaceX’s newly refurbished launch pad at Vandenberg Air Force Base, and the first demonstration of a number of technologies on the upgraded vehicle.", "On this mission, Falcon 9 lifted off with nine Merlin 1D engines, generating 1.3 million pounds of  thrust at liftoff and increasing to 1.5 million pounds of thrust as it approached the vacuum of space—nearly twice the thrust than when previously powered by  the Merlin 1C.  The engines were configured in a more robust engine support structure called the Octaweb, which is easier to manufacture and improves the vehicles reliability.  To fuel the more powerful engines, SpaceX extended the propellant tanks by approximately 60%.   The upgraded vehicle featured a triple-redundant avionics system similar to that used on Dragon, providing a single-fault tolerant architecture.  A new stage separation system reduced the number of connection points from 12 to 3, and the vehicle also flew with a stronger heat shield that allows the rocket to reenter Earth’s atmosphere and eventually land propulsively.", "The flight proceeded according to plan, with a nominal first-stage flight and shutdown 2 minutes and 41 seconds after launch.  Stage separation occurred at 2 minutes and 45 seconds, with MVac ignition following 7 seconds later. SpaceX's new fairing separated at approximately 3 minutes 32 seconds into launch. Nine minutes and 2 seconds into flight, the upper stage engine shut down.  Approximately 14 minutes into flight, CASSIOPE was deployed directly at its target orbit of 325x1500km, 81 deg inclination. Each system performed as expected and all payloads were delivered to their intended destinations."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=PU7Li5rX_OQ",
     },
     {
         "cosparCode" : "",
@@ -624,7 +642,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Monday, October 7th, Grasshopper completed its highest leap to date, rising to 744m altitude, hovering and returning back to the launch pad.  The test lasted 78.8 seconds and was conducted at SpaceX’s rocket development facility in McGregor, TX.  The video is filmed from a single camera hexacopter drone, getting closer to the stage than in any previous flight.", "Grasshopper is a 10-story Vertical Takeoff Vertical Landing (VTVL) vehicle designed to test the technologies needed to return a rocket back to Earth intact. While most rockets are designed to burn up on atmosphere reentry, SpaceX rockets are being designed not only to withstand reentry, but also to return to the launch pad for a vertical landing. The Grasshopper VTVL vehicle represents a critical step towards this goal.", "Grasshopper consists of a Falcon 9 rocket first stage tank, Merlin 1D engine, four steel and aluminum landing legs with hydraulic dampers, and a steel support structure.", "This was the last scheduled test for the Grasshopper rig; next up will be low altitude tests of the Falcon 9 Reusable (F9R) development vehicle in Texas followed by high altitude testing in New Mexico.", "During the most recent Falcon 9 flight, SpaceX successfully initiated two engine relights of the rocket’s first stage and recovered portions of the stage after atmospheric reentry. Along with the Grasshopper tests, this further informs our efforts toward achieving full recovery of the Falcon 9 first stage."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=9ZDkItO-0a4",
     },
     {
         "cosparCode" : "2013-071",
@@ -657,7 +676,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeted to launch the SES-8 telecommunications satellite aboard a Falcon 9 rocket this Monday November 25, from Cape Canaveral. SES-8 will be SpaceX’s first launch to a geostationary transfer orbit – 80,000 km from Earth – and most challenging mission to date.", "LAUNCH UPDATE: We observed unexpected readings with the first stage liquid oxygen system so we decided to investigate.  The launch vehicle and satellite are in great shape and we are looking forward to the next launch opportunity on Thursday at 5:38 pm EST.", "LAUNCH UPDATE: Thursday's abort was caused by oxygen in the ground side igniter fluid (TEA-TEB). Rocket engines are healthy, but cleaning turbopump gas generators will take another day. Earliest possible launch attempt is Monday evening.", "LAUNCH UPDATE: All known rocket anomalies have been resolved. The team will spend another day rechecking to be sure. Currently targeting launch on Tuesday with Wednesday as a back-up day.  The window for Tuesday is 22:41 UT to 23:47 UT  (5:41 pm EST to 6:47 pm EST).", "Falcon 9 is GO for launch today, Tuesday December 3. Launch window opens at 5:41pm EST."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=24i8G5a5d5Q",
     },
     {
         "cosparCode" : "2014-002",
@@ -690,7 +710,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On January 6, 2014 SpaceX successfully launched the THAICOM 6 satellite for Asian satellite operator THAICOM. Falcon 9 lifted off from SpaceX’s Cape Canaveral launch site at 5:06 PM Eastern Time, with 9 Merlin 1D engines putting out 1.3 million pounds of thrust. The first stage performed as expected, reaching 1.5 million pounds of thrust once in the vacuum of space.", "The stage fired for approximately 175 seconds before separating from the second stage. Shortly after, Falcon 9’s second-stage Merlin vacuum engine ignited to begin a five minute, 35 second burn that delivered the THAICOM 6 satellite into its parking orbit. Eighteen minutes after injection into the parking orbit, the second stage engine relit for just over one minute to carry the THAICOM 6 satellite to its final geosynchronous transfer orbit.", "THAICOM 6 was injected into a perfect 295 x 90,000 km geosynchronous transfer orbit at 22.5 degrees inclination, meeting 100% of mission objectives. The THAICOM 6 mission marks Falcon 9’s second flight to a geosynchronous transfer orbit and begins a regular cadence of launches planned for SpaceX in 2014. SpaceX has nearly 50 launches on manifest, of which over 60% are for commercial customers.", "This launch also marks the third of three qualification flights needed to certify the Falcon 9 to fly missions under the Evolved Expendable Launch Vehicle (EELV) program. Once Falcon 9 is certified, SpaceX will be eligible to compete to launch national security satellites for the U.S. Air Force."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=DjpUf__4vPA",
     },
     {
         "cosparCode" : "",
@@ -723,7 +744,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Falcon 9 Reusable (F9R) took its first test flight at our rocket development facility.  F9R lifts off from a launch mount to a height of approximately 250m, hovers and then returns for landing just next to the launch stand.  Early flights of F9R will take off with legs fixed in the down position. However, we will soon be transitioning to liftoff with legs stowed against the side of the rocket and then extending them just before landing.", "The F9R testing program is the next step towards reusability following completion of the Grasshopper program last year. Future testing, including that in New Mexico, will be conducted using the first stage of a F9R as shown here, which is essentially a Falcon 9 v1.1 first stage with legs. F9R test flights in New Mexico will allow us to test at higher altitudes than we are permitted for at our test site in Texas, to do more with unpowered guidance and to prove out landing cases that are more-flight like."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=0UjWqQPWmsY",
     },
     {
         "cosparCode" : "2014-022",
@@ -756,7 +778,8 @@
         "supportShips" : ["American Islander"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["NASA and SpaceX have confirmed Friday, April 18 for the next launch attempt for the Falcon 9 rocket to send the Dragon spacecraft on the company's third commercial resupply mission and fourth visit to the space station. Launch is scheduled for 3:25 p.m. EDT. The launch will be webcast live at www.spacex.com/webcast beginning at 2:45 p.m. A launch on Friday results in a rendezvous with the space station on Sunday, April 20 and a grapple at 7:14 a.m.", "A launch on Friday results in a rendezvous with the space station on Sunday, April 20 and a grapple at 7:14 a.m. Weeks prior to launch, Falcon 9 and Dragon arrived at SpaceX’s Cape Canaveral facility, where they have been processed and mated together in the hangar. For this resupply mission, Dragon’s pressurized capsule and unpressurized trunk will be filled with nearly 5,000 lbs of supplies and payloads, including critical materials to support more than 150 science investigations planned for ISS Expeditions 39 and 40.", "Falcon 9 and Dragon completed a successful static fire on Saturday March 8, firing Falcon 9’s 9 first stage engines for 2 seconds while the vehicle was held down to the pad. This is the last major test prior to launch. If all goes as planned, Dragon will arrive at station on Sunday, April 20, when it will be grappled and berthed to the complex for an expected four-week visit. Dragon is scheduled to return to Earth mid-May for a parachute-assisted splashdown off the coast of southern California. Dragon is the only space station cargo craft capable of returning a significant amount of supplies back to Earth, including experiments."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=OzEsXL3S_mc",
     },
     {
         "cosparCode" : "",
@@ -789,7 +812,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Falcon 9 Reusable (F9R) taking its second test flight at our rocket development facility. F9R quadrupled its height from its previous test to rise to 1,000m. Early flights of F9R will take off with legs fixed in the down position. However, we will soon be transitioning to liftoff with legs stowed against the side of the rocket and then extending them just before landing.", "The F9R testing program is the next step towards reusability following completion of the Grasshopper program last year. Future testing, including that in New Mexico, will be conducted using the first stage of a F9R as shown here, which is essentially a Falcon 9 v1.1 first stage with legs. F9R test flights in New Mexico will allow us to test at higher altitudes than we are permitted for at our test site in Texas, to do more with unpowered guidance and to prove out landing cases that are more-flight like."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=ZwwS4YOTbbw",
     },
     {
         "cosparCode" : "",
@@ -822,7 +846,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Falcon 9 Reusable (F9R) during a 1000m test flight at our rocket development facility in McGregor, TX.  This flight was our first test of a set of steerable fins that provide control of the rocket during the fly back portion of return.  The fins deploy approximately a minute and 15 seconds into the flight, and return to their original position just prior to landing.  The F9R testing program is the next step towards reusability following completion of the Grasshopper program last year.  Early flights of F9R will take off with legs fixed in the down position, however we will soon transition to liftoff with legs stowed against the side of the rocket with leg extension just before landing.  Future test flights of F9R at our New Mexico facility will include higher altitudes, allow us to prove unpowered guidance and to prove out landing cases that are more flight-like."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=DgLBIdVg3EM",
     },
     {
         "cosparCode" : "2014-040",
@@ -855,7 +880,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Today, SpaceX executed a successful launch of the Falcon 9 rocket. This is the tenth consecutive successful launch of the Falcon 9. Falcon 9 lifted off from Cape Canaveral Air Force Station, Fla. at 11:15 AM ET, lofting a constellation of six ORBCOMM OG2 satellites to orbit. This launch was the first in a series of ORBCOMM’s OG2 machine-to-machine communications satellites launching on SpaceX’s Falcon 9 vehicle.  All six ORBCOMM satellites deployed on target. ORBCOMM’s OG2 satellites will provide existing customers with significant enhancements, such as faster message delivery, larger message sizes and better coverage at higher latitudes, while dramatically increasing network capacity.", "At 11:15am ET on July 14, 2014, Falcon 9 lifted off from SpaceX’s LC-40 at Cape Canaveral. The first stage performed as expected, reaching 1.5 million pounds of thrust once in the vacuum of space. Approximately 165 seconds into flight, the first and second stages separated. Shortly after, Falcon 9’s second-stage Merlin vacuum engine ignited to begin a six minute, 46 second burn to bring the satellites to orbit. Early in this burn, the payload fairing separated. Satellite deployment began approximately 15 minutes into flight. All six satellites deployed into their target orbits successfully, and Falcon 9 met 100 percent of mission objectives."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=lbHnSu-DLR4",
     },
     {
         "cosparCode" : "",
@@ -888,7 +914,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["No public information was provided by SpaceX about this flight."],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2014-046",
@@ -921,7 +948,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["In the early morning hours of Tuesday, August 5th, SpaceX’s Falcon 9 rocket lifted off from Launch Complex 40 at Cape Canaveral, carrying the AsiaSat 8 satellite for Asia Satellite Telecommunications Company Limited (AsiaSat). The rocket lifted off at 4:00am EDT and delivered AsiaSat 8 to its target 185 x 35786 km geosynchronous transfer orbit at 24.3 degrees. This marks the eleventh successful flight in a row for Falcon 9, and will be followed shortly by launch of AsiaSat 6 later this month.", "At 4:00am EDT on Tuesday, August 5th, Falcon 9 lifted off from LC-40 at Cape Canaveral Air Force Station, Florida. At liftoff, Falcon 9 put out 1.3 million pounds of thrust, rising to 1.5 million pounds as the rocket climbed out of Earth’s atmosphere. Approximately 176 seconds into flight, the first and second stages separated. Shortly after, Falcon 9’s second-stage Merlin vacuum engine ignited to begin a five minute, 33 second burn to bring the satellite to a parking orbit. The payload fairing deployed early in this burn.", "26 minutes into flight, the second stage relit for just over one minute to deliver the payload to its geosynchronous transfer orbit. The payload was deployed into its target orbit successfully approximately 33 minutes into flight. Falcon 9 met 100% of mission objectives."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=essrkMGlw5s",
     },
     {
         "cosparCode" : "",
@@ -954,7 +982,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Failure",
-        "description" : [""],
+        "description" : ["Vehicle exploded following a flight anomaly that began to take F9R Dev1 off of its planned flight path. No injuries. A blocked sensor was the cause of the flight anomaly. The sensor had no backup in the prototype F9R Dev vehicle but would have had a redundant backup in the flight-version Falcon 9."],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2014-052",
@@ -987,7 +1016,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Sunday, September 7, 2014, SpaceX successfully launched the AsiaSat 6 satellite to geosynchronous transfer orbit. The Falcon 9 rocket lifted off at 1:00 a.m. EDT from SpaceX’s Launch Complex 40 at Cape Canaveral Air Force Station, Fla. Approximately 32 minutes after launch, AsiaSat 6 deployed successfully, and AsiaSat established contact with the satellite shortly thereafter. This marks the twelfth successful flight in a row for Falcon 9, and the second of two successful missions for AsiaSat this summer.", "At 1:00am EDT on Sunday, September 7, Falcon 9 lifted off. At liftoff, Falcon 9 puts out 1.3 million pounds of thrust, rising to 1.5 million pounds as the vehicle climbs out of Earth’s atmosphere. Approximately 180 seconds into flight, the first and second stages separated. Shortly after, Falcon 9’s second-stage Merlin vacuum engine ignited to begin a 6-minute burn to bring the satellite to a parking orbit. The payload fairing deployed soon after the start of this burn. Approximately 32 minutes into flight, AsiaSat 6 was deployed successfully into a 185 x 35786 km geosynchronous transfer orbit, at 25.3 degrees. Falcon 9 met 100% of mission objectives."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=39ninsyTRk8",
     },
     {
         "cosparCode" : "2014-056",
@@ -1020,7 +1050,8 @@
         "supportShips" : ["American Islander"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The CRS-4 mission began early in the morning on Sunday, September 21, when Dragon and the Falcon 9 rocket lifted off from SpaceX’s Launch Complex 40 at Cape Canaveral, Fla. at 1:52am EDT.The picture-perfect launch was the fourteenth successful launch of the Falcon 9 rocket. At liftoff, Falcon 9’s nine Merlin engines put out 1.3 million pounds of thrust, rising to 1.5 million pounds as the vehicle climbed out of Earth’s atmosphere.", "Dragon caught up to the space station and was grappled by the station’s robotic arm at 6:52am EDT on Tuesday, September 23. NASA astronaut Reid Wiseman and European Space Agency astronaut Alexander Gerst used the ISS Canadarm 2 to capture Dragon, and berth the vehicle to the Earth-facing Harmony node by 9:21am EDT. Experiments include the ISS Rapid Scatterometer, which will explore how winds over the ocean affect weather patterns, and Rodent Research-1, an experiment to observe the effects of spaceflight on mice –also SpaceX’s first live mammals!"],
+        "livestreamLink" : "https://www.youtube.com/watch?v=7YkCh7uOw1Y",
     },
     {
         "cosparCode" : "2015-001",
@@ -1053,7 +1084,8 @@
         "supportShips" : ["Just Read the Instructions", "Go Quest", "Elsbeth III", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["In the early morning hours of Saturday, January 10, 2015, Falcon 9 and Dragon began their fifth commercial resupply services mission to the International Space Station for NASA. Liftoff occurred at 4:47am EST from SpaceX’s Launch Complex 40 at Cape Canaveral Air Force Station, Fla. Just under three minutes after liftoff, Falcon 9’s nine Merlin first stage engines cut off and the first and second stages separated.  Shortly thereafter, the second stage’s Merlin Vacuum engine ignited to begin a seven-minute burn that brings Falcon 9 and Dragon into low-Earth orbit.", "Dragon separated from the second stage about ten minutes into flight, and Dragon’s solar arrays deployed about a minute later. Meanwhile, SpaceX attempted to land the first stage on an autonomous spaceport drone ship in the Atlantic Ocean after stage separation. While the rocket made it to the drone ship, it landed hard. Unfortunately we weren’t able to get good landing video because of the dark and fog, but we are in the process of evaluating invaluable telemetry data which will inform future attempts."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=p7x-SumbynI",
     },
     {
         "cosparCode" : "2015-007",
@@ -1086,7 +1118,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Just before sunset at 6:03pm ET on Wednesday, Feb. 11th, Falcon 9 lifted off from SpaceX’s Launch Complex 40 at Cape Canaveral Air Force Station, Fla. carrying the Deep Space Climate Observatory (DSCOVR) satellite on SpaceX’s first deep space mission. DSCOVR is the result of a partnership between NOAA, NASA and the United States Air Force and will be used to observe and provide advanced warning of extreme emissions from the sun which can affect power grids, communications systems, and satellites close to Earth.", "Falcon 9’s nine Merlin engines burned for 2 minutes and 44 seconds, shutting down as expected just prior to separation of the first and second stages.  Shortly thereafter, the second stage’s Merlin Vacuum engine ignited to begin the first of two burns for a duration of approximately 1 minute. Following completion of its first burn, the second stage carrying the DSCOVR satellite coasted for the next 22 minutes. Approximately 30 minutes and 47 seconds into flight, the second stage ignited for its second burn to place the DSCOVR satellite in its parking orbit and at 35 minutes, the satellite was successfully deployed.", "Ultimately, DSCOVR will be positioned at the Sun-Earth L1 Lagrangian point, 1,500,000 kilometers (930,000 mi) from Earth, more than four times farther than the Moon. SpaceX delivered DSCOVR to an orbit of 187 km x 1,241,000 km at 37 degrees, and the satellite will reach its final orbit 110 days after launch. While extreme weather prevented SpaceX from attempting to recover the first stage, data shows the first stage successfully soft landed in the Atlantic Ocean within 10 meters of its target.  The vehicle was nicely vertical and the data captured during this test suggests a high probability of being able to land the stage on the drone ship in better weather."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=OvHJSIKP0Hg",
     },
     {
         "cosparCode" : "2015-010",
@@ -1119,7 +1152,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On March 1, 2015, SpaceX’s Falcon 9 rocket delivered the ABS 3A and EUTELSAT 115 West B all-electric satellites to a supersynchronous transfer orbit. Marking Falcon 9’s sixteenth launch and the vehicle’s most voluminous payload to date, the liftoff occurred at 10:50pm EST from SpaceX’s Launch Complex 40 at Cape Canaveral Air Force Station, Fla. Liftoff occurred at the front of the launch window, with Falcon 9’s nine Merlin 1D engines putting out 1.3 million pounds of thrust, rising to 1.5 million pounds as the stage climbed out of Earth’s atmosphere.", "Approximately three minutes into flight, the first stage engines cut off and the first and second stages separated. Shortly thereafter, the second stage’s single Merlin Vacuum engine ignited to complete a five-minute burn. Twenty-five minutes into flight the engine restarted to complete a one-minute burn to bring the satellites to orbit. Thirty minutes into flight, the ABS 3A satellite deployed into a supersynchronous transfer orbit followed by EUTELSAT 115 West B approximately five minutes later. The satellites will now fire their thrusters to reach geosynchronous orbits. As the world’s first all-electric propulsion satellites, they carry no liquid propellant – rather, they reach orbit entirely via a lighter and more efficient electric propulsion system. ABS 3A will be located at 3° West and will connect the Americas, Europe, Africa and the Middle East.  EUTELSAT 115 West B will be located at 114.9° West and will provide coverage from Alaska and Canada to South America."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=mN7lyaCBzT8",
     },
     {
         "cosparCode" : "2015-021",
@@ -1152,7 +1186,8 @@
         "supportShips" : ["Just Read the Intructions", "Go Quest", "Elsbeth III", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Tuesday, April 14, 2015, SpaceX’s Falcon 9 rocket and Dragon spacecraft lifted off from Launch Complex 40 at Cape Canaveral Air Force Station in Florida, beginning SpaceX’s sixth official mission to resupply the space station for NASA. The launch occurred at 4:10pm EDT and while weather had remained a concern during the countdown, Falcon 9 executed a picture-perfect liftoff into a nearly cloudless sky. Falcon 9 was carrying the Dragon spacecraft, which is loaded with about 4,300 pounds of supplies and payloads bound for the International Space Station (ISS).", "Approximately three minutes into flight, Falcon 9’s second stage and Dragon separated from the rocket’s first stage. The second stage’s single Merlin Vacuum engine ignited for a seven-minute burn to deliver Dragon to its initial orbit. Dragon separated from Falcon 9 approximately 10 minutes into flight, and began deploying its solar arrays shortly thereafter. Below the solar array fairings can be seen separating from the spacecraft.", "Dragon will now begin a two-and-a-half day journey to reach the ISS. It is targeted to be grappled by the station’s robotic arm on Friday, April 17 at approximately 7:00am EDT, with berthing and hatch opening occurring over the following day. Meanwhile, Falcon 9’s first stage attempted a precision landing on our autonomous spaceport drone ship named “Just Read the Instructions” as part of an ongoing attempt to land and recover a rocket after it completes its primary mission. The stage made it to the drone ship and landed, but excess lateral velocity caused it to tip over."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=csVpa25iqH0",
     },
     {
         "cosparCode" : "2015-023",
@@ -1185,11 +1220,12 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["On Monday, April 27, 2015 at 7:03pm ET, Falcon 9 lifted off from SpaceX’s Launch Complex 40 at Cape Canaveral Air Force Station carrying the TurkmenÄlem52E/MonacoSat satellite for Thales Alenia Space. While weather had remained a concern throughout the countdown, weather officers were able to find a window in the clouds and Falcon 9 lifted off without a hitch. This launch represented Falcon 9’s fifth launch in four months and second liftoff in 13 days, beating SpaceX’s previous turnaround record by one day.", "Approximately 3 minutes into flight, Falcon 9’s first and second stages separated. The second stage continued to complete a six-minute burn to reach a parking orbit. Twenty-six minutes into flight, the second stage ignited for a second time and completed a one-minute burn. The TurkmenÄlem52E/MonacoSat satellite deployed approximately 32 minutes after liftoff into a geosynchronous transfer orbit."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=nBwAYT_ogj4",
     },
     {
         "cosparCode" : "2015-F02",
-        "name" : "Commercial Ressupply Services - 7",
+        "name" : "Commercial Resupply Services - 7",
         "alternativeName" : "SpaceX CRS-7",
         "abbreviatedName" : "CRS-7",
         "liftOffTime" : "2015-06-28T14:21:00+0000",
@@ -1218,7 +1254,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Failure",
-        "description" : [""],
+        "description" : ["Following a nominal liftoff, Falcon 9 experienced a problem shortly before first stage shutdown, resulting in loss of mission. Preliminary analysis suggests the vehicle experienced an overpressure event in the upper stage liquid oxygen tank approximately 139 seconds into flight. Telemetry indicates first stage flight was nominal and that Dragon remained healthy for some period of time following separation.", "The flight data is our best resource for determining the root cause of Sunday’s mishap.  Investigation teams are examining over 3,000 channels of telemetry data received from the vehicle, and engineers are parsing data with a hex editor to recover the final milliseconds of the flight. SpaceX is also supporting daily meetings with NASA and the Air Force, with the FAA providing oversight.", "The process for determining the root cause of Sunday’s mishap is complex, and there is no one theory yet that is consistent with the data. Our engineering teams are heads down reviewing every available piece of flight data as we work through a thorough fault tree analysis, additional updates will be posted as they become available."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=efjf37ZPYz4",
     },
     {
         "cosparCode" : "2015-081",
@@ -1251,7 +1288,8 @@
         "supportShips" : [""],
         "shipRoles" : [[""]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is currently aiming for a Monday, December 21st launch of the Falcon 9 rocket, carrying 11 satellites for ORBCOMM. The launch is part of ORBCOMM's second and final OG2 Mission and will lift off from SpaceX's launch pad at Cape Canaveral Air Force Station in Florida. This mission also marks the first time SpaceX will attempt to land the first stage of the Falcon 9 rocket on land. The landing of the first stage is a secondary test objective.", "The SpaceX launch webcast is targeted to begin at approximately 8:10pm ET with the five-minute launch window opening at 8:29pm ET. The launch webcast can be viewed at spacex.com/webcast. For updates, visit www.spacex.com and www.orbcomm.com."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=O5bTbVbe4e4",
     },
     {
         "cosparCode" : "2016-002",
@@ -1284,7 +1322,8 @@
         "supportShips" : ["Just Read the Instructions", "NRC Quest", "Pacific Freedom"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["With this mission, SpaceX’s Falcon 9 rocket will deliver the Jason-3 satellite to low-Earth orbit for the U.S. National Oceanic and Atmospheric Administration (NOAA), National Aeronautics and Space Administration (NASA), French space agency Centre National d'Etudes Spatiales (CNES) and the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT).", "The Jason-3 launch is targeted for a 10:42am PT launch on January 17, 2016 from Space Launch Complex 4E at Vandenberg Air Force Base, California. If all goes as planned, the Jason-3 satellite will be deployed approximately an hour after launch. There is a back-up launch opportunity on January 18 at 10:31am PT.", "This mission also marks an experimental landing of the first stage on the SpaceX drone ship “Just Read the Instructions”. The landing of the first stage is a secondary test objective."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=ivdKRJzl6y0",
     },
     {
         "cosparCode" : "2016-013",
@@ -1317,7 +1356,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will deliver SES-9, a commercial communications satellite for SES, to a Geostationary Transfer Orbit (GTO). SES is a world-leading satellite operator that provides satellite-enabled communications services to broadcasters, Internet service providers, mobile and fixed network operators, and business and governmental organizations worldwide using its fleet of more than 50 geostationary satellites.", "SpaceX is targeting an evening launch of SES-9 from Space Launch Complex 40 at Cape Canaveral Air Force Station, Fla. The approximately 90-minute launch window opens on February 24 at 6:46:14 pm ET. A backup launch window opens at 6:46:17 pm ET on February 25. The satellite will be deployed approximately 31 minutes after liftoff.", "This mission is going to a Geostationary Transfer Orbit. Following stage separation, the first stage of the Falcon 9 will attempt an experimental landing on the “Of Course I Still Love You” droneship. Given this mission’s unique GTO profile, a successful landing is not expected."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=muDPSyO7-A0",
     },
     {
         "cosparCode" : "2016-024",
@@ -1350,7 +1390,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will launch the Dragon spacecraft to low Earth orbit to deliver critical cargo to the International Space Station (ISS) for NASA.", "SpaceX is targeting an afternoon launch of its eighth Commercial Resupply Services mission (CRS-8) from Space Launch Complex 40 at Cape Canaveral Air Force Station, Fla. The instantaneous launch window opens on April 8th at 4:43pm ET, and a backup launch window opens at 4:20pm ET on April 9th. Dragon will be deployed about 10 minutes after liftoff and attach to the ISS about two days later.", "Following stage separation, the first stage of the Falcon 9 will attempt an experimental landing on the “Of Course I Still Love You” droneship in the Atlantic Ocean."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=7pUAydjne5M",
     },
     {
         "cosparCode" : "2016-028",
@@ -1383,7 +1424,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will deliver JCSAT-14, a commercial communications satellite for SKY Perfect JSAT Corporation, to a Geostationary Transfer Orbit (GTO). SKY Perfect JSAT is a leading satellite operator in the Asia-Pacific region and provides high-quality satellite communications to its customers using its fleet of 15 satellites.", "SpaceX is targeting launch of JCSAT-14 from Space Launch Complex 40 at Cape Canaveral Air Force Station, Florida on May 6 with a backup date of May 7. The approximately two hour launch window opens on May 6 at 1:21 am ET, 5:21am UTC. A backup launch window on May 7 opens at the same time. The satellite will be deployed approximately 32 minutes after liftoff.", "Following stage separation, the first stage of Falcon 9 will attempt an experimental landing on the “Of Course I Still Love You” droneship. Given this mission’s GTO destination, the first-stage will be subject to extreme velocities and re-entry heating, making a successful landing unlikely."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=L0bMeDj76ig",
     },
     {
         "cosparCode" : "2016-031",
@@ -1416,7 +1458,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will deliver THAICOM 8, a commercial communications satellite for Thaicom, to a supersynchronous transfer orbit. Thaicom is one of Asia’s leading Asian satellite operators, influencing and innovating communications on a global scale.", "SpaceX is targeting launch of THAICOM 8 from Space Launch Complex 40 at Cape Canaveral Air Force Station, Florida on May 26 with a backup date of May 27. The approximately two-hour launch window opens on May 26 at 5:40 pm ET, 9:40 pm UTC. A backup launch window on May 27 opens at approximately the same time. The satellite will be deployed about 32 minutes after liftoff.", "Following stage separation, the first stage of Falcon 9 will attempt an experimental landing on the “Of Course I Still Love You” droneship. As with other missions going to geostationary orbits, the first-stage will be subject to extreme velocities and re-entry heating, making a successful landing challenging."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=zBYC4f79iXc",
     },
     {
         "cosparCode" : "2016-038",
@@ -1449,7 +1492,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["For this mission, SpaceX’s Falcon 9 rocket will deliver two commercial communications satellites to Geostationary Transfer Orbits (GTO). The two satellites, EUTELSAT 117 West B and ABS-2A, are operated respectively by Eutelsat and ABS – two companies that provide global communications services to a variety of users.", "SpaceX is targeting launch from Space Launch Complex 40 at Cape Canaveral Air Force Station, Florida on June 15. The approximately 45-minute launch window opens on June 15 at 10:29am ET, 2:29pm UTC. EUTELSAT 117 West B will be deployed approximately 30 minutes after liftoff, and ABS-2A will be deployed 5 minutes later.", "Following stage separation, the first stage of Falcon 9 will attempt an experimental landing on the “Of Course I Still Love You” droneship. As with other GTO missions, the first-stage will be subject to extreme velocities and re-entry heating, making a successful landing difficult."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=gLNmtUEvI5A",
     },
     {
         "cosparCode" : "2016-046",
@@ -1482,7 +1526,8 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will launch the Dragon spacecraft to low Earth orbit to deliver critical cargo to the International Space Station (ISS) for NASA.", "SpaceX is targeting a July 18 (EDT) launch of its ninth Commercial Resupply Services mission (CRS-9) from Space Launch Complex 40 at Cape Canaveral Air Force Station, Fla. The instantaneous launch window opens at 12:45am EDT (4:45 am UTC) on July 18, and a backup launch window opens at 12:00am EDT on July 20. Dragon will be deployed about 10 minutes after liftoff and attach to the ISS about two days later.", "Following stage separation, the first stage of the Falcon 9 will attempt an experimental landing on Landing Zone 1 at Cape Canaveral Air Force Station, Fla."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=ThIdCuSsJh8",
     },
     {
         "cosparCode" : "2016-050",
@@ -1515,7 +1560,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will deliver JCSAT-16, a commercial communications satellite for SKY Perfect JSAT Corporation, to a Geostationary Transfer Orbit (GTO). SKY Perfect JSAT is a leading satellite operator in the Asia-Pacific region and provides high-quality satellite communications to its customers using its fleet of 16 satellites. SpaceX’s Falcon 9 successfully launched JCSAT-14 in May.", "SpaceX is targeting launch of JCSAT-16 from Space Launch Complex 40 at Cape Canaveral Air Force Station, Florida on August 14 with a backup date of August 15. The approximately two hour launch window opens on August 14 at 1:26 am ET, 5:26am UTC.", "A backup launch window on August 15 opens at the same time. The satellite will be deployed approximately 32 minutes after liftoff.", "Following stage separation, the first stage of Falcon 9 will attempt a secondary-mission objective of landing on the “Of Course I Still Love You” droneship that will be on station in the Atlantic Ocean. Given this mission’s GTO destination, the first-stage will be subject to extreme velocities and re-entry heating, making a successful landing challenging."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=QZTCEO0gvLo",
     },
     {
         "cosparCode" : "2016-E01",
@@ -1548,7 +1594,8 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Elsbeth III"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Prelaunch Explosion",
-        "description" : [""],
+        "description" : ["Investigators scoured more than 3,000 channels of video and telemetry data covering a very brief timeline of events – there were just 93 milliseconds from the first sign of anomalous data to the loss of the second stage, followed by loss of the vehicle. Because the failure occurred on the ground, investigators were also able to review umbilical data, ground-based video, and physical debris. To validate investigation analysis and findings, SpaceX conducted a wide range of tests at its facilities in Hawthorne, California and McGregor, Texas.", "The accident investigation team worked systematically through an extensive fault tree analysis and concluded that one of the three composite overwrapped pressure vessels (COPVs) inside the second stage liquid oxygen (LOX) tank failed. Specifically, the investigation team concluded the failure was likely due to the accumulation of oxygen between the COPV liner and overwrap in a void or a buckle in the liner, leading to ignition and the subsequent failure of the COPV.", "Each stage of Falcon 9 uses COPVs to store cold helium which is used to maintain tank pressure, and each COPV consists of an aluminum inner liner with a carbon overwrap. The recovered COPVs showed buckles in their liners. Although buckles were not shown to burst a COPV on their own, investigators concluded that super chilled LOX can pool in these buckles under the overwrap. When pressurized, oxygen pooled in this buckle can become trapped; in turn, breaking fibers or friction can ignite the oxygen in the overwrap, causing the COPV to fail. In addition, investigators determined that the loading temperature of the helium was cold enough to create solid oxygen (SOX), which exacerbates the possibility of oxygen becoming trapped as well as the likelihood of friction ignition.", "The investigation team identified several credible causes for the COPV failure, all of which involve accumulation of super chilled LOX or SOX in buckles under the overwrap. The corrective actions address all credible causes and focus on changes which avoid the conditions that led to these credible causes. In the short term, this entails changing the COPV configuration to allow warmer temperature helium to be loaded, as well as returning helium loading operations to a prior flight proven configuration based on operations used in over 700 successful COPV loads. In the long term, SpaceX will implement design changes to the COPVs to prevent buckles altogether, which will allow for faster loading operations.​"],
+        "livestreamLink" : "https://www.youtube.com/watch?v=_BgJEXQkjNQ",
     },
     {
         "cosparCode" : "2017-003",
@@ -1581,7 +1628,8 @@
         "supportShips" : ["Just Read the Instructions", "NRC Quest", "Pacific Warrior"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will deliver 10 satellites to low-Earth orbit for Iridium, a global leader in mobile voice and data satellite communications. The 10 satellites are the first of at least 70 satellites that SpaceX will be launching for Iridium’s next generation global satellite constellation, Iridium NEXT.", "SpaceX is targeting launch of Iridium-1 from Space Launch Complex 4E at Vandenberg Air Force Base in California. The instantaneous launch window opens on January 14 at 9:54:39 am PST or 5:54:39 pm UTC. The satellites will begin deployment about an hour after launch.", "A backup launch opportunity on January 15 opens at 9:49:04 am PST or 5:49:04 pm UTC.", "Following stage separation, the first stage of Falcon 9 will attempt a landing on the “Just Read the Instructions” droneship that will be stationed in the Pacific Ocean."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=tTmbSur4fcs",
     },
     {
         "cosparCode" : "2017-009",
@@ -1614,7 +1662,8 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX’s Falcon 9 rocket will launch the Dragon spacecraft to low-Earth orbit to deliver critical cargo to the International Space Station for NASA.", "SpaceX is targeting a late morning launch of its tenth Commercial Resupply Services mission (CRS-10) from Launch Complex 39A (LC-39A) at NASA’s Kennedy Space Center in Florida. The instantaneous launch window is on Saturday, February 18 at 10:01 a.m. EST, with a backup launch opportunity at 9:38 a.m. EST on Sunday, February 19. Dragon will separate from Falcon 9’s second stage about 10 minutes after liftoff and attach to the station roughly two days later.", "The CRS-10 mission will be SpaceX’s first launch from historic LC-39A at Kennedy Space Center. Following stage separation, the first stage of Falcon 9 will attempt to land at SpaceX’s Landing Zone 1 (LZ-1) at Cape Canaveral Air Force Station, Florida."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=giNhaEzv_PI",
     },
     {
         "cosparCode" : "2017-014",
@@ -1648,6 +1697,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "https://www.youtube.com/watch?v=lZmqbL-hz7U",
     },
     {
         "cosparCode" : "2017-017",
@@ -1681,6 +1731,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-022",
@@ -1714,6 +1765,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-025",
@@ -1747,6 +1799,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-030",
@@ -1780,6 +1833,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-038",
@@ -1813,6 +1867,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-039",
@@ -1846,6 +1901,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-041",
@@ -1879,6 +1935,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-045",
@@ -1912,6 +1969,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-049",
@@ -1945,6 +2003,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-052",
@@ -1978,6 +2037,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-061",
@@ -2011,6 +2071,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-063",
@@ -2044,6 +2105,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-067",
@@ -2077,6 +2139,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-080",
@@ -2110,6 +2173,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2017-083",
@@ -2143,6 +2207,7 @@
         "shipRoles" : [["BSTV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-001",
@@ -2176,6 +2241,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-013",
@@ -2209,6 +2275,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-017",
@@ -2242,6 +2309,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-020",
@@ -2275,6 +2343,7 @@
         "shipRoles" : [["FCV", "FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-023",
@@ -2308,6 +2377,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-030",
@@ -2341,6 +2411,7 @@
         "shipRoles" : [["BSTV"], ["FCV", "FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-032",
@@ -2374,6 +2445,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-038",
@@ -2407,6 +2479,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-044",
@@ -2440,6 +2513,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-047",
@@ -2473,6 +2547,7 @@
         "shipRoles" : [["FCV", "FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-049",
@@ -2506,6 +2581,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-055",
@@ -2539,6 +2615,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-059",
@@ -2572,6 +2649,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-061",
@@ -2605,6 +2683,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV", "FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-064",
@@ -2638,6 +2717,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-068",
@@ -2671,6 +2751,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-076",
@@ -2704,6 +2785,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-090",
@@ -2737,6 +2819,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-099",
@@ -2770,6 +2853,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV", "FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-101",
@@ -2803,6 +2887,7 @@
         "shipRoles" : [["BRV"], ["BRV"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2018-109",
@@ -2836,6 +2921,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-002",
@@ -2869,6 +2955,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-009",
@@ -2902,6 +2989,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV", "FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-011",
@@ -2935,6 +3023,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -2968,6 +3057,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -3001,6 +3091,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-021",
@@ -3034,6 +3125,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-025",
@@ -3067,6 +3159,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-029",
@@ -3100,6 +3193,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-033",
@@ -3133,6 +3227,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-036",
@@ -3166,6 +3261,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-044",
@@ -3199,6 +3295,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -3232,6 +3329,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-050",
@@ -3265,6 +3363,7 @@
         "shipRoles" : [["FCV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -3298,6 +3397,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-074",
@@ -3331,6 +3431,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-083",
@@ -3364,6 +3465,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2019-091",
@@ -3397,6 +3499,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-001",
@@ -3430,6 +3533,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-S01",
@@ -3463,6 +3567,7 @@
         "shipRoles" : [["DRV"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-006",
@@ -3496,6 +3601,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-012",
@@ -3529,6 +3635,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-016",
@@ -3562,6 +3669,7 @@
         "shipRoles" : [["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-019",
@@ -3595,6 +3703,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-025",
@@ -3628,6 +3737,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-033",
@@ -3661,6 +3771,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-035",
@@ -3694,6 +3805,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-038",
@@ -3727,6 +3839,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-041",
@@ -3760,6 +3873,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-048",
@@ -3793,6 +3907,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -3826,6 +3941,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-055",
@@ -3859,6 +3975,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-057",
@@ -3892,6 +4009,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-059",
@@ -3925,6 +4043,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-062",
@@ -3958,6 +4077,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -3991,6 +4111,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-070",
@@ -4024,6 +4145,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-073",
@@ -4057,6 +4179,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FCV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-074",
@@ -4090,6 +4213,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-078",
@@ -4123,6 +4247,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-084",
@@ -4156,6 +4281,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-086",
@@ -4189,6 +4315,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-088",
@@ -4222,6 +4349,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-093",
@@ -4255,6 +4383,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -4288,6 +4417,7 @@
         "shipRoles" : [[""]],
         "status" : "Failure",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-096",
@@ -4321,6 +4451,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2020-101",
@@ -4354,6 +4485,7 @@
         "shipRoles" : [["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-001",
@@ -4387,6 +4519,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FCV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-005",
@@ -4420,6 +4553,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-006",
@@ -4453,6 +4587,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -4486,6 +4621,7 @@
         "shipRoles" : [[""]],
         "status" : "Failure",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-009",
@@ -4519,6 +4655,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-012",
@@ -4552,6 +4689,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -4585,6 +4723,7 @@
         "shipRoles" : [[""]],
         "status" : "Partial Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-017",
@@ -4618,6 +4757,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-018",
@@ -4651,6 +4791,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-021",
@@ -4684,6 +4825,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-024",
@@ -4717,6 +4859,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -4750,6 +4893,7 @@
         "shipRoles" : [[""]],
         "status" : "Failure",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-027",
@@ -4783,6 +4927,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-030",
@@ -4816,6 +4961,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-036",
@@ -4849,6 +4995,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-038",
@@ -4882,6 +5029,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -4915,6 +5063,7 @@
         "shipRoles" : [[""]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-040",
@@ -4948,6 +5097,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-041",
@@ -4981,6 +5131,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-044",
@@ -5014,6 +5165,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-048",
@@ -5047,6 +5199,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-049",
@@ -5080,6 +5233,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-054",
@@ -5113,6 +5267,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-059",
@@ -5146,6 +5301,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-078",
@@ -5179,6 +5335,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-082",
@@ -5212,6 +5369,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-084",
@@ -5245,6 +5403,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-103",
@@ -5278,6 +5437,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-104",
@@ -5311,6 +5471,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-110",
@@ -5344,6 +5505,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-115",
@@ -5377,6 +5539,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-121",
@@ -5410,6 +5573,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-125",
@@ -5443,6 +5607,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-126",
@@ -5476,6 +5641,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2021-127",
@@ -5509,6 +5675,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DSV"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-001",
@@ -5542,6 +5709,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-002",
@@ -5575,6 +5743,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-005",
@@ -5608,6 +5777,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-008",
@@ -5641,6 +5811,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-009",
@@ -5674,6 +5845,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-010",
@@ -5707,6 +5879,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-016",
@@ -5740,6 +5913,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-017",
@@ -5773,6 +5947,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-022",
@@ -5806,6 +5981,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-025",
@@ -5839,6 +6015,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-029",
@@ -5872,6 +6049,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-033",
@@ -5905,6 +6083,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-037",
@@ -5938,6 +6117,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DSV"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-040",
@@ -5971,6 +6151,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-041",
@@ -6004,6 +6185,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-042",
@@ -6037,6 +6219,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-045",
@@ -6070,6 +6253,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-049",
@@ -6103,6 +6287,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-051",
@@ -6136,6 +6321,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-052",
@@ -6169,6 +6355,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-053",
@@ -6202,6 +6389,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-057",
@@ -6235,6 +6423,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-061",
@@ -6268,6 +6457,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-062",
@@ -6301,6 +6491,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-063",
@@ -6334,6 +6525,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-064",
@@ -6367,6 +6559,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-071",
@@ -6400,6 +6593,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-076",
@@ -6433,6 +6627,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-077",
@@ -6466,6 +6661,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-081",
@@ -6499,6 +6695,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-083",
@@ -6532,6 +6729,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-084",
@@ -6565,6 +6763,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-086",
@@ -6598,6 +6797,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-094",
@@ -6631,6 +6831,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-097",
@@ -6664,6 +6865,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-099",
@@ -6697,6 +6899,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-101",
@@ -6730,6 +6933,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-104",
@@ -6763,6 +6967,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-105",
@@ -6796,6 +7001,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-107",
@@ -6829,6 +7035,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-111",
@@ -6862,6 +7069,7 @@
         "shipRoles" : [["ASDS"], ["FRV", "TUG"], ["DSV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-114",
@@ -6895,6 +7103,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["DSV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-119",
@@ -6928,6 +7137,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-124",
@@ -6961,6 +7171,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-125",
@@ -6994,6 +7205,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-128",
@@ -7027,6 +7239,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-134",
@@ -7060,6 +7273,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-136",
@@ -7093,6 +7307,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-141",
@@ -7126,6 +7341,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-144",
@@ -7159,6 +7375,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-146",
@@ -7192,6 +7409,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-153",
@@ -7225,6 +7443,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-157",
@@ -7258,6 +7477,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-159",
@@ -7291,6 +7511,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["TUG"], ["DRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-166",
@@ -7324,6 +7545,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-168",
@@ -7357,6 +7579,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-173",
@@ -7390,6 +7613,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-174",
@@ -7423,6 +7647,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-175",
@@ -7456,6 +7681,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-177",
@@ -7489,6 +7715,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-179",
@@ -7522,6 +7749,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-001",
@@ -7555,6 +7783,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-004",
@@ -7588,6 +7817,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-008",
@@ -7621,6 +7851,7 @@
         "shipRoles" : [["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-009",
@@ -7654,6 +7885,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-010",
@@ -7687,6 +7919,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-013",
@@ -7720,6 +7953,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-014",
@@ -7753,6 +7987,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-015",
@@ -7786,6 +8021,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-017",
@@ -7819,6 +8055,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "2023-020",
@@ -7852,6 +8089,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -7885,6 +8123,7 @@
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Upcoming",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -7918,6 +8157,7 @@
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Upcoming",
         "description" : [""],
+        "livestreamLink" : "",
     },
     {
         "cosparCode" : "",
@@ -7951,5 +8191,6 @@
         "shipRoles" : [[""]],
         "status" : "Upcoming",
         "description" : [""],
+        "livestreamLink" : "",
     },
 ]
