@@ -3026,7 +3026,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=2ZL0tbOZYhE",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2019-S08",
         "name" : "Starhopper Hop Test - 1",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -3060,7 +3060,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=eRRz0bItFFk",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2019-S09",
         "name" : "Starhopper Hop Test - 2",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -3298,7 +3298,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=SlgrxVuP5jk",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2019-S12",
         "name" : "Starhopper Hop Test - 3",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -3366,7 +3366,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=fZh82-WcCuo",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2019-S14",
         "name" : "Starhopper Hop Test - 4",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -3910,11 +3910,11 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=TshvZlQ7le8",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2020-S09",
         "name" : "Starship SN5 Hop Test",
         "alternativeName" : "",
         "abbreviatedName" : "",
-        "liftOffTime" : "2019-08-04T23:57:00+0000",
+        "liftOffTime" : "2020-08-04T23:57:00+0000",
         "locationName" : "Starbase",
         "locationPad" : "SP-A",
         "vehicleName" : "Starship",
@@ -4080,11 +4080,11 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=_j4xR7LMCGY",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2020-S11",
         "name" : "Starship SN6 Hop Test",
         "alternativeName" : "",
         "abbreviatedName" : "",
-        "liftOffTime" : "2019-09-01T17:47:00+0000",
+        "liftOffTime" : "2020-09-03T17:47:00+0000",
         "locationName" : "Starbase",
         "locationPad" : "SP-A",
         "vehicleName" : "Starship",
@@ -4386,11 +4386,11 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=4xJAGFR_N-c",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2020-S17",
         "name" : "Starship SN8 Low Altitude Flight",
         "alternativeName" : "",
         "abbreviatedName" : "",
-        "liftOffTime" : "2019-12-09T22:45:00+0000",
+        "liftOffTime" : "2020-12-09T22:45:00+0000",
         "locationName" : "Starbase",
         "locationPad" : "SP-A",
         "vehicleName" : "Starship",
@@ -4590,11 +4590,11 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=ScHI1cbkUv4",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2021-S02",
         "name" : "Starship SN9 Low Altitude Flight",
         "alternativeName" : "",
         "abbreviatedName" : "",
-        "liftOffTime" : "2019-08-04T23:57:00+0000",
+        "liftOffTime" : "2021-02-02T20:25:00+0000",
         "locationName" : "Starbase",
         "locationPad" : "SP-B",
         "vehicleName" : "Starship",
@@ -4692,7 +4692,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=L0dkyV09Zso",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2021-S06",
         "name" : "Starship SN10 Low Altitude Flight",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -4862,7 +4862,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=a15czI9B91c",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2021-S08",
         "name" : "Starship SN11 Low Altitude Flight",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -5032,7 +5032,7 @@
         "livestreamLink" : "https://www.youtube.com/watch?v=xpl_JnG7rcg",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2021-S11",
         "name" : "Starship SN15 Low Altitude Flight",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -5708,7 +5708,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, January 6 for a Falcon 9 launch of 49 Starlink satellites to low Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 4:49 p.m. EST, or 21:49 UTC, and a backup opportunity is available on Friday, January 7 at 4:28 p.m. EST.", "Falcon 9's first stage booster supporting this mission previously launched GPS III-4, GPS IlI-5, and Inspiration4. Following stage separation, Falcon 9’s first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=4_ePBpwMhns",
     },
     {
@@ -5742,7 +5742,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, January 13 for a Falcon 9 launch of Transporter-3 to orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The 29-minute launch window opens at 10:25 a.m. EST, or 15:25 UTC, and a backup opportunity is available on Friday, January 14 with the same window.", "Falcon 9's first stage booster previously launched Crew Demo-2, ANASIS-II, CRS-21, Transporter-1, and five Starlink mission. Following stage separation, SpaceX will land Falcon 9's first stage on Landing Zone 1 (LZ-1) at Cape Canaveral Space Force Station.", "Transporter-3 is SpaceX's third dedicated rideshare mission, and on board this laaunch are 105 spacecraft (including CubeSats, microsats, PocketQubes, and orbital transfer vehicles)."],
         "livestreamLink" : "https://www.youtube.com/watch?v=mFBeuSAvhUQ",
     },
     {
@@ -5776,12 +5776,12 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Tuesday, January 18 for a Falcon 9 launch of 49 Starlink satellites to low Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 9:02 p.m. EST (02:02 UTC on January 19).", "The booster supporting this mission previously launched GPS III-3, Turksat 5A, Transporter-2, and six Starlink missions. Following stage separation, SpaceX will land Falcon 9's first stage on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean. Each of Falcon 9's fairing halves previously supported one Starlink mission."],
         "livestreamLink" : "https://www.youtube.com/watch?v=Yov854ZT1lg",
     },
     {
         "cosparCode" : "2022-008",
-        "name" : "COSMO-SkyMed Second Generation",
+        "name" : "COSMO-SkyMed Second Generation FM2",
         "alternativeName" : "",
         "abbreviatedName" : "CSG-2",
         "liftOffTime" : "2022-01-31T23:11:00+0000",
@@ -5810,7 +5810,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Monday, January 31 for launch of the COSMO-SkyMed Second Generation FM2 mission to low Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 6:11 p.m. EST, or 23:11 UTC.", "The Falcon 9 first stage booster supporting this mission previously supported the launch of Arabsat-6A and STP-2. After stage separation, Falcon 9 will return to Earth and land on Landing Zone 1 (LZ-1) at Cape Canaveral Space Force Station. One half of the fairings supporting this mission previously supported Transporter-1, Transporter-2, and one Starlink mission, and the other half previously supported SAOCOM 1B, Transporter 2, and one Starlink mission."],
         "livestreamLink" : "https://www.youtube.com/watch?v=zBxHrNIzp9w",
     },
     {
@@ -5844,7 +5844,7 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, February 2 for Falcon 9's launch of NROL-87 to orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The intantaneous launch window is at 12:18 p.m. PST (20:18), and a backup opportunity is available on February 3 12:18 p.m. PST (20:18 UTC).", "Following stage separation, Falcon 9's first stage will land on Landing Zone 4 at Vandenberg Space Force Base in California."],
         "livestreamLink" : "https://www.youtube.com/watch?v=bVk8XyjhTKo",
     },
     {
@@ -5878,7 +5878,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, February 3 for a Falcon 9 launch of 49 Starlink satellites to low Earth orbit from Space Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 1:13 p.m. EST (18:13 UTC), and a backup opportunity is available on Friday, February 4 at 12:51 p.m. EST (17:51 UTC). Falcon 9 will fly on a southern trajectory along Florida's eastern coast over the Atlantic Ocean and may be visible from the ground.", "The booster supporting this mission previously launched Crew-1, Crew-2, SXM-8, CRS-23, and IXPE. Following sstage separation, SpaceX will land Falcon 9's first stage on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean. One fairing half previously supported five Starlink missions, and the other half previously supported Transporter-1 and two Starlink missions."],
         "livestreamLink" : "https://www.youtube.com/watch?v=UY3fZ6PwuUY",
     },
     {
@@ -5912,7 +5912,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Monday, February 21 for a Falcon 9 launch of 46 Starlink satellites to low Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 9:44 a.m. EST, or 14:44 UTC.", "The first stage booster supporting this mission previously launched Crew Demo-2, ANASIS-II, CRS-21, Transporter-1, Transporter-3, and five Starlink missions. Following stage separation, SpaceX will land Falcon 9's first stage on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean. This is the fourth flight for both fairing halves supporting this mission."],
         "livestreamLink" : "https://www.youtube.com/watch?v=eiKOMCRymsw",
     },
     {
@@ -5946,7 +5946,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, February 25 for a Falcon 9 launch of 50 Starlink satellites to low Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 9:12 a.m. PST (17:12 UTC), and a backup opportunity is available on Saturday, February 26 at 8:50 a.m. PST (16:50 UTC).", "The first stage booster supporting this mission previously launched Sentinel-6 Michael Freilich, DART, and one Starlink mission. Following stage separation, SpaceX will land Falcon 9's first stage on the Of Course I Still Love You droneship, which will be stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=nnVOfKOzXHE",
     },
     {
@@ -5980,7 +5980,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, March 3 for a Falcon 9 launch of 47 Starlink satellites to low Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 9:35 a.m. EST, or 14:35 UTC, and a backup window is available on Friday, March 4 at 9:10 a.m. EST, or 14:10 UTC.", "The first stage booster supporting this mission previously launched GPS III-3, Turksat-5A, Transporter-2, and seven Starlink missions. Following stage separation, SpaceX will land Fallcon 9's first stage on the Just Read the Insstructions dronehsip, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ypb2sDdUkRo",
     },
     {
@@ -6014,7 +6014,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, March 9 for a Falcon 9 launch of 48 Starlink satellites to low Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 8:45 a.m. EST, or 13:45 UTC.", "The first stage booster supporting this mission previously launched Arabsat-6A, STP-2, and COSMO-SkyMed Second Generation FM2. Following stage separation, Falcon 9's first stage will return to Earth and land on the A Shortfall of Graviats droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=uqAppamdGyo",
     },
     {
@@ -6048,7 +6048,7 @@
         "supportShips" : ["Just Read the Instructions", "Doug", "Zion M. Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, March 18 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is 11:24 p.m. ET, or 3:24 UTC on March 19, and a backup opportunity is available on Saturday, March 19 at 11:03 p.m. ET, or 3:03 UTC on March 20.", "The first stage booster supporting this mission previously launched Dragon's first crew demonstration mission, the RADARSAT Constellation Mission, SXM-7, and eight Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the Just Readd the Instructions droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=0giA6VZOICs",
     },
     {
@@ -6082,7 +6082,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, April 1 for a Falcon 9 launch of Transporter-4 to a sun-synchronous orbit from Sspace Launch Complex 40 (SLC-40) at Cape Canaveral Spacee Force Station in Florida. The launch window opens at 12:24 p.m. EET, or 16:24 UTC. Falcon 9 will fly on a southern trajectory along Florida's eastern coast and may be visible from the ground.", "Falcon 9's first stage booster previously launched Crew-1, Crew-2, SXM-8, CRS-23, IXPE, and one Starlink mission. Following stage separation, SpaceX will land Falcon 9's first stage on the Just Read the Instructions droneship stationed in the Atlantic Ocean.", "Transporter-4 is SpaceX's fourth dedicated SmallSat Rideshare Mission. On this flight are 40 spacecraft, including CubeSats, microsats, picosats, non-deploying hosted laylloads, and an orbital transfer vehicle carrying spacecraft to be delpoyed at a later time."],
         "livestreamLink" : "https://www.youtube.com/watch?v=4NqSoHnkKEM",
     },
     {
@@ -6116,7 +6116,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Bob", "Megan"],
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DSV"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, April 8 for Falcon 9’s launch of Axiom Space’s Ax-1 mission to the International Space Station from historic Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. The instantaneous launch window opens at 11:17 a.m. ET, 15:17 UTC, with a backup opportunity available on Saturday, April 9 at 10:54 a.m. ET, 14:54 UTC.", "This will be the fifth flight for this Falcon 9 first stage booster, which previously supported launch of GPS Il Space Vehicle 04, GPS IlSpace Vehicle 05, Inspiration4, and one Starlink mission. Following stage separation, Falcon 9's first stage will land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean. The Dragon spacecraft supporting this mission previously flew on the Demo-2 and Crew-2 missions.", "iom Space's Ax-1 mission is the first all-private human spaceflight mission to the International Space Station. The Ax-1 crew will participate in educational outreach and conduct innovative research experiments while on the orbiting laboratory."],
         "livestreamLink" : "https://www.youtube.com/watch?v=5nLk_Vqp7nw&t=8333s",
     },
     {
@@ -6150,7 +6150,7 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting no earlier than Sunday, April 17 for Falcon 9's launch of the NROL-85 mission from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 6:13 a.m. PT.", "The Falcon 9 first stage booster supporting this mission previously launched the NROL-87 mission in February 2022. Following stage separation, Falcon 9's first stage will return and land on Landing Zone 4 at Vandenberg Space Force Base in California."],
         "livestreamLink" : "https://www.youtube.com/watch?v=mMcmf1g4qSA",
     },
     {
@@ -6184,7 +6184,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, April 21 for a Falcon 9 launch of 53 Starlink satellitees to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 1:51 p.m. ET, or 17:51 UTC, and a backup opportunity is available on Friday, April 22.", "The first stage booster supporting this mission previously launched GPS III-3, Turksat 5A, Transporter-2 and eight Starlink mission. Following stage separation, Falcon 9's first satge will return to Earth and land on the Just Read the Instructions droneship station in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=s6yBwQSrtFY",
     },
     {
@@ -6218,7 +6218,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Megan"],
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX and NASA are targeting no earlier than Wednesday, April 27 for Falcon 9's launch of Crew-4, Dragon's fourth science expedition mission to the International Space Station, from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. Launch is targeted for 3:52 a.m. ET (7:52 UTC), with a backup opportunity available on Thursdaay, April 28.", "This will be the first flight of the Dragon spacefract supporting this mission and the fourth flight for Falcon 9's first stage booster, which previously launched CRS-22, Crew-3, and Turkat 5B. Following stage separation, Falcon 9's first stage will land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean.", "During their time at the orbiting laboratory, the Crew-4 astronauts will conduct over 200 science experiments in area such as materials science, health technologies, and plant science to prepare for human exploration beyond low-Earth and benefit life on Earth."],
         "livestreamLink" : "https://www.youtube.com/watch?v=orN0PaqQECs",
     },
     {
@@ -6252,7 +6252,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, April 29 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 5:27 p.m. ET, or 21:27 UTC, and a backup opportunity is available on Saturday, April 30 at 5:05 p.m. ET, or 21:05 UTC.", "BURete seemese Ree tavaueeRemodBoeceRle CRIMeleeeBecoile 05, Inspiration4, one Starlink mission, and most recently the Ax-1 mission on April 8, 2022. Following stage separation, Falcon 9's first stage will return to Earth and land on the Just Read the Instructions droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=skNrXnubpwA",
     },
     {
@@ -6286,7 +6286,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, May 6 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 5:42 a.m. ET, or 9:42 UTC, and a backup opportunity is available on Saturday, May 7 at 5:20 a.m. ET, or 9:20 UTC.", "The first stage booster supporting this mission previously launched Crew Demo-2, ANASIS-II, CRS-21, Transporter-1, Transporter-3, and six Starlink missions. Following stage separation, Falcon 9's first sstage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=KzpVUXxdc68",
     },
     {
@@ -6320,7 +6320,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Debra C.", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, May 13 for a Falcon 9 launch of 53 Startink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 3:07 p.m. PT, 22:07 UTC.", "The first stage booster supporting this mission previously launched Sentinel-6 Michael Freilich, DART, and two Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=bG6AwvGPd-E",
     },
     {
@@ -6354,7 +6354,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, May 14 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 4:40 p.m. ET, or 20:40 UTC, and a backup opportunity is available on Sunday, May 15 at 4:12 p.m. ET, or 20:12 UTC.", "Following stage separation, Falcon 9's first stage will return to Earth and land on the Just Read the Instructions droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=nFDkWL2Hmh8",
     },
     {
@@ -6388,7 +6388,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, May 18 for a Falcon 9 launch of 53 Startink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 6:20 a.m. ET, or 10:20 UTC, and a backup opportunity is available on Thursday, May 19 at 6:38 a.m. ET, or 10:38 UTC.", "The first stage booster supporting this mission previously launched Arabsat-6A, STP-2, COSMO-SkyMed Second Generation FM2, and one Starlink mission. Following stage separation, Falcon 9's first stage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=dQTgX40R-IQ",
     },
     {
@@ -6422,7 +6422,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, May 25 for a Falcon 9 launch of Transporter-5 to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The 57-minute launch window opens at 2:57 p.m. ET, or 18:57 UTC. A backup opportunity is available on Thursday, May 26, with the same launch window. Falcon 9 will fly along Florida's eastern coast over the ocean and may be visible from the ground.", "Falcon 9's first stage booster previously launched Crew-1, Crew-2, SXM-8, CRS-23, IXPE, one Starlink mission, and Transporter-4. After stage separation, Falcon 9 will return to Earth and land on Landing Zone 1 (LZ-1) at Cape Canaveral Space Force Station.", "Transporter-5 is SpaceX's fifth dedicated SmallSat Rideshare Mission. On this flight are 59 spacecraft, including CubeSats, microsats, and non-deploying hosted payloads, and orbital transfer vehicles."],
         "livestreamLink" : "https://www.youtube.com/watch?v=KHt3MyimuqU",
     },
     {
@@ -6456,7 +6456,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, June 8 for launch of Nilesat 301 to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The two-hour and twenty-nine-minute window opens at 5:04 p.m. ET, 21:04 UTC. A backup launch opportunity is available on Thursday, June 9 with the same window.", "The Falcon 9 first stage booster supporting this mission previously supported the launch of GPS III Space Vehicle 04, GPS III Space Vehicle 05, Inspiration4, Ax-1, and two Starlink missions. After stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=UpCZu89zb5Y",
     },
     {
@@ -6490,7 +6490,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Bob"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, June 17 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 12-08 p.m. ET, or 16:08 UTC, and a backup opportunity is available on Saturday, June 18 at 11:47 a.m. ET, or 15:47 UTC.", "The first stage booster supporting this mission previously launched GPS III-3, Turksat 5A, Transporter-2, and nine Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=oCN-BMU9-hM",
     },
     {
@@ -6524,7 +6524,7 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, June 18 at 7:19 a.m. PT, 14:19 UTC, fora Falcon 9 launch of the SARah-1 mission from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. A backup opportunity is available on Monday, June 20 at 7:19 a.m. PT, 14:19 UTC.", "The Falcon 9 first stage booster supporting this mission previously launched the NROL-87 and NROL-85 missions. Following stage separation, Falcon 9’s first stage will return to land on Landing Zone 4 (LZ-4) at Vandenberg Space Force Base in California."],
         "livestreamLink" : "https://www.youtube.com/watch?v=lCX-KUCn4A4",
     },
     {
@@ -6558,7 +6558,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, June 19 for launch of Globalstar FM15 to low-arth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window opens at 12:27 a.m. ET, 4:27 UTC. A backup launch opportunity is available on Monday, June 20 at 12:05 a.m. ET, 4:05 UTC.", "The Falcon 9 first stage booster supporting this mission previously supported the launch of Crew-1, Crew-2, SXM-8, CRS-23, IXPE, one Starlink mission, After stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=94cClvOFWH4",
     },
     {
@@ -6592,7 +6592,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Finn Falgout"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, June 29 for launch of SES-22 to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The two-hours launch window opens at 5:04 p.m. ET, 21:04 UTC. A backup launch opportunity is available on Thursday, June 30 with the same window.", "The Falcon 9 first stage booster supporting this mission previously supported the launch of one Starlink mission. After stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ZjUvXWg2_fE",
     },
     {
@@ -6626,7 +6626,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, July 7 fora Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 9:11 a.m. ET (13:11 UTC), and a backup opportunity is available on Friday, July 8 at 8:49 a.m. ET (12:49 UTC).", "The first stage booster supporting this mission previously launched Crew Demo-2, ANASIS-II, CRS-21, Transporter-1, Transporter-3, and seven Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the Just Read the Instructions droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=u_A7xdnVllM",
     },
     {
@@ -6660,7 +6660,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, July 10 for a Falcon 9 launch of 46 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 6:39 p.m. PT (01:39 UTC on Monday, July 11), and a backup opportunity is available on Moday July 11 at 6:39 p.m. PT (01:39 UTC on Tuesday, July 12).", "The first stage booster supporting this mission previously launched Sentinel-6 Michael Freilich, DART, and three Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=_c738Z_zQR0",
     },
     {
@@ -6694,7 +6694,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Megan"],
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, July 14 for Falcon 9's launch of its 25th Commercial Resupply Services (CRS-25) mission to the International Space Station. Liftoff is targeted for 8:44 p.m. ET, or 00:44 UTC on July 15, from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. A backup launch opportunity is available on Friday, July 15 at 8:18 p.m. ET, or 00:18 UTC on July 16.", "This is the fifth flight of the first stage booster supporting this mission, which previously supported CRS-22, Crew-3, Turksat 5B, and Crew-4. Following stage separation, Falcon 9 will land on the A Shortfall of Gravitas droneship in the Atlantic Ocean.", "The Dragon supporting this mission previously supported CRS-21 and CRS-23. Approximately twelve minutes after liftoff, Dragon will separate from Falcon 9's second stage and dock to the space station on Saturday, July 16 at 11:20 a.m. ET, 15:20 UTC."],
         "livestreamLink" : "https://www.youtube.com/watch?v=mnowEqqMiFs",
     },
     {
@@ -6728,7 +6728,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, July 17 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 10:20 a.m. ET (14:20 UTC), and a backup opportunity is available on Monday, July 18 at 10:28 a.m. ET (14:28 UTC).", "The first stage booster supporting this mission previously launched Dragon's first crew demonstration mission, the RADARSAT Constellation Mission, SXM-7, and nine Starlink missions. Following stage separation, Falcon 9’s first stage will return to Earth and land on the Just Read the Instructions droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=7VWcjgYfJ9U",
     },
     {
@@ -6762,7 +6762,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, July 22 for a Falcon 9 launch of 46 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 10:39 a.m. PT (17:39 UTC).", "The first stage booster supporting this mission previously launched NROL-87, NROL-85 and SARah-1. Following stage separation, Falcon 9’s first stage will return to Earth and land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ixKfOK0UYaQ",
     },
     {
@@ -6796,7 +6796,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, July 24 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 9:38 a.m. ET (13:38 UTC), and a backup opportunity is available on Monday, July 25 at 9:16 a.m. ET (13:16 UTC).", "The first stage booster supporting this mission previously launched GPS III Space Vehicle 04, GPS III Space Vehicle 05, Inspiration4, Ax-1, Nilesat 301, and two Starlink missions. Following stage separation, Falcon 9’s first stage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=BuXdtORWrpg",
     },
     {
@@ -6830,7 +6830,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, August 4 for launch of KPLO to a ballistic lunar transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 7:08 p.m. ET (23:08 UTC), and a backup launch opportunity is available on Friday, August 5 at 7:00 p.m. ET (23:00 UTC).", "The Falcon 9 first stage booster supporting this mission previously launched Arabsat-6A, STP-2, COSMO-SkyMed Second Generation FM2, and two Starlink missions. After stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=rTrkHZjiO_8",
     },
     {
@@ -6864,7 +6864,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Kurt J. Crosby", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Tuesday, August 9 for a Falcon 9 launch of 52 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch is at 6:57 p.m. ET, or 22:57 UTC, and a backup opportunity is available on Wednesday, August 10 at 6:36 p.m. ET, or 22:36 UTC.", "The first stage booster supporting this mission previously launched one Starlink mission and SES-22. Following stage separation, Falcon 9's first stage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ck5z0uMGz8s",
     },
     {
@@ -6898,7 +6898,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, August 12 for a Falcon 9 launch of 46 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 2:40 p.m. PT (21:40 UTC), and a backup opportunity is available on Saturday, August 13 at 10:40 p.m. PT (05:40 UTC on Sunday, August 14).", "The first stage booster supporting this mission previously launched Crew-1, Crew-2, SXM-8, CRS-23, IXPE, Transporter-4, Transporter-5, Globalstar FM15, and one Starlink mission. Following stage separation, Falcon 9's first stage will return to Earth and land on the Of Course |Still Love You droneship stationed in the Pacific Ocean.],
         "livestreamLink" : "https://www.youtube.com/watch?v=SU5FbiCbjic",
     },
     {
@@ -6932,7 +6932,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, August 19 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 3:21 p.m. ET (19:21 UTC), and a backup opportunity is available on Saturday, August 20 at 2:59 p.m. ET (18:59 UTC).", "The first stage booster supporting this mission previously launched GPS III Space Vehicle 04, GPS III Space Vehicle 05, Inspiration4, Ax-1, Nilesat 301, and three Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=M018DAaNd_E",
     },
     {
@@ -6966,7 +6966,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, August 27 for a Falcon 9 launch of 54 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 10:22 p.m. ET (02:22 UTC on August 28).", "The first stage booster supporting this mission previously launched CRS-24. Following stage separation, Falcon 9's first stage will return to Earth and land on the A Shortfall of Gravitas droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=07RGJ04HRns",
     },
     {
@@ -7000,7 +7000,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Tuesday, August 30 for a Falcon 9 launch of 46 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 10:40 p.m. PT (5:40 UTC on Wednesday, August 31), and a backup opportunity is available on Wednesday, August 31 at 10:40 p.m. PT (5:40 UTC on Thursday, September 1).", "The first stage booster supporting this mission previously launched Sentinel-6 Michael Freilich, DART, and four Starlink missions. Following stage separation, Falcon 9's first stage will return to Earth and land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=zSJWK_pmXVw",
     },
     {
@@ -7034,7 +7034,7 @@
         "supportShips" : ["Just Read the Instructions", "Doug", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, September 4 for a Falcon 9 launch of 51 Starlink satellites and Spaceflight’s Sherpa-LTC, an orbital transfer vehicle, to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 10:09 p.m. ET (02:09 UTC on September 5), and a backup opportunity is available on Monday, September 5 at 9:39 p.m. ET (01:39 UTC on September 6).", "The first stage booster supporting this mission previously launched Arabsat-6A, STP-2, COSMO-SkyMed Second Generation FM2, KPLO, and two Starlink missions. Following stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=NONM-xsKMSs",
     },
     {
@@ -7068,7 +7068,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Bob", "Doug"],
         "shipRoles" : [["ASDS"], ["FRV", "TUG"], ["DSV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, September 10 for a Falcon 9 launch of 34 Starlink satellites and AST SpaceMobile’s BlueWalker 3 satellite to low-Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. The instantaneous launch window is at 9:10 p.m. ET, or 01:10 UTC on September 1, and a backup opportunity is available on Sunday, September 1 at 8:48 p.m. ET, or 00:48 UTC on September 12.", "The first stage booster supporting this mission previously launched Crew Demo-2, ANASIS-II, CRS-21, Transporter-1, Transporter-3, and eight Starlink missions. Following stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean. This will also be Falcon 9's first five-burn mission."],
         "livestreamLink" : "https://www.youtube.com/watch?v=a2lxdOPyR3Q",
     },
     {
@@ -7102,7 +7102,7 @@
         "supportShips" : ["Just Read the Instructions", "Doug", "Megan", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["DSV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, September 18 for a Falcon 9 launch of 54 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 8:18 p.m. ET (00:18 UTC on September 19). A backup opportunity is available on Monday, September 19 at 7:57 p.m. ET (23:57 UTC).", "The first stage booster supporting this mission previously launched CRS-22, Crew-3, Turksat 5B, Crew-4, and CRS-25. Following stage separation, the first stage will land on the Just Read the Instructions droneship stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ZlQHF_yBkMQ",
     },
     {
@@ -7136,7 +7136,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Bob", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, September 24 for a Falcon 9 launch of 52 Startink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 7:32 p.m. ET (23:32 UTC), and a backup opportunity is available on Sunday, September 25 at 7:10 p.m. ET (23:10 UTC).", "The first satge booster supporting this mission previusly launched SES-22 and two Starlink missions. Following stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=VVu2bSJJhgI",
     },
     {
@@ -7170,7 +7170,7 @@
         "supportShips" : ["Just Read the Instructions", "Doug"],
         "shipRoles" : [["ASDS"], ["DSV", "TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX and NASA are targeting no earlier than Wednesday, October 5 for Falcon 9's launch of Dragon's fifth operational human spaceflight mission (Crew-5) to the International Space Station from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. The instantaneous launch window opens at 12:00 p.m. ET, 16:00 UTC, with a backup opportunity available on Thursday, October 6 at 11:38 a.m. ET, 15:38 UTC.", "The Dragon spacecraft supporting this mission previously flew Crew-3 to and from the space station. Following stage separation, Falcon 9's first stage will land on the Just Read the Instructions droneship stationed in the Atlantic Ocean.", "During their time on the orbiting laboratory, the crew will conduct over 200 science experiments and technology demonstrations in areas such as human health and lunar fuel systems."],
         "livestreamLink" : "https://www.youtube.com/watch?v=5EwW8ZkArL4",
     },
     {
@@ -7204,7 +7204,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, October 5 for a Falcon 9 launch of 52 Starlink satellites to low-Earth orbit from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 4:10 p.m. PT (23:10 UTC).", "The first stage booster supporting this mission previously launched NROL-87, NROL-85, SARah-1, and one Starlink mission. Following stage separation, the first stage will land on the Of Course I Still Love You droneship, which will be stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=wcq7xiTOPRg",
     },
     {
@@ -7238,7 +7238,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Bob", "Kurt J. Crosby"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, October 8 for launch of the Intelsat G-33/G-34 mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The 70-minute launch window opens at 7:05 p.m. ET (23:05 UTC).", "The Falcon9 first stage booster supporting this mission previously launched GPS IlI-3, Turksat 5A, Transporter-2, and 10 Starlink missions. After stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=NIgS3dPAbw0",
     },
     {
@@ -7272,7 +7272,7 @@
         "supportShips" : ["Just Read the Instructions", "Doug", "Kurt J. Crosby", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, October 14 for launch of the Eutelsat HOTBIRD 13F mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The 116-minute launch window opens at 11:26 p.m. ET (03:26 UTC on October 15). A backup launch opportunity is available on Saturday, October 15 with the same window.", "The Falcon 9first stage booster supporting this mission previously launched CRS-24 and one Starlink mission. After stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=kZEuwBMzR3Q",
     },
     {
@@ -7306,7 +7306,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Bob", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, October 20 for a Falcon 9 launch of 54 Startink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The instantaneous launch window is at 10:50 a.m. ET (14:50 UTC), and a backup opportunity is available on Friday, October 21 at 10:29 a.m. ET (14:29 UTC).", "The first stage booster supporting this mission previoussly launched GPS III Space Vehicle 04, GPS III Space Vehicle 05, Inspiration4, Ax-1, Nilesat 301, and four Starlink missions. Following stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=erH5mrvQkbc",
     },
     {
@@ -7340,7 +7340,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, October 27 for a Falcon 9 launch of 53 Starlink satellites to low-Earth orbit from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base in California. The instantaneous launch window is at 6:14 p.m. PT (01:14 UTC on Friday, October 28), and a backup opportunity is available of Friday, October 28 at 5:52 p.m. PT (00:52 UTC on Saturday, October 29).", "The first stage booster supporting this mission prviously launched Sentinel-6 Michael Freilich, DART, and five Starlink missions. Following stage separation, the first stage will land on the Of Course I Still Love You droneship, which will be stationed in thee Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=iYtH2khNIgU",
     },
     {
@@ -7374,7 +7374,7 @@
         "supportShips" : ["Doug"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Tuesday, November 1 at 9:41 a.m. ET (13:41 UTC) for Falcon Heavy’s launch of the USSF-44 mission to a geosynchronous Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida. A backup launch opportunity is available on Wednesday, November 2 at 9:37 a.m. ET (13:37 UTC).", "Following booster separation, Falcon Heavy's two side boosters will land at SpaceX's Landing Zones 1 and 2 (LZ-1 and LZ-2) at Cape Canaveral Air Force Station in Florida.],
         "livestreamLink" : "https://www.youtube.com/watch?v=pY628jRd6gM",
     },
     {
@@ -7408,7 +7408,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceXis targeting Wednesday, November 2 for launch of the Eutelsat HOTBIRD 13G mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. The 116-minute launch window opens at 11:26 p.m. ET (03:26 UTC on November 3). A backup launch opportunity is available on Thursday, November 3, with the same window.", "The Falcon 9 first stage boosteer supporting this mission previously launched CRS-22, Crew-3, Turksat 5B, Crew-4, CRS-25, and one Starlink mission. After stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=McV40hM7aI8",
     },
     {
@@ -7442,7 +7442,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, November 12 for launch of the Intelsat G-31/G-32 mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC- 40) at Cape Canaveral Space Force Station in Florida. The 120-minute launch window opens at 11:06 a.m. ET (16:06 UTC). A backup launch opportunity is available on Sunday, November 13 with the same window.", "The Falcon 9 first stage booster supporting this mission previously launched Dragon's first crew demonstration mission, the RADARSAT Constellation Mission, SXM-7, and 10 Starlink missions."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ERmF7WvCXuk",
     },
     {
@@ -7476,7 +7476,7 @@
         "supportShips" : ["Doug"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Monday, November 21 for launch of the Eutelsat 10B mission to a geosynchronous transfer orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. Liftoff is targeted for 9:57 p.m. ET (02:57 UTC on November 22). A backup opportunity is available on Tuesday, November 22 at the same time.", "The Falcon 9 first stage booster supporting this mission previously launched Telstar 18 VANTAGE, Iridium-8, and eight Starlink missions."],
         "livestreamLink" : "https://www.youtube.com/watch?v=QCpfvj1eiLs",
     },
     {
@@ -7510,7 +7510,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Crosby Skipper", "Megan"],
         "shipRoles" : [["ASDS"], ["DSV", "TUG"], ["TUG"], ["DRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, November 26 for Falcon 9's launch of Dragon's 26th Commercial Resupply Services (CRS-26) mission to the International Space Station from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. The instantaneous launch window is at 2:20 p.m. ET (19:20 UTC), and a backup launch opportunity is available on Sunday, November 27 at 1:58 p.m. ET (18:58 UTC).", "Following stage separation, Falcon 9's first stage will land on the Just Read the Instructions droneship in the Atlantic Ocean. Thhis is the first flight of the Dragon spacecraft supporting this mission.", "Dragon will autonomously dock with the space station on Sunday, November 27 at approximately 7:30 a.m. ET (12:30 UTC)."],
         "livestreamLink" : "https://www.youtube.com/watch?v=1xCrWbJQXgE",
     },
     {
@@ -7544,7 +7544,7 @@
         "supportShips" : ["Doug"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, December 8 for a Falcon 9 launch of the OneWeb1 mission to low-Earth orbit from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. Liftoff is targeted for 5:27 p.m. ET (22:27 UTC).", "The first stage booster supporting this mission previously launched CRS-24, Eutelsat HOTBIRD 13F, and one Starlink mission. Following stage separation, the first stage will land on Landing Zone 1 (LZ-1) at Cape Canaveral Space Force Station."],
         "livestreamLink" : "https://www.youtube.com/watch?v=Dm_OjZ5gBLA",
     },
     {
@@ -7578,7 +7578,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, December 1 for a Falcon 9 launch ofispace’s HAKUTO-R Mission 1-the first privately-led Japanese mission to land on the lunar surface — from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. Also on board this mission is NASA's Jet Propuslsion Laboratory's Lunar Flashlight. The instantaneous launch window is at 2:38 a.m. ET (07:38 UTC), and a backup opportunity is available on Monday, December 12 at 2:31 a.m. ET, (07:31 UTC).", "The first stage booster supporting this mission previously launched SES-22 and three Starlink missions. Following stage separation, the first stage will land on Landing Zone 2 (LZ-2) at Cape Canaveral Spac Force Station."],
         "livestreamLink" : "https://www.youtube.com/watch?v=UaaF0IgzGSI",
     },
     {
@@ -7612,8 +7612,8 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
-        "livestreamLink" : "",
+        "description" : ["SpaceX is targeting Friday, December 16 for a Falcon 9 launch of NASA's Surface Water and Ocean Topography (SWOT) mission to low-Earth orbit from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base. The 10-minute launch window opens at 3:46 a.m. (11:46 UTC).", "The first stage booster supporting this mission previously launched NROL-87, NROL-85, SARah-1, and two Starlink missions. Following stage separation, the first stage will land on Landing Zone 4 (LZ-4) at Vandenberg Space Force Base.", "SWOT is an internationally developed mission to conduct the first global survey of Earth's surface water. It aims to provide a new understanding of the ocean's role in climate change and improve the data humanity relis upon for fresh water management."],
+        "livestreamLink" : "https://www.youtube.com/watch?v=J3RFQrWfC1U",
     },
     {
         "cosparCode" : "2022-174",
@@ -7646,7 +7646,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Bob", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, December 16 for a Falcon 9 launch of the SES 03b mPOWER mission to medium-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. Liftoff is targeted for 5:48 p.m. ET (22:48 UTC), and a backup opportunity is available on Saturday, December 17 with an 87-minute launch window opening at 4:21 p.m. ET (21:21 UTC).", "The first stage booster supporting this mission previously launched CRS-22, Crew-3, Turksat 5B, Crew-4, CRS-25, Eutelsat HOTBIRD 13G and one Starlink mission. Following stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=1WAQD83ElZY",
     },
     {
@@ -7680,7 +7680,7 @@
         "supportShips" : ["Just Read the Instructions", "Doug", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Saturday, December 17 for a Falcon 9 launch of 54Startink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. The instantaneous launch window is at 4:32 p.m. ET (21:32 UTC).", "The first stage booster supporting this mission previously launched Crew Demo-2, ANASIS-I|, CRS-21, Transporter-1, Transporter-3, and nine Starlink missions. Following stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=NQPNRwpGWXc",
     },
     {
@@ -7714,7 +7714,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, December 28 at 4:34 a.m. ET (9:34 UTC) for a Falcon 9 launch of 54 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. If needed, there is a backup opportunity available on Thursday, December 29 starting at 4:14 a.m. ET (9:14 UTC).", "The first stage booster supporting this mission previously launched GPS III Space Vehicle 04, GPS III Space Vehicle 05, Inspiration4, Ax-1, Nilesat 301, and five Starlink missions. Following stage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be stationed in the Atlantic Ocean.", "This launch marks the first of Starlink’s upgraded network. Under our new license, we are now able to deploy satellites to new orbits that will add even more capacity to the network. Ultimately, this enables us to add more customers and provide faster service – particularly in areas that are currently over-subscribed."],
         "livestreamLink" : "https://www.youtube.com/watch?v=gnDQo9YXCdU",
     },
     {
@@ -7748,7 +7748,7 @@
         "supportShips" : ["NRC Quest"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, December 29 for launch of the IS! EROS C-3 mission to a low-earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg space Force Base in Califronia. Liftoff is targeted for 11:38 p.m. PT (07:38 UTC on December 30). A backup launch opportunity is available on Friday, December 30 with a 56-minute window opening at 11:37 p.m. PT (07:37 UTC on December 31).", "The Falcon 9 first stage booster supporting this mission previously launched Crew-1, Crew-2, SXM-8, CRS-23, IXPE, Transporter-4, Transporter-5, Globalstar FM15, and two Starlink missions. After stage separation, the first stage will land on Landing Zone 4 (LZ-4) at Vandenberg Space Force Base."],
         "livestreamLink" : "https://www.youtube.com/watch?v=V0OQfukN-Ec",
     },
     {
@@ -7782,7 +7782,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting 9:56 a.m. ET (14:56 UTC) on Tuesday, January 3 for Falcon 9's launch of the Transporter-6 mission to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida.", "The first stage booster supporting this mission previously launched GPS III-3, Turksat 5A, Transporter-2, Intelsat G-33/G-34 and 10 Starlink missions. Following stage separationo, Falcon 9 will land on Landing Zone 1 (LZ-1) at Cape Canaveral Space Force Station.", "Transporter-6 is SpaceX's sixth dedicated SmallSat Rideshare Mission. There will be 114 payloads on this flight, including CubeSats, microsats, picosats, and orbital transfer vehicles carrying spacecraft to be deployed ata later time."],
         "livestreamLink" : "https://www.youtube.com/watch?v=lSRXacd8wU8",
     },
     {
@@ -7816,7 +7816,7 @@
         "supportShips" : ["Doug"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, January 8 for a Falcon 9 launch of the OneWeb Launch 16 mission to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. Liftoff is targeted for 11:55 p.m. ET (04:55 UTC on January 9), and a backup opporunity is available on Monday, January 9 at 11:50 p.m. ET (04:50 UTC on January 10).", "The first stage booster supporting this mission previously launched CRS-26. Following stage separation, the first stage will land on Landing Zone 1 (LZ-1) at Cape Canaveral Space Force Station."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ut2WyGCqH_w",
     },
     {
@@ -7850,7 +7850,7 @@
         "supportShips" : ["Bob"],
         "shipRoles" : [["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, January 15 at 5:56 p.m. ET (22:56 UTC) for Falcon Heavy's launch of the USSF-67 mission to a geosynchronous Earth orbit from Launch Complex 39A (LC-39A) at Kennedy Space Center in Florida.", "Following booster separation, Falcon Heavy's two side boosters will land on SpaceX’s Landing Zones 1 and 2 (LZ-1 and LZ-2) at Cape Canaveral Space Force Station in Florida."],
         "livestreamLink" : "https://www.youtube.com/watch?v=nfxyF1_Ylkk",
     },
     {
@@ -7884,7 +7884,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Wednesday, January 18 at 7:10 a.m. ET (12:10 UTC) for Falcon 9's launch of the GPS III Space Vehicle 06 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. A baackup launch opportunity is available on Thursday, January 19 at 7:05 a.m. ET (12:05 UTC).", "The first stage booster supporting this mission previously launched Crew-5. Following staage separation, the first stage will land on the A Shortfall of Gravitas droneship, which will be statiooned in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=uLetihk5VNk",
     },
     {
@@ -7918,7 +7918,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, January 19 for a Falcon 9 lainch of 51 Starlink satellites to low-Earth orbit from Space Launch Complex 4 east (SLC-4E) at Vandenberg SSpace Force Base in California.", "Following stage separation, Falcon 9's first stage will return to Earth and land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=bNAebzSvWt4",
     },
     {
@@ -7952,7 +7952,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, January 26 at 4:22 a.m. ET (9:22 UTC) for a Falcon 9 launch of 56 Starlink satellites to low-arth orbit from Sspace Launch Comples 40 at Cape Canaveral Space Force Station in Florida. If needed, there is an additional launch opportunity the same day at 6:03 a.m. ET (11:03 UTC) with backup opportunities also available on Friday, January 27 at 3:57 a.m. ET (8:57 UTC) and 5:38 a.m. ET (10:38 UTC).", "The first stage booster supporting thiss mission previously launched CRS-22, Crew-3, Turksat 5B, Crew-4, CRS-25, Eutelsat HOTBIRD 13G, mPOWER-a and one Starlink mission. Folllowing stage separation, the first stage will lland on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=SaOSLqPlX6c",
     },
     {
@@ -7986,7 +7986,7 @@
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["‘SpaceX is targeting Tuesday, January 31 at 8:15 a.m. PT (16:15 UTC) fora Falcon 9 launch of49 Startink satellites and D-Orbit's ION SCV009 Eclectic Elena to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California.", "The first stage booster supporting this mission previously launched NROL-87, NROL-85, SARah-1, SWOT, and two Starlink missions. Folllowing stage separation, the first tage will land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=yVxV3-xqJO0",
     },
     {
@@ -8020,7 +8020,7 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug", "Crosby Endeavour", "Bob"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Thursday, February 2 at 2:43 a.m. ET (7:43 UTC) for a Falcoon 9 launch of 53 Starlink satellites to low-Earth orbit from Launch Complex 39A (LC-39A) at NASA's Kennedy Space Center in Florida. If needed, there are additional launch opportunities the same day at 4:24 a.m. ET (9:24 UTC), and 6:05 a.m. ET (11:05 UTC) with backup opportunities also available on Friday, February 3 at 2:18 a.m. ET (7:18 UTC), 3:59 a.m. ET (8:59 a.m. UTC), and 5:40 a.m. ET (10:40 UTC).", "The first stage booster supporting this mission previouslly launched CRS-24, Eutelsat HOTBIRD 13F, OneWeb 1, and one Starlink mission. Following stage separation, the first stage will land on the A SShortfall of Gravitas dronehsip, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=_TDrOyMMpIo",
     },
     {
@@ -8054,7 +8054,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob", "Crosby Skipper"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV"], ["TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Monday, February 6 at 5:32 p.m. ET (2:32 UTC) for Falcon 9's launch of the Hispasat Amazonas Nexus mission to orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida.", "The first tage booster supporting this misisson previously launched SES-22, ispace's HAKUTO-R Mission 1, and three Starlink missions. Following stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=ChVawmhYde8",
     },
     {
@@ -8088,11 +8088,11 @@
         "supportShips" : ["A Shortfall of Gravitas", "Doug"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Sunday, February 12 at 12:10 a.m. ET (05:10 UTC) for a Falcon 9 launch of 55 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida. If needed, there are additional launch opportunities the same day at 1:51 a.m. ET (06:51 UTC), and 3:32 a.m. ET (08:32 UTC), with backup opportunities also available on Sunday, February 12 at 11:55 p.m. ET (04:55 UTC on February 13) and on Monday, February 13 at 1:39 a.m. ET (06:39 UTC), and 3:07 a.m. ET (08:07 UTC).", "The first stage booster supporting this mission previously launched GPS III Space Vehicle 04, GPS III Space Vehicle 05, Inspiration4, Ax-1, Nilesat 301, and six Starlink missions. Following stage separation, the first stage will land on the A Shortfalll of Gravitas droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=Xh9gWCv2sXU",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2023-021",
         "name" : "Starlink Group 2-5",
         "alternativeName" : "",
         "abbreviatedName" : "Starlink G2-5",
@@ -8112,21 +8112,21 @@
         "boosterRecoveryMethod" : ["Droneship"],
         "boosterRecoveryLocation" : ["OCISLY"],
         "boosterRecoveryDistance" : ["673"],
-        "boosterRecoveryStatus" : ["Pending"],
-        "fairingFlights" : ["0", "0"],
+        "boosterRecoveryStatus" : ["Success"],
+        "fairingFlights" : ["6", "5"],
         "fairingRecoveryAttempted" : ["true", "true"],
         "fairingRecoveryMethod" : ["Splashdown", "Splashdown"],
-        "fairingRecoveryLocation" : ["Atlantic Ocean", "Atlantic Ocean"],
+        "fairingRecoveryLocation" : ["Pacific Ocean", "Pacific Ocean"],
         "fairingRecoveryDistance" : "673",
         "fairingRecoveryStatus" : ["Pending", "Pending"],
         "supportShips" : ["Of Course I Still Love You", "Go Quest", "Scorpius", "NRC Quest"],
         "shipRoles" : [["ASDS"], ["DSV"], ["TUG"], ["FRV"]],
-        "status" : "Upcoming",
-        "description" : [""],
+        "status" : "Success",
+        "description" : ["SpaceX is targeting Friday, February 17 at 11:12 a.m. PT (19:12 UTC) for a Falcon 9 launch of 51 Starlink satellites to low-Earth orbit from Space Launch Complex 4 East (SLC-4E) at Vandenberg Space Force Base in California. If needed, a backup opportunity is available on Saturday, February 18 at 10:58 a.m. PT (18:58 UTC).", "The first stage booster supporting this mission previously launched Sentinel-6 Michael Freilich, DART, and six Starlink missions. Following stage separation, Falcon 9’s first stage will land on the Of Course I Still Love You droneship stationed in the Pacific Ocean."],
         "livestreamLink" : "https://www.youtube.com/watch?v=JILQ2qe-cjI",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2023-022",
         "name" : "Inmarsat I-6 F2",
         "alternativeName" : "",
         "abbreviatedName" : "",
@@ -8156,7 +8156,7 @@
         "supportShips" : ["Just Read the Instructions", "Bob"],
         "shipRoles" : [["ASDS"], ["DSV", "FRV", "TUG"]],
         "status" : "Upcoming",
-        "description" : [""],
+        "description" : ["SpaceX is targeting Friday, February 17 for launch of the Inmarsat I-6 F2 mission to orbit from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The 89-minute launch window opens at 10:59 p.m. ET (03:59 UTC on February 18). If needed, a backup opportunity is available on Saturday, February 18 with the same window.", "The first stage booster supporting this mission previously launched Crew-5 and GPS III Space Vehicle 06. Following stage separation, the first stage will land on the Just Read the Instructions droneship, which will be stationed in the Atlantic Ocean."],
         "livestreamLink" : "",
     },
     {
