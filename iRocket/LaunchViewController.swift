@@ -19,7 +19,7 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         
         for launch in launchData {
-            launch.checkFairingRecoveryData()
+            launch.validateLaunchData()
         }
         
         //ViewController Title

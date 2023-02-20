@@ -104,18 +104,48 @@ struct Launch: Codable {
     //Link to the live streamed broadcast of the Launch
     let livestreamLink: String
     
-    func checkFairingRecoveryData() {
+    func validateLaunchData() {
+        
+        //If a launchDate has not yet passed, some data may be allowed to be missing. The pastLaunch bool variable will determine which validation tree the function will follow
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        dateFormatter.locale = Locale(identifier: "en-US")
+        let pastLaunch: Bool = (dateFormatter.date(from: self.liftOffTime)! < Date()) ? true : false
+        
+        //Mission Specific Data Validation Section
+        if(self.name == "") {
+            print("Error --- Mission Must Have a Name --- \(self.name)")
+        }
+        
+        //Booster Data Validation Section
+        if(self.boosters.count != self.boosterRecoveryAttempted.count) {
+            print("Error --- Booster Count and Booster Recovery Attempt Count does not Match --- \(self.name)")
+        }
+        if(self.boosters.count != self.boosterRecoveryMethod.count) {
+            print("Error --- Booster Count and Booster Recovery Method Count does not Match --- \(self.name)")
+        }
+        if(self.boosters.count != self.boosterRecoveryLocation.count) {
+            print("Error --- Booster Count and Booster Recovery Location Count does not Match --- \(self.name)")
+        }
+        if(self.boosters.count != self.boosterRecoveryDistance.count) {
+            print("Error --- Booster Count and Booster Recovery Distance Count does not Match --- \(self.name)")
+        }
+        if(self.boosters.count != self.boosterRecoveryStatus.count) {
+            print("Error --- Booster Count and Booster Recovery Status Count does not Match --- \(self.name)")
+        }
+        
+        //Fairing Data Validation Section
         if(self.fairingFlights.count != self.fairingRecoveryAttempted.count) {
-            print("Error --- Fairing Counts and Recovery Attempt Counts do not Match --- \(self.name)")
+            print("Error --- Fairing Count and Fairing Recovery Attempt Count does not Match --- \(self.name)")
         }
         if(self.fairingFlights.count != self.fairingRecoveryMethod.count) {
-            print("Error --- Fairing Counts and Recovery Method Counts do not Match --- \(self.name)")
+            print("Error --- Fairing Count and Fairing Recovery Method Count does not Match --- \(self.name)")
         }
         if(self.fairingFlights.count != self.fairingRecoveryLocation.count) {
-            print("Error --- Fairing Counts and Recovery Location Counts do not Match --- \(self.name)")
+            print("Error --- Fairing Count and Fairing Recovery Location Count does not Match --- \(self.name)")
         }
         if(self.fairingFlights.count != self.fairingRecoveryStatus.count) {
-            print("Error --- Fairing Counts and Recovery Status Counts do not Match --- \(self.name)")
+            print("Error --- Fairing Count and Fairing Recovery Status Count does not Match --- \(self.name)")
         }
         
         for fairing in self.fairingFlights {
@@ -185,8 +215,9 @@ enum RecoveryMethod: String, Codable {
     case droneship = "Droneship"
     case returnToLaunchSite = "Return To Launch Site"
     case netCatch = "Net Catch"
-    case notAvailable = "NA"
+    case unknown = "Unknown"
     case expended = "Expended"
+    case notAvailable = "NA"
 }
     
 enum RecoveryStatus: String, Codable {

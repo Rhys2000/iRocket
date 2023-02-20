@@ -47,8 +47,8 @@ class LaunchTableViewCell: UITableViewCell {
         cellPadding = 10.0 * scaleFactor
         fontSize = 15.0 * scaleFactor
 
-        let locationInformation = LocationDataLoader().locationData.first(where: {$0.shortName == currentLaunch.locationName})!
-        let padInformation = locationInformation.launchPads.first(where: {$0.abbreviation == currentLaunch.locationPad})!
+        let locationInformation = LocationDataLoader().locationData.first(where: {$0.shortName == currentLaunch.locationName})
+        let padInformation = locationInformation?.launchPads.first(where: {$0.abbreviation == currentLaunch.locationPad})!
 
         //Image = 120 wide, Background = 250 wide
         imageLayer.backgroundColor = .brown
@@ -89,7 +89,7 @@ class LaunchTableViewCell: UITableViewCell {
         vehicleLayerText.textColor = .white
         vehicleLayerText.sizeToFit()
 
-        locationLayerText.text = "\(padInformation.name) (\(padInformation.abbreviation)), \(locationInformation.fullName) (\(locationInformation.abbreviation)), \(locationInformation.cityState), \(locationInformation.country) \(locationInformation.country.getFlagEmoji())"
+        locationLayerText.text = "\(padInformation?.name) (\(padInformation?.abbreviation)), \(locationInformation?.fullName) (\(locationInformation?.abbreviation)), \(locationInformation?.cityState), \(locationInformation?.country) \(locationInformation?.country.getFlagEmoji())"
         locationLayerText.font = .boldSystemFont(ofSize: 12.0 * scaleFactor)
         locationLayerText.textColor = .white
         locationLayerText.numberOfLines = 0
@@ -97,10 +97,10 @@ class LaunchTableViewCell: UITableViewCell {
 
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
         dateFormatter.locale = Locale(identifier: "en-US")
-//        let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: currentLaunch.liftOffTime)!)
+        let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: currentLaunch.liftOffTime)!)
         dateFormatter.dateFormat = "E, MMMM d, yyyy h:mm:ss a (zzz)"
-        //dateLayerText.text = dateFormatter.string(from: calendar.date(from: localComponents)!)
-        dateLayerText.text = "Behold"
+        dateLayerText.text = dateFormatter.string(from: calendar.date(from: localComponents)!)
+        //dateLayerText.text = "Behold"
         dateLayerText.font = .boldSystemFont(ofSize: fontSize)
         dateLayerText.textColor = .blue
         dateLayerText.numberOfLines = 0
