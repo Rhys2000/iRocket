@@ -130,7 +130,7 @@ enum LaunchStatus: String, Codable {
     case partial = "Partial Success"
     case failure = "Failure"
     case prelaunchExplosion = "Prelaunch Explosion"
-    case upcoming = "Upcoming"
+    case upcoming = "Upcoming" //Can be removed. Determined by currentDate v launchTime
 }
 
 enum OrbitDestination: String, Codable {
@@ -199,4 +199,5 @@ enum RecoveryStatus: String, Codable {
 //    "shipRoles" : [[""]],
 //    "status" : "",
 //    "description" : [""],
+//    "livestreamLink" : "",
 //},
