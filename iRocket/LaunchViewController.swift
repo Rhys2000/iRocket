@@ -18,6 +18,10 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        for launch in launchData {
+            launch.checkFairingRecoveryData()
+        }
+        
         //ViewController Title
         title = "Launches"
 

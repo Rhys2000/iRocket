@@ -97,9 +97,10 @@ class LaunchTableViewCell: UITableViewCell {
 
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
         dateFormatter.locale = Locale(identifier: "en-US")
-        let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: currentLaunch.liftOffTime)!)
+//        let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: currentLaunch.liftOffTime)!)
         dateFormatter.dateFormat = "E, MMMM d, yyyy h:mm:ss a (zzz)"
-        dateLayerText.text = dateFormatter.string(from: calendar.date(from: localComponents)!)
+        //dateLayerText.text = dateFormatter.string(from: calendar.date(from: localComponents)!)
+        dateLayerText.text = "Behold"
         dateLayerText.font = .boldSystemFont(ofSize: fontSize)
         dateLayerText.textColor = .blue
         dateLayerText.numberOfLines = 0

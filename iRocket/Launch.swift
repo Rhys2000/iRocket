@@ -103,6 +103,36 @@ struct Launch: Codable {
     
     //Link to the live streamed broadcast of the Launch
     let livestreamLink: String
+    
+    func checkFairingRecoveryData() {
+        if(self.fairingFlights.count != self.fairingRecoveryAttempted.count) {
+            print("Error --- Fairing Counts and Recovery Attempt Counts do not Match --- \(self.name)")
+        }
+        if(self.fairingFlights.count != self.fairingRecoveryMethod.count) {
+            print("Error --- Fairing Counts and Recovery Method Counts do not Match --- \(self.name)")
+        }
+        if(self.fairingFlights.count != self.fairingRecoveryLocation.count) {
+            print("Error --- Fairing Counts and Recovery Location Counts do not Match --- \(self.name)")
+        }
+        if(self.fairingFlights.count != self.fairingRecoveryStatus.count) {
+            print("Error --- Fairing Counts and Recovery Status Counts do not Match --- \(self.name)")
+        }
+        
+        for fairing in self.fairingFlights {
+            if(fairing.isNumber != true) {
+                print("Error --- Fairing Flight Value is NaN --- \(self.name)")
+            }
+        }
+        if(self.fairingRecoveryDistance.isNumber != true) {
+            print("Error --- Fairing Recovery Distance is NaN --- \(self.name)")
+        }
+        
+//        for attempt in self.fairingRecoveryAttempted {
+//            if(attempt != "true" && attempt != "false") {
+//                print("Error --- Fairing Recovery Attempt is not of Type Bool --- \(self.name)")
+//            }
+//        }
+    }
 }
 
 //This class creates a global variable with all the launches contained in the launches.json file. Decodes the json data and creates an array of Launch objects
@@ -115,7 +145,6 @@ public class LaunchDataLoader {
                 let data = try Data(contentsOf: fileLocation)
                 let jsonDecoder = JSONDecoder()
                 let dataFromJson = try jsonDecoder.decode([Launch].self, from: data)
-                
                 self.launchData = dataFromJson
                 
             } catch {
@@ -130,7 +159,7 @@ enum LaunchStatus: String, Codable {
     case partial = "Partial Success"
     case failure = "Failure"
     case prelaunchExplosion = "Prelaunch Explosion"
-    case upcoming = "Upcoming" //Can be removed. Determined by currentDate v launchTime
+    case upcoming = "Upcoming"
 }
 
 enum OrbitDestination: String, Codable {
@@ -140,12 +169,14 @@ enum OrbitDestination: String, Codable {
     case ISS = "ISS" //International Space Station
     case PLEO = "PLEO" //Polar Low Earth Orbit
     case SEL1 = "SEL1" //Sun-Earth Lagrange Point 1
+    case SEL2 = "SEL2" //Sun-Earth Lagrange Point 2
     case SSO = "SSO" //Sun-Synchronous Orbit
     case HELIO = "HELIO" //Heliocentric Orbit
     case MEO = "MEO" //Medium Earth Orbit
     case HEO = "HEO" //High Earth Orbit
     case SUB = "SUB" //Suborbital Trajectory
     case TLI = "TLI" //Trans-Lunar Injection Orbit
+    case unknown = "Unknown" //Orbit Currently Unknown
 }
 
 enum RecoveryMethod: String, Codable {
@@ -155,6 +186,7 @@ enum RecoveryMethod: String, Codable {
     case returnToLaunchSite = "Return To Launch Site"
     case netCatch = "Net Catch"
     case notAvailable = "NA"
+    case expended = "Expended"
 }
     
 enum RecoveryStatus: String, Codable {
