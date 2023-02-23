@@ -39,7 +39,7 @@ struct Launch: Codable {
     let launchProvider: String
     
     //Array of customerNames, each of these is a different company who had a payload about the Launch
-    let customerArray: [String]
+    //let customerArray: [String] Convert into a computed attribute
     
     //The intended orbit the Satellites will be deployed into once separating from the upper stage of the vehicle
     let orbitDestination: OrbitDestination
@@ -107,14 +107,31 @@ struct Launch: Codable {
     func validateLaunchData() {
         
         //If a launchDate has not yet passed, some data may be allowed to be missing. The pastLaunch bool variable will determine which validation tree the function will follow
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "UTC")!
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
         dateFormatter.locale = Locale(identifier: "en-US")
         let pastLaunch: Bool = (dateFormatter.date(from: self.liftOffTime)! < Date()) ? true : false
         
+        let launchProviders: [String] = ["SpaceX", "ULA", "Blue Origin", "Rocket Lab"]
+        
         //Mission Specific Data Validation Section
         if(self.name == "") {
             print("Error --- Mission Must Have a Name --- \(self.name)")
+        }
+        if(self.liftOffTime.count != 24) {
+            print("Error --- LiftOffTime is in the Wrong Format --- \(self.name)")
+        }
+        let tempVehicle = VehicleDataLoader().vehicleData.first(where: {$0.name == self.vehicleName})!
+        if(!VehicleDataLoader().vehicleData.contains(where: {$0.name == self.vehicleName})) {
+            print("Error --- Vehicle Name cannot be Found --- \(self.name)")
+        }
+        if(!launchProviders.contains(where: {$0 == self.launchProvider})) {
+            print("Error --- Launch Provider cannot be found in the list --- \(self.name)")
+        }
+        if(self.crewedLaunch != "true" && self.crewedLaunch != "false") {
+            print("Error --- Crewed Launch Attribute is not of Type Bool --- \(self.name)")
         }
         
         //Booster Data Validation Section
@@ -157,11 +174,39 @@ struct Launch: Codable {
             print("Error --- Fairing Recovery Distance is NaN --- \(self.name)")
         }
         
-//        for attempt in self.fairingRecoveryAttempted {
-//            if(attempt != "true" && attempt != "false") {
-//                print("Error --- Fairing Recovery Attempt is not of Type Bool --- \(self.name)")
+        //If Mission Date has Passed
+        if(pastLaunch) {
+            if(self.cosparCode == "") {
+                print("Error --- Missing Cospar Code --- \(self.name)")
+            }
+            
+            let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: self.liftOffTime)!)
+            if(localComponents.day == 1 && localComponents.hour == 0 && localComponents.minute == 0) {
+                print("Error \(self.name)")
+            }
+            
+            let tempLocation = LocationDataLoader().locationData.first(where: {$0.shortName == self.locationName})!
+            if(!LocationDataLoader().locationData.contains(where: {$0.shortName == self.locationName})) {
+                print("Error --- Location Name cannot be Found --- \(self.name)")
+            }
+            if(!tempLocation.launchPads.contains(where: {$0.abbreviation == self.locationPad})) {
+                print("Error --- Location Pad cannot be Found --- \(self.name)")
+            }
+            
+            if(!tempVehicle.variantNames.contains(where: {$0 == self.vehicleVariant})) {
+                print("Error --- Vehicle Variant cannot be Found --- \(self.name)")
+            }
+            
+//            for attempt in self.fairingRecoveryAttempted {
+//                if(attempt != "true" && attempt != "false") {
+//                    print("Error --- Fairing Recovery Attempt is not of Type Bool --- \(self.name)")
+//                }
 //            }
-//        }
+            
+        } else {
+
+        }
+        
     }
 }
 

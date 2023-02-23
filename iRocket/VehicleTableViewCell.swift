@@ -92,7 +92,7 @@ class VehicleTableViewCell: UITableViewCell {
         variantLayerTag.font = .boldSystemFont(ofSize: fontSize)
         variantLayerTag.sizeToFit()
         
-        variantLayerText.text = "\(currentVehicle.numberOfVariants)"
+        variantLayerText.text = "\(currentVehicle.variantNames.count)"
         variantLayerText.font = .boldSystemFont(ofSize: fontSize)
         variantLayerText.textColor = .white
         variantLayerText.sizeToFit()

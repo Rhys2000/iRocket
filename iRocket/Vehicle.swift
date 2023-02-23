@@ -11,7 +11,7 @@ struct Vehicle: Codable {
     let name: String
     let rocketFamily: String
     let providerName: String
-    let numberOfVariants: Int
+    let variantNames: [String]
     let orbitClass: OrbitClass //Make it a array
     let reusable: Reuse
     let status: VehicleStatus
