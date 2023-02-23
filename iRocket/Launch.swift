@@ -133,6 +133,12 @@ struct Launch: Codable {
         if(self.crewedLaunch != "true" && self.crewedLaunch != "false") {
             print("Error --- Crewed Launch Attribute is not of Type Bool --- \(self.name)")
         }
+        if(self.staticFireToLaunchWindow.isNumber != true) {
+            print("Error --- Static Fire to Launch Gap is NaN --- \(self.name)")
+        }
+        if(Bool(self.staticFire) ?? false && self.staticFireToLaunchWindow == "") {
+            print("Penis \(self.name)")
+        }
         
         //Booster Data Validation Section
         if(self.boosters.count != self.boosterRecoveryAttempted.count) {
@@ -149,6 +155,11 @@ struct Launch: Codable {
         }
         if(self.boosters.count != self.boosterRecoveryStatus.count) {
             print("Error --- Booster Count and Booster Recovery Status Count does not Match --- \(self.name)")
+        }
+        for method in boosterRecoveryMethod {
+            if(!method.validateRecoveryMethodData()) {
+                print("Error --- Booster Recovery Method cannot be Found or Understood --- \(self.name)")
+            }
         }
         
         //Fairing Data Validation Section
@@ -179,10 +190,25 @@ struct Launch: Codable {
             if(self.cosparCode == "") {
                 print("Error --- Missing Cospar Code --- \(self.name)")
             }
+            if(self.cosparCode.count != 8) {
+                print("Error --- Cospar Code is Missing Characters --- \(self.name)")
+            }
+            if(!String(self.cosparCode.prefix(4)).isNumber) {
+                print("Error --- Cospar Code Year is not Numeric --- \(self.name)")
+            }
+            let start = self.cosparCode.index(self.cosparCode.startIndex, offsetBy: 4)
+            let end = self.cosparCode.index(self.cosparCode.endIndex, offsetBy: -3)
+            let range = start..<end
+            if(self.cosparCode[range] != "-") {
+                print("Error --- Cospar Code is Missing Isolation Dash --- \(self.name)")
+            }
+            if(!String(self.cosparCode.suffix(2)).isNumber) {
+                print("Error --- Cospar Code Identifier is not Numeric --- \(self.name)")
+            }
             
             let localComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second, .timeZone], from: dateFormatter.date(from: self.liftOffTime)!)
             if(localComponents.day == 1 && localComponents.hour == 0 && localComponents.minute == 0) {
-                print("Error \(self.name)")
+                print("Error --- Launch Date ha been been updated to Reflect Real Launch Time --- \(self.name)")
             }
             
             let tempLocation = LocationDataLoader().locationData.first(where: {$0.shortName == self.locationName})!
@@ -195,6 +221,14 @@ struct Launch: Codable {
             
             if(!tempVehicle.variantNames.contains(where: {$0 == self.vehicleVariant})) {
                 print("Error --- Vehicle Variant cannot be Found --- \(self.name)")
+            }
+            
+            if(!self.orbitDestination.validateOrbitData()) {
+                print("Error --- Orbital Destination cannot be Found or Understood")
+            }
+            
+            if(self.staticFire != "true" && self.staticFire != "false") {
+                print("Error --- Static Fired Attribute is not of Type Bool --- \(self.name)")
             }
             
 //            for attempt in self.fairingRecoveryAttempted {
@@ -252,6 +286,15 @@ enum OrbitDestination: String, Codable {
     case SUB = "SUB" //Suborbital Trajectory
     case TLI = "TLI" //Trans-Lunar Injection Orbit
     case unknown = "Unknown" //Orbit Currently Unknown
+    
+    func validateOrbitData() -> Bool {
+        switch(self) {
+            case .GEO, .GTO, .LEO, .ISS, .PLEO, .SEL1, .SEL2, .SSO, .HELIO, .MEO, .HEO, .SUB, .TLI:
+                return true
+            default:
+                return false
+        }
+    }
 }
 
 enum RecoveryMethod: String, Codable {
@@ -263,6 +306,15 @@ enum RecoveryMethod: String, Codable {
     case unknown = "Unknown"
     case expended = "Expended"
     case notAvailable = "NA"
+    
+    func validateRecoveryMethodData() -> Bool {
+        switch(self) {
+            case .parachute, .splashdown, .droneship, .returnToLaunchSite, .netCatch, .unknown, .expended, .notAvailable:
+                return true
+            default:
+                return false
+        }
+    }
 }
     
 enum RecoveryStatus: String, Codable {
