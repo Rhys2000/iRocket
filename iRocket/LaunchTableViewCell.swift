@@ -75,7 +75,7 @@ class LaunchTableViewCell: UITableViewCell {
         providerLayerTag.font = .boldSystemFont(ofSize: fontSize)
         providerLayerTag.sizeToFit()
 
-        providerLayerText.text = currentLaunch.launchProvider
+        providerLayerText.text = currentLaunch.launchProvider.rawValue
         providerLayerText.font = .boldSystemFont(ofSize: fontSize)
         providerLayerText.textColor = .white
         providerLayerText.sizeToFit()

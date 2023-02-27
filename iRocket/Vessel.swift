@@ -18,7 +18,7 @@ struct Vessel: Codable {
     let operatorWebsite: String
     let chartererName: String
     let chartererWebsite: String
-    let vesselPurpose: [VesselPurpose]
+    let vesselPurpose: [VesselRole]
     let countryRegistration: Country
     let homePort: String
     let homePortCoordinates: [Double] //Latitude then Longitude
@@ -51,12 +51,12 @@ public class VesselDataLoader {
     }
 }
 
-enum VesselPurpose: String, Codable {
+enum VesselRole: String, Codable {
     case ASDS = "ASDS" //Autonomous Spaceport Droneship
     case BSTV = "BSTV" //Booster Splashdown Telemetry Vessel
     case DSV = "DSV" //Droneship Support Vessel
     case DRV = "DRV" //Dragon Recovery Vessel
-    case BSV = "BSV" //Booster Recovery Vessel
+    case BRV = "BRV" //Booster Recovery Vessel
     case FRV = "FRV" //Fairing Recovery Vessel
     case FCV = "FCV" //Fairing Catching Vessel
     case TUG = "TUG" //Tugboat
@@ -72,7 +72,7 @@ enum VesselPurpose: String, Codable {
             return "Droneship Support Vessel"
         case .DRV:
             return "Dragon Recovery Vessel"
-        case .BSV:
+        case .BRV:
             return "Booster Recovery Vessel"
         case .FRV:
             return "Fairing Recovery Vessel"
