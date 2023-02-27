@@ -17,7 +17,6 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(launchData.count)
         
         //ViewController Title
         title = "Launches"

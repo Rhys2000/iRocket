@@ -25,7 +25,7 @@ struct Location: Codable {
 struct Pad: Codable {
     let name: String
     let abbreviation: String
-    let leasee: String
+    let leasee: LaunchProvider
 }
 
 //This class creates a global variable with all the locations contained in the locations.json file. Decodes the json data and creates an array of Location objects

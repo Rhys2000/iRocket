@@ -79,7 +79,7 @@
         "operatorWebsite" : "",
         "chartererName" : "SpaceX",
         "chartererWebsite" : "https://www.spacex.com",
-        "vesselPurpose" : ["DSV", "BSV"],
+        "vesselPurpose" : ["DSV", "BRV"],
         "countryRegistration" : "USA",
         "homePort" : "Port Fourchon, LA",
         "homePortCoordinates" : [29.13280, -90.20135],

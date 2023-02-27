@@ -37,6 +37,11 @@
                                 "abbreviation" : "SLC-40",
                                 "leasee" : "SpaceX",
                             },
+                            {
+                                "name" : "Space Launch Complex - 41",
+                                "abbreviation" : "SLC-41",
+                                "leasee" : "ULA",
+                            },
                        ],
         "yearsActive" : ["04011949", "0"],
         "status" : "Active",
@@ -57,6 +62,11 @@
                                 "name" : "Space Launch Complex - 4 East",
                                 "abbreviation" : "SLC-4E",
                                 "leasee" : "SpaceX",
+                            },
+                            {
+                                "name" : "Space Launch Complex - 3 East",
+                                "abbreviation" : "SLC-3E",
+                                "leasee" : "ULA",
                             },
                        ],
         "yearsActive" : ["01011941", "0"],
