@@ -10,7 +10,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "401",
         "sideBoosters" : "0",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "GTO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-001"],
@@ -20,12 +20,12 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The HOT BIRD 6 TV broadcasting satellite, built for Eutelsat by Alcatel Space, has arrived in Cape Canaveral and is now being readied for planned launch at the end of next month on an Atlas booster delivered by ILS. The satellite was shipped from Alcatel Space’s Cannes plant in southern France on June 12.", "Built by Alcatel Space as prime contractor, responsible for both the platform and the payload, HOT BIRD 6 extends a long-established partnership with Eutelsat, started over 15 years ago.", "Assembled and integrated by Alcatel Space at its Cannes and Toulouse facilities, HOT BIRD 6 will weigh about 3,900 kg at launch. It will have beginning-of-life electrical power of 10,5 kW, and a design life exceeding 12 years."],
         "livestreamLink" : "",
     },
     {
         "cosparCode" : "2003-020",
-        "name" : "Hellas Sat 2",
+        "name" : "Hellas-Sat 2",
         "alternativeName" : "",
         "abbreviatedName" : "",
         "liftOffTime" : "2003-05-13T22:10:00+0000",
@@ -34,7 +34,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "401",
         "sideBoosters" : "0",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "GTO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-002"],
@@ -44,7 +44,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Atlas V will place Hellas-Sat 2 into orbit using a supersynchronous mission design. This mission will use a parking orbit ascent trajectory design with two Centaur burn phases. The satellite’s own attitude and orbital control system will perform a series of burns to lower apogee and raise perigee to geosynchronous altitude, circularize orbit and reduce inclination."],
         "livestreamLink" : "",
     },
     {
@@ -58,7 +58,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "521",
         "sideBoosters" : "2",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "GTO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-003"],
@@ -68,7 +68,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["International Launch Services (ILS) and Lockheed Martin (NYSE: LMT) successfully launched the Rainbow 1 satellite today – the third flight for the Atlas V vehicle since the rocket debuted last summer.", "This mission, designated AV-003, also marked the 66th consecutive successful flight for the Atlas rocket family, built by Lockheed Martin Space Systems Co. of Denver, Colo. The satellite is an A2100 model, built by Lockheed Martin Commercial Space Systems of Newtown, Pa. Cablevision's RLDBS project will use the high-powered satellite to introduce its Rainbow direct-to-home broadcast services to the contiguous United States.", "Liftoff was at 7:45 p.m., with separation of the satellite occurring 1 hour and 40 minutes later. The Atlas V rocket was flown in its '521' configuration, meaning it was fitted with a 5-meter-diameter fairing and two solid rocket motors. The larger fairing was chosen to accommodate the satellite's sophisticated antenna array.", "The Atlas V's Centaur upper stage vehicle released the satellite into a nearly perfect transfer orbit. The apogee, or high point, was 35,843 km (target was 35,845 km); perigee, or low point, was on target at 3,790 km; and inclination was also right on target at 17.54 degrees.", "\"With another successful Atlas flight, we continue to demonstrate the reliability that our commercial and government customers have come to expect from ILS,\" said Mark Albrecht, president of ILS. \"We're honored that Cablevision chose the Lockheed Martin team to build a great satellite and launch it on a great rocket.\"", "This was the fourth mission and fourth success of the year for ILS, of McLean, Va., a joint venture of Lockheed Martin and two Russian companies. ILS markets and manages the missions for the Atlas and the Russian-built Proton and Angara launch vehicles.", "\"Today's launch is an excellent example of the synergies inherent in Lockheed Martin's businesses,\" said Ted Gavrilis, president of Lockheed Martin Commercial Space, which arranged for the launch as a delivery-in-orbit mission. \"Our A2100 satellite and the ILS-provided Atlas V make a powerful combination for mission success, and we are proud to be part of launching a new direct-to-home service for Cablevision.\""],
         "livestreamLink" : "",
     },
     {
@@ -82,7 +82,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "521",
         "sideBoosters" : "2",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "GTO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-005"],
@@ -92,7 +92,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The Lockheed Martin Atlas 5 rocket (AV-005) launched the AMC 16 communications satellite for SES AMERICOM. Built by Lockheed Martin, AMC-16 was designed to provide television, broadband and other services across the U.S. The rocket flew in the 521 vehicle configuration with a five-meter fairing, two strap-on solid rocket boosters and a single-engine Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -106,7 +106,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "431",
         "sideBoosters" : "3",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "GTO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-004"],
@@ -116,7 +116,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The Lockheed Martin Atlas 5 rocket (AV-004) launched the Inmarsat 4 F-1 next-generation mobile communications satellite. Built by Astrium, the spacecraft was designed to be used for Inmarsat’s Broadband Global Area Network. The rocket flew in the 431 vehicle configuration with a four-meter fairing, three strap-on solid rocket boosters and a single-engine Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -130,7 +130,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "401",
         "sideBoosters" : "0",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "HELIO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-007"],
@@ -140,7 +140,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The Lockheed Martin Atlas 5 rocket (AV-007) launched NASA’s Mars Reconnaissance Orbiter. The spacecraft circles the Red Planet and snap super-sharp images of the surface. The rocket flew in the 401 vehicle configuration with a four-meter fairing, no strap-on solid rocket boosters and a single-engine Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -154,7 +154,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "551",
         "sideBoosters" : "5",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "HELIO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-010"],
@@ -164,7 +164,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The Lockheed Martin Atlas 5 rocket (AV-010) launched NASA’s Pluto New Horizons spacecraft to visit our solar system’s most distant planet. The rocket flew in the 551 vehicle configuration with a five-meter fairing, five strap-on solid rocket boosters and a single-engine Centaur upper stage. In addition, the spacecraft featured a solid-fueled kick motor serving as a third stage."],
         "livestreamLink" : "",
     },
     {
@@ -178,7 +178,7 @@
         "vehicleName" : "Atlas V",
         "vehicleVariant" : "411",
         "sideBoosters" : "1",
-        "launchProvider" : "ULA",
+        "launchProvider" : "ILS",
         "orbitDestination" : "GTO",
         "crewedLaunch" : "false",
         "boosters" : ["AV-008"],
@@ -188,7 +188,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The Lockheed Martin Atlas 5 rocket (AV-008) launched the ASTRA 1KR television broadcasting spacecraft for SES ASTRA of Luxembourg. The satellite joined a fleet of orbiting ASTRA craft transmitting programming to the leading direct-to-home satellite system in Europe. The rocket flew in the 411 vehicle configuration with a four-meter fairing, one strap-on solid rocket booster and a single-engine Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -212,7 +212,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched six satellites at 10:10 p.m., EST, for the U.S. Air Force, marking the first use of the Atlas for an Evolved Expendable Launch Vehicle (EELV) program mission. Known as Space Test Program-1, the mission deployed the six satellites into two different low-Earth orbits.", "\"This was our ninth successful Atlas V launch and first ULA Atlas launch, but more importantly, it was the first EELV Atlas launch for the Air Force,\" said Michael Gass, ULA President and Chief Executive Officer. \"This is a proud moment in our company's history and a significant step forward in providing our nation assured access to space using the most cost-effective means possible.\"", "The mission used the new EELV Secondary Payload Adapter -- or ESPA -- which is designed to integrate multiple smaller satellites on the two EELV-class rockets. The six satellites on this mission were delivered into two distinctly different orbits.", "\"STP-1 required an extraordinary level of coordination and innovation to achieve the mission requirements,\" said Jim Sponnick, ULA vice president of Atlas programs. \"One of those innovations was the mission design to achieve the two mission orbits, which was enabled by the development of a very flexible new guidance design. The fact that the Atlas system performed so well tonight in delivering the six satellites to their prescribed orbits is a tribute to the teamwork between our Air Force customer, the Space Development & Test Wing, and men and women of the ULA team, including our suppliers from around the world.\"", "The multiple-payload mission included Orbital Express with its two-satellite configuration and the four ESPA-class satellites. Orbital Express was provided by the Defense Advanced Research Projects Agency (DARPA) and is designed to validate the technical feasibility of robotic, autonomous on-orbit refueling and reconfiguration of satellites for future national security and commercial space programs.", "The mission was launched aboard an Atlas V 401 configuration, which uses a single common core booster powered by the RD-180 engine. This Atlas V flight marked the 201st RD-180 firing. Including test firings, the Atlas RD-180 engine has operated for more than 37,000 seconds, or the equivalent of 151 launches. The Atlas V system has eight previous successful launches, including two missions for NASA and six for commercial customers."],
         "livestreamLink" : "",
     },
     {
@@ -236,7 +236,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Partial Success",
-        "description" : [""],
+        "description" : ["A National Reconnaissance Office (NRO) payload (NROL-30) was successfully launched aboard a United Launch Alliance (ULA) Atlas V Evolved Expendable Launch Vehicle (EELV) from Space Launch Complex 41, Cape Canaveral, Florida, on June 15, 2007, at 11:12 a.m. EDT. This is the first Atlas V launch of an NRO payload.", "Space vehicle separation was nominal and the NRO is confident in the performance of its mission. Atlas booster performance was nominal. The Centaur upper stage had a technical anomaly which resulted in minor performance degradation. The Space and Missile Systems Center has initiated a standard review process."],
         "livestreamLink" : "",
     },
     {
@@ -260,7 +260,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched the Air Force's Wideband Global SATCOM satellite into orbit at 8:22 p.m., EDT, today. Blasting off from Space Launch Complex 41, it marked the third Atlas V EELV launch this year and eighth overall launch for ULA in 2007. This launch also comes just three weeks after the service celebrated its 60th anniversary and four months after the Atlas rocket's 50th anniversary of its first launch. The WGS system will significantly increase the communications capabilities for troops in the field.", "\"As America celebrates the 60th anniversary of the Air Force, today's launch of the WGS satellite is a fitting tribute,\" said Jim Sponnick, ULA vice president of Atlas programs. \"ULA is proud of its continuing role of providing reliable and cost effective assured access to space for the Air Force's critical missions.\"", "The mission was launched aboard an Atlas V 421 configuration, which uses a single common core booster powered by the RD-180 engine and two solid rocket motors. This Atlas V, designated AV-011, marked the 204th RD-180 firing. The 10 previous Atlas V launches included two missions for NASA, one for the National Reconnaissance Office, one for the United States Air Force and six for commercial customers.", "\"The men and women of the ULA team are honored to be continuing the legacy and accomplishments of the Atlas and Thor/Delta teams that first launched these systems in the 1950s,\" Sponnick said. \"Atlas 4A was the first Atlas launch and it occurred June 11, 1957. It launched from Space Launch Complex 14 at Cape Canaveral, just seven miles from SLC-41, where our Atlas V vehicles are launched today.\"", "Formed in 2006, ULA combines the successful Atlas and Delta expendable launch vehicle programs offering cost-effective and reliable launch services to U.S. government customers, including the Department of Defense, NASA, and the NRO, and other commercial organizations."],
         "livestreamLink" : "",
     },
     {
@@ -284,7 +284,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched a National Reconnaissance Office (NRO) payload at 5:05 p.m., EST, today from Space Launch Complex 41. This launch marks the fourth Atlas V EELV mission this year and the 12th ULA mission in 2007.", "\"ULA is proud to have played a critical role for this important NRO mission, ensuring that our nation has the technology and spaceborne assets needed to acquire intelligence worldwide,\" said Jim Sponnick, ULA vice president of Atlas programs. \"Close teamwork with the NRO Office of Space Launch, the U.S. Air Force Launch and Range Systems Wing and the 45th Space Wing at Cape Canaveral made today's successful mission possible.\"", "This mission, designated AV-015, was launched aboard an Atlas V 401 configuration and it used a single common core booster powered by the RD-180 engine. This Atlas V flight marked the 208th RD-180 firing. Atlas V has 11 previous successful launches including two missions for NASA, one for the NRO, two for the Air Force, and six for commercial customers."],
         "livestreamLink" : "",
     },
     {
@@ -308,7 +308,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Adding to the Atlas rocket's legacy of launches from the west coast that began in 1959, United Launch Alliance's Atlas V made its debut flight from Space Launch Complex-3 East here at 3:02 a.m. PDT, today. It carried a National Reconnaissance Office (NRO) payload. The launch ushers in a new era of space launch capability for the Air Force and ULA as part of the Evolved Expendable Launch Vehicle (EELV) program. For Atlas V, today's success builds on 12 previous Atlas V launches from Cape Canaveral Air Force Station, Fla., starting in 2002.", "\"This is a proud moment in our company's history,\" said Michael Gass, ULA President and Chief Executive Officer. \"This launch caps four years of planning and hard work modifying SLC-3E and then executing an outstanding launch campaign leading to this successful first launch. We now have a sixth operational launch complex giving us three each at Vandenberg and Cape Canaveral for our Atlas and Delta vehicles. Combine this with the most experienced team in the business and ULA has built the strongest space launch company in the world.\"", "Modifications to SLC-3E to support an Atlas V vehicle began more than four years ago when a 22-month development program was initiated. Construction began Jan. 5, 2004 and was completed March 31, 2005. Major elements of the modification included raising the height of the mobile service tower by 30 feet; building a new 250-ton fixed launch platform; installing a new 60-ton bridge crane; replacing the ground command, control, and communication system; and finishing work on new and refurbished launch control and mission support centers.", "\"The new SLC-3E combines the best features of the previous SLC-3E architecture and the new systems for the Atlas V, yielding a state-of-the-art complex to meet our customer's needs, today and in the future,\" said Jim Sponnick, ULA Vice President of Atlas Programs. \"SLC-3E is a major accomplishment for the Atlas team in partnership with the Air Force and the NRO, and we are proud to demonstrate its capabilities by launching this important NRO mission to support national defense.\"", "This mission, designated AV-006, was launched aboard an Atlas V 411 configuration using the Common Core Booster powered by the RD-180 engine and one strap-on solid rocket motor. This Atlas V flight marked the 209th RD-180 firing. The 12 previous Atlas V launches included two missions for NASA, two for the NRO, two for the Air Force, and six for commercial customers."],
         "livestreamLink" : "",
     },
     {
@@ -332,7 +332,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched the ICO-G1 satellite at 4:12 p.m. EDT, today. Blasting off from Space Launch Complex 41 here, it marked the first ULA commercial launch of an Atlas V vehicle procured by Lockheed Martin Commercial Launch Services. The ICO-G1 satellite is also the heaviest satellite launched to date by an Atlas V, weighing 6,634 kg or 14,625 lbm when fueled.", "ICO Global Communications (Holdings) Limited, a next-generation satellite communications company based in Reston, Va., is deploying G1 as part of its mobile interactive media service, to be known as ICO mim(TM). ICO mim will combine ICO's unique interactive satellite capability with nationwide coverage to deliver a new level of interactive navigation, enhanced roadside assistance and the ultimate mobile video experience, including 10-15 channels of premium television content.", "\"ULA congratulates our commercial space partners ICO, Lockheed Martin Commercial Launch Services and Space Systems/Loral, the spacecraft manufacturer, on their tremendous mission success,\" said Jim Sponnick, ULA vice president of Atlas Programs. \"At the same time, we all appreciate the dedicated and professional support from our Air Force customers, the Space and Missile Systems Center, and the 45th Space Wing in the success of today's launch. ULA and its employees are proud to have successfully launched this very large and capable satellite for ICO, to enable their enhanced mobile capabilities for consumers worldwide.\"", "This mission, designated AV-014, was launched aboard an Atlas V 421 configuration using the Common Core Booster powered by the RD-180 engine, two Aerojet strap-on solid rocket motors, a Centaur stage powered by one Pratt & Whitney-manufactured RL10 engine, and a 4-meter diameter fairing. This Atlas V flight marked the 210th RD-180 firing. The 13 previous Atlas V launches, 12 from Florida and one from California, included two missions for NASA, three for the NRO, two for the Air Force, and six for commercial customers.", "ULA manufactures the Atlas V booster in Denver, Colo., and the Centaur stage in San Diego, Calif. In November 2007, the booster arrived at Cape Canaveral Air Force Station on an Antonov aircraft from Denver, followed by the Centaur stage. The booster was placed on stand at the Vertical Integration Facility for processing Jan. 18, with the integrated spacecraft mate occurring April 2."],
         "livestreamLink" : "",
     },
     {
@@ -356,7 +356,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched the Air Force's second Wideband Global SATCOM (WGS) satellite into orbit at 8:31 p.m. EDT, today. WGS-2 joins the service's first WGS satellite, which also launched on an Atlas V Oct. 10, 2007.  Today's launch, along with WGS-1, took place from Space Launch Complex 41. The WGS system will significantly increase the communications capabilities for troops in the field.", "\"ULA congratulates the Air Force and our mission partners on the successful launch of WGS-2,\" said James Bell, ULA WGS Mission Manager. \"ULA is proud of its continuing role of providing reliable assured access to space for the Air Force's critical missions. WGS is a force multiplier for our troops in the field who defend America's freedom everyday.\"", "The WGS-2 mission is the second installment of the Wideband Global SATCOM (WGS) system. The WGS satellites are important elements of a new high-capacity satellite communications system providing enhanced communications capabilities to America's troops in the field for the next decade and beyond. WGS enables more robust and flexible execution of Command and Control, Communications Computers, Intelligence, Surveillance, and Reconnaissance (C4ISR), as well as battle management and combat support information functions. WGS-2 augments the existing service of the WGS-1 satellite by providing additional information broadcast capabilities.", "This mission was launched by an Atlas V 421 configuration, which uses a 4-meter diameter payload fairing, two solid rocket motors, and a single-engine Centaur upper stage attached to a single common core booster powered by the RD-180 engine. This was the 15th launch in Atlas V program history. The 14 previous Atlas V launches included two missions for NASA, two for the United States Air Force, three for the National Reconnaissance Office and seven for commercial customers."],
         "livestreamLink" : "",
     },
     {
@@ -380,7 +380,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Nearly 40 years after Neil Armstrong first walked on the moon, United Launch Alliance successfully launched NASA's latest two lunar missions aboard an Atlas V rocket from Space Launch Complex-41 at 5:32 p.m. EDT today.  The Atlas V successfully placed the Lunar Reconnaissance Orbiter (LRO) and Lunar Crater Observation and Sensing Satellite (LCROSS) missions on their proper trajectories to the moon. Both missions are components of the Lunar Precursor Robotic Program at NASA's Marshall Space Flight Center in Huntsville, Ala.", "\"ULA is extremely proud to be a part of NASA's LRO mission team that will demonstrate new technology, survey lunar resources and environments, and support American astronauts once again landing on the moon,\" said Mark Wilkins, ULA Vice President, Atlas Product Line.  \"Our Atlas vehicles stretch back to the beginning of the space race and the United States-first human space program, Mercury. We wish our NASA partners total success in the months ahead in completing this exciting exploration mission for our nation.\"", "The Atlas V's upper stage, known as Centaur, is playing an unusual role in the LCROSS mission.  The LCROSS mission objective is to confirm the presence or absence of water ice in a permanently shadowed crater near a lunar pole. Following a unique role reversal after launch, the expended Centaur will become LCROSS's payload.  After five days of flight, both will enter into an elongated lunar orbit where LCROSS will eventually separate from Centaur. Then in the October timeframe, Centaur will crash into the crater near the lunar pole, creating a plume of debris rising above the surface.  Four minutes later, LCROSS will fly through the plume, collecting and relaying information back to Earth before impacting the moon itself.", "\"In the 1960s, the Centaur was the first upper stage vehicle ever built with the lifting power to reach the moon and was specifically developed for lunar and planetary surveying,\" said Vernon Thorp, ULA NASA Program Manager. \"Centaur was used to help scout the first Apollo landing sites.  Using it now to find water allowing astronauts to work on the moon for long periods of time in the future is adding another significant chapter to the Centaur's history of supporting NASA's human spaceflight program.\" The LRO/LCROSS mission was launched aboard an Atlas V 401 configuration and it used a single common core booster powered by the RD-180 engine. Atlas V has 15 previous successful launches including two missions for NASA, six for the Department of Defense and seven for commercial customers."],
         "livestreamLink" : "",
     },
     {
@@ -404,7 +404,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket, on behalf of the Lockheed Martin Space Systems Company, successfully launched the PAN satellite at 5:35 p.m. EDT, today from Space Launch Complex- 41 as a commercial launch service. This launch marks the 10th overall mission for ULA in 2009 and the third Atlas V mission of the year.", "\"ULA is proud to have played a critical role in the success of this important mission,\" said Mark Wilkins, ULA vice president of Atlas programs. \"Close teamwork with Lockheed Martin and the U.S. Air Force's 45th Space Wing at Cape Canaveral made today's launch possible.\"", "This mission was launched aboard an Atlas V 401 configuration and used a single common core booster powered by the RD-180 engine and a single engine Centaur upper stage. The launch portion of the mission was completed with spacecraft separation approximately two hours after launch."],
         "livestreamLink" : "",
     },
     {
@@ -428,7 +428,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["Adding to the Atlas rocket program's accomplished five decade legacy, a United Launch Alliance Atlas V successfully launched the U.S. Air Force's Defense Meteorological Satellite Program F18 (DMSP F18) mission from Space Launch Complex-3 here at 9:12 a.m. PDT, today. The DMSP F18 spacecraft was built for the Air Force by Lockheed Martin Space Systems Company in Sunnyvale, Calif.", "This mission marked the 600th launch of an Atlas vehicle, carrying on a proud tradition that began with the first Atlas A rocket launched from Cape Canaveral Air Force Station, Fla., in 1957. For the Atlas V, today's success was the 18th for the program, with a 100 percent mission success rate. The inaugural launch for the latest Atlas V configuration occurred from CCAFS on Aug. 21, 2002.", "\"This is a proud moment in the 52 year history of the Atlas program and for United Launch Alliance,\" said Mark Wilkins, ULA vice president, Atlas Product Line. \"First, I want to thank our Air Force customer for trusting ULA to launch this important mission. I'd also like to recognize all the men and women who have served on the Atlas team since 1957. Their determination, dedication and attention to detail have made this significant milestone possible. Combining our Atlas and Delta launch vehicle program's more than 100 years of experience gives ULA the most experienced space launch team in the world.\"", "During the program's history, 315 launches have taken place from CCAFS with 285 missions, including today's launch, launching from Vandenberg. While the Atlas program has launched numerous important missions, it may be most famous for launching Mercury astronauts John Glenn, Scott Carpenter, Wally Schirra and Gordon Cooper during the early days of human space flight. Atlas has also launched several Moon and planetary missions including the recent Lunar Reconnaissance Orbiter (LRO) and Lunar Crater Observation and Sensing Satellite (LCROSS) mission on June 18.", "This mission, designated AV-017, was launched aboard an Atlas V 401 configuration using the Common Core Booster powered by the RD-180 engine. The 17 previous Atlas V launches included three missions each for the Air Force, NASA, and NRO along with eight for commercial customers."],
         "livestreamLink" : "",
     },
     {
@@ -452,7 +452,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["United Launch Alliance deployed its fourth commercial mission of 2009 as an Atlas V rocket successfully launched the Intelsat 14 (IS-14) commercial telecommunications satellite at 1:55 a.m. EST, today.", "Blasting off from Space Launch Complex-41 here, the launch was provided on behalf of Lockheed Martin Commercial Launch Services, which procured the Atlas V for this mission. Previous ULA commercial launches this year included the Delta IV GOES-O launch for NASA/NOAA on June 27, the Atlas V PAN mission on Sept. 8 and the Delta II WorldView-2 mission Oct. 8.", "According to Intelsat, its IS-14 spacecraft will provide high-powered video and data services through its 40 C-band and 22 Ku-band payload to customers throughout the Americas, Europe and Africa. It will replace the Intelsat IS-1R satellite once it's operational. Intelsat 14 was built by Space Systems/Loral and also hosted a payload for the Internet Router in Space or IRIS program for the Department of Defense.", "\"ULA congratulates our commercial space partners Intelsat, Lockheed Martin Commercial Launch Services, and Space Systems/Loral on their mission success,\" said Mark Wilkins, ULA vice president of the Atlas product line. \"ULA also appreciates the dedicated and professional support from the Air Force's Space and Missile Systems Center and 45th Space Wing in the success of today's launch. With this launch, nine of the Atlas V's 19 launches since 2002 have been commercial missions, demonstrating the outstanding flexibility of the Atlas V team to support both government and commercial customers.\"", "This mission, designated AV-024, was launched aboard an Atlas V 431 configuration using a Common Core Booster powered by a RD-180 engine, three Aerojet strap-on solid rocket motors, a Centaur upper stage powered by a Pratt & Whitney-manufactured RL10 engine, and a 4-meter diameter fairing. This successful Intelsat-14 launch represents the 35th launch by ULA since it's formation in Dec 2006."],
         "livestreamLink" : "",
     },
     {
@@ -476,7 +476,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["United Launch Alliance successfully launched NASA's latest scientific exploration mission, the Solar Dynamics Observatory (SDO), aboard an Atlas V rocket from Space Launch Complex-41 at 10:23 a.m. EST today. This was ULA's first launch of 2010 and marked the 100th use of the commercial Atlas Centaur launch vehicle since its first launch on July 29, 1990. The first commercial launch was NASA's Combined Release and Radiation Effects Satellite (CRRES) spacecraft.", "\"ULA is extremely proud to be a part of the SDO mission, NASA's first satellite launch of its 'Living with a Star' program,\" said Mark Wilkins, ULA Vice President, Atlas Product Line. \"This launch culminates years of hard work by our NASA customer and our ULA launch team. It's appropriate that our 100th use of a commercial Atlas Centaur was for a NASA mission since Centaur was originally developed for NASA's lunar program.\"", "The Centaur upper stage began launching as a NASA vehicle on top of Atlas in 1962 to land surveyor spacecraft on the Moon in preparation for manned landings by Apollo. As the original government-managed Atlas Centaur program was nearing its end, it was resurrected as a commercial vehicle in the late 1980s by General Dynamics. Upgraded versions of Atlas Centaur have been flying missions since 1990, with the SDO launch marking its 100th flight. Centaur is probably most famous for its role in NASA's recent Lunar Reconnaissance Orbiter and Lunar Crater Observation and Sensing Satellite (LRO/LCROSS) mission where it crashed into the Moon in October 2009 to help NASA confirm the presence of water at the Moon's South Pole.", "\"Our Atlas launches of the past two decades would not be the success they were without the Centaur upper stage conducting its mission flawlessly,\" Wilkins said. \"We look forward to the next 100 Centaur missions.\"", "The SDO mission was launched aboard an Atlas V 401 configuration and it used a single common core booster powered by the RD-180 engine."],
         "livestreamLink" : "",
     },
     {
@@ -500,7 +500,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched the Orbital Test Vehicle (OTV) for the Air Force's Rapid Capabilities Office at 7:52 p.m. EDT today from Space Launch Complex- 41.  The OTV, also known as the X-37B, supports space experimentation, risk reduction and concept of operations development for long duration and reusable space vehicle technologies.  This launch marks the third mission for ULA in 2010 and second Atlas V mission.", "\"ULA is proud to have played a critical role in the success of this important test mission of the Orbital Test Vehicle,\" said Mark Wilkins, ULA vice president of Atlas programs. \"This was a tremendous launch campaign highlighted by close teamwork between the U.S. Air Force, the ULA launch team and our many mission partners that made today's successful launch possible.\"", "This mission was launched aboard an Atlas V 501 5.4m fairing configuration. This entailed using a single common core booster powered by the RD-180 engine and a single RL-10A engine Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -524,7 +524,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched the Advanced Extremely High Frequency-1 (AEHF-1) satellite for the Air Force at 7:07 a.m. EDT today from Space Launch Complex- 41.", "The AEHF constellation of four satellites will provide 10 times greater capacity and channel data rates six times higher than that of the existing Milstar II communications satellites. AEHF-1 will be joined by the next two AEHF satellites to be launched during the next two years by ULA.", "This launch marks the fifth mission overall and third Atlas V mission for ULA in 2010. AEHF-1 represents the latest \"one-at-a-time\" mission success which has been accomplished 43 times since ULA was formed on Dec. 1, 2006.", "\"ULA is proud to have played an important role in the successful launch of the first of three AEHF satellites for this critical constellation that will directly support the war fighter on the battlefield,\" said Jim Sponnick, ULA vice president, Mission Operations. \"This was a tremendous launch campaign highlighted by close teamwork between the U.S. Air Force, the ULA launch team and our many mission partners that made today's successful launch possible. We look forward to launching AEHF-2 in 2011.\"", "This mission was launched aboard an Atlas V 531 launch vehicle configuration. The mission used an Atlas V common core booster powered by the RD AMROSS RD-180 engine, three Aerojet solid rocket motors, a Pratt & Whitney Rocketdyne RL10A upper stage engine and a 5.4-meter diameter Ruag composite payload fairing."],
         "livestreamLink" : "",
     },
     {
@@ -548,7 +548,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying a payload for the National Reconnaissance Office (NRO) successfully lifted off from Space Launch Complex-3 East here at 9:03 p.m. PDT today. The mission was in support of national defense.", "This mission marked the third Atlas V from the west coast in program history. The inaugural Atlas V launch from Vandenberg occurred March 13, 2008, and the second occurred on Oct. 18, 2009. Twenty additional Atlas V launches have taken place from SLC-41 at Cape Canaveral Air Force Station, Fla., since 2002.", "\"This is a proud moment for United Launch Alliance knowing this launch is providing our brave men and women fighting for our nation the space assets they need to defend America,\" said Jim Sponnick, ULA vice president, Mission Operations. \"I want to thank our NRO customer for entrusting ULA with the responsibility to launch this important mission. I'd also like to recognize all the team members, including our government mission partners and suppliers from around the country and around the world, who worked tirelessly to successfully launch today's mission. Their professionalism and attention to detail have made this significant launch possible.\"", "This mission was launched aboard an Atlas V 501 using a 5.4-meter diameter, 77 foot long, Ruag composite payload fairing. The mission was powered by a single common core booster using the RD AMROSS RD-180 engine and a Centaur upper stage using a single Pratt & Whitney Rocketdyne RL-10A engine."],
         "livestreamLink" : "",
     },
     {
@@ -572,7 +572,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket successfully launched the second Orbital Test Vehicle (OTV-2) for the Air Force's Rapid Capabilities Office (AFRCO) at 5:46 p.m. EST today from Space Launch Complex-41.", "The OTV, also known as the X-37B, supports space experimentation, risk reduction, and concept of operations development for long duration and reusable space vehicle technologies. The first OTV mission was also successfully launched by a ULA Atlas V from Space Launch Complex-41, on Apr. 22, 2010. It later landed at Vandenberg Air Force Base, Calif., on Dec. 3.", "\"The ULA team is proud to have played a critical role in successfully launching both of these important missions of the Orbital Test Vehicle for the Air Force RCO,\" said Jim Sponnick, ULA vice president, Mission Operations. \"It took a tremendous amount of teamwork to successfully launch both vehicles in less than a year. I am confident that the information collected by the Rapid Capabilities Office from these missions will lead to even bigger and bolder missions in the future. Congratulations to the combined Air Force and ULA launch team and our many mission partners that made today's successful launch possible.\"", "This mission was launched aboard an Atlas V 501 vehicle configuration, which includes a 5.4m diameter payload fairing. The booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL-10A engine. ULA's next launch, currently scheduled for March 11, is a mission for the National Reconnaissance Office (NRO) aboard a Delta IV rocket from Space Launch Complex-37."],
         "livestreamLink" : "",
     },
     {
@@ -596,7 +596,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying a payload for the National Reconnaissance Office (NRO) lifted off from Space Launch Complex-3 here at 9:24 p.m. PDT on April 14th. Designated NROL-34, the mission is in support of national defense.", "Yesterday marked the 25th Atlas V rocket launch in program history. The first Atlas V launched in August 2002. Since then, Atlas V has launched a variety of payloads for the military, NASA, and commercial customers, all successfully.", "\"Yesterday's successful launch of the NROL-34 mission represents a tremendous accomplishment for our national security customer,\" said Jim Sponnick, ULA vice president, Mission Operations. \"Less than two years ago, this integrated team put in place a very challenging plan to launch five EELV/NRO missions in less than seven months. The combined NRO Office of Space Launch, U.S. Air Force Launch & Range, and ULA teams have executed this plan flawlessly, culminating in yesterday's successful launch aboard our 25th Atlas V rocket. With each of these incredibly important launches, we are reminded of the role we play in offering enhanced effectiveness and safety to the men and women protecting our country. Congratulations to the ULA team and our government, mission, and supplier partners for making these five successful NRO missions possible.\"", "This mission was launched by an Atlas V 411 configuration launch vehicle, which uses a single common core booster powered by the RD-180 engine and one solid rocket motor. This was the fourth launch of 2011 for ULA, including two for the NRO and one for the United States Air Force."],
         "livestreamLink" : "",
     },
     {
@@ -620,7 +620,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying the Space-Based Infrared System (SBIRS) satellite for the United States Air Force lifted off from Space Launch Complex-41 here at 2:10 p.m. EDT today. This marks the 50th successful launch for ULA since the company was formed in December 2006.", "\"With this launch, ULA continues to demonstrate its commitment to 100 percent mission success,\" said Michael Gass, ULA President and CEO. \"This milestone is a testament to the dedicated employees that for every mission deliver excellence, best value and continuous improvement to our customers.\"", "This mission was launched aboard an Atlas V 401 vehicle configuration, which includes a 4-meter diameter payload fairing. The booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL-10A engine.", "\"This is a very important day for our customers and for our nation,\" said Jim Sponnick, ULA vice president, Mission Operations. \"The ULA team is extremely proud to have served with this strong government and industry team in successfully launching the SBIRS GEO-1 satellite on its critical mission.\"", "SBIRS is a consolidated system intended to meet United States infrared space surveillance needs for decades to come. The SBIRS program addresses critical warfighter needs in the areas of missile warning, missile defense and battlespace characterization."],
         "livestreamLink" : "",
     },
     {
@@ -644,7 +644,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying the Juno spacecraft for NASA lifted off from Space Launch Complex-41 here at 12:25 p.m. EDT today.", "\"Congratulations to the entire team for successfully launching Juno on its five-year interplanetary journey to Jupiter,\" said Jim Sponnick, ULA vice president, Mission Operations. \"The ULA team is very proud to serve a critical role in delivering one-of-a-kind NASA payloads in support of the global science community and we look forward to the scientific discoveries from the Juno mission.\"", "The launch of the Juno mission marks the second of five NASA missions scheduled to launch this year on ULA vehicles within a six month timeframe. \"This six-month launch campaign for NASA is unprecedented not only for its reach across our solar system, but also for the tempo and precision required together with our NASA Launch Services Program customer and their mission customers in order to achieve successful execution,\" said Sponnick.", "This mission was launched aboard an Atlas V 551 vehicle configuration, which includes a 5-meter diameter RUAG Space payload fairing. The booster for this mission was powered by the RD AMROSS RD-180 engine along with five Aerojet solid rocket motors. The Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL-10A engine.", "Juno will improve our understanding of our solar system’s beginnings by revealing the origin and evolution of Jupiter. After a five-year journey, Juno will spend a year and 33 orbits studying many scientific aspects of the largest planet in our solar system. Specifically, Juno will determine how much water is in the atmosphere, measure composition, temperature and cloud motions, map the magnetic and gravity fields, as well as explore and study Jupiter’s magnetosphere."],
         "livestreamLink" : "",
     },
     {
@@ -668,7 +668,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying the Mars Science Lab (MSL) for NASA lifted off from Space Launch Complex-41 here at 10:02 a.m. EST today. This is ULA’s 11th launch of the year and marked the 56th successful launch for the company in 60 months.", "\"ULA is extremely proud to have launched the Curiosity rover on its 9-month journey to the red planet,\" said Jim Sponnick, ULA vice president, Mission Operations. \"The technological innovations on this extremely sophisticated MSL mission are most impressive and we are all looking forward to the operations and scientific learning on Mars starting next August.\"", "This mission was launched aboard an Atlas V 541 configuration vehicle, which includes a 5-meter diameter RUAG Space payload fairing along with four Aerojet solid rocket motors attached to the Atlas booster. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL10A engine.", "MSL is the last of five critical missions ULA launched for NASA within a six month period. \"These five launches were launched both successfully and on-time as a result of the exceptional performance and teamwork demonstrated by the combined ULA, mission partner, and NASA Launch Services Program (LSP) team. We all look forward to these missions providing a much greater understanding of Earth’s climate, life on other planets, and the origins of our solar system,\" said Sponnick.", "After landing on Mars in August 2012, MSL’s prime mission will last one Martian year (nearly two Earth years). Researchers will use the rover’s tools to study whether the landing region has environmental conditions favorable for supporting microbial life. ULA's next launch is the Delta IV Wideband Global Satcom (WGS)-4 mission for the United States Air Force scheduled for Jan. 19, 2012 from Space Launch Complex-37 at Cape Canaveral Air Force Station, Fla."],
         "livestreamLink" : "",
     },
     {
@@ -692,7 +692,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying the Mobile User Objective System-1 (MUOS-1) for the United States Navy lifted off from Space Launch Complex-41 here at 5:15 p.m. EST today. This was ULA’s 2nd launch of an aggressive 11 mission schedule for the year and at nearly 15,000 pounds, MUOS-1 marks the heaviest satellite launched to date by an Atlas launch vehicle.", "\"ULA is honored to serve with our mission partners in the preparation and launch of this important mission for the U.S. Navy and for our U.S. Air Force customer,\" said Jim Sponnick, ULA vice president, Mission Operations. \"This integrated team is singularly focused on ensuring that these critical MUOS satellites are safely delivered, providing vital communications capability to the women and men protecting our freedom around the world.\"", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 551 configuration vehicle, which includes a 5.4-meter diameter RUAG Space payload fairing along with five Aerojet solid rocket motors attached to the Atlas booster. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL10A engine.", "\"The 200th flight of the Centaur is a very big milestone for the ULA team, as Centaur has been pioneering space launch for the last 50 years,\" said Sponnick. \"It took 33 years for Centaur to accomplish those first 100 flights. The next 100 Centaur launches have been accomplished in just 17 years.\"", "The first Centaur launches in the early 1960’s demonstrated the extremely high performance that can be achieved with a liquid hydrogen/liquid oxygen rocket stage. The technologies developed and verified were subsequently used for the Saturn I, Saturn V, Space Shuttle, Titan, and Delta programs.", "MUOS is a next-generation narrowband tactical satellite communications system designed to significantly improve ground communications for U.S. forces on the move. MUOS will provide military users 10 times more communications capability over existing systems, including simultaneous voice, video and data, leveraging 3G mobile communications technology."],
         "livestreamLink" : "",
     },
     {
@@ -716,7 +716,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Advanced Extremely High Frequency-2 (AEHF-2) satellite for the United States Air Force lifted off from Space Launch Complex-41 here at 2:42 p.m. EDT today. This was ULA’s 4th launch of an aggressive 11 mission schedule for the year and marks the 30th Atlas V mission and the 60th launch for ULA.", "\"ULA is proud to serve alongside our mission partners and privileged that the Air Force entrusts the ULA team to deliver critical national security capability to orbit for our soldiers, sailors, airman and Marines around the world,\" said Jim Sponnick, ULA vice president, Mission Operations. \"Through our focus on attaining Perfect Product Delivery, ULA remains dedicated to providing reliable, cost-effective launch services while continuing our unwavering commitment to 100 percent mission success.  Today’s successful launch was the 60th since ULA was formed just over five years ago and we congratulate the AEHF team on this important step toward delivering these critical protected communications capabilities.\"", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 531 configuration vehicle, which includes a 5-meter diameter RUAG Space payload fairing along with three Aerojet solid rocket motors attached to the Atlas booster. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL10A engine.", "The AEHF constellation is a joint-service satellite communications system that will provide survivable, global, secure, protected and jam-resistant communications for high-priority military ground, sea and air assets."],
         "livestreamLink" : "",
     },
     {
@@ -740,7 +740,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying a payload for the National Reconnaissance Office (NRO) lifted off from Space Launch Complex-41 here at 8:28 a.m. EDT today. Designated NROL-38, the mission is in support of national defense.", "\"Congratulations to the NRO and to all the mission partners involved in this critical national security launch,\" said Jim Sponnick, ULA vice president, Mission Operations. \"This launch marks an important milestone as we celebrate the 50th successful Evolved Expendable Launch Vehicle (EELV) mission, with 31 Atlas V and 19 Delta IV missions flown since August 2002.\"", "NROL-38 is the first of three critical missions ULA is scheduled to launch for the NRO within the next two months.", "\"Twelve of the 50 EELV launches have been NRO missions and these have been vital to our overall mission of delivering on commitments critical to our national security,\" said Bruce Carlson, director, National Reconnaissance Office. \"I thank and congratulate ULA and the EELV program for the tremendous performance and achievement of this very impressive and noteworthy milestone.\"", "This mission was launched aboard an Atlas V EELV 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL10A-4 engine."],
         "livestreamLink" : "",
     },
     {
@@ -764,7 +764,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying the Radiation Belt Storm Probes (RBSP) spacecraft for NASA lifted off from Space Launch Complex-41 here at 4:05 a.m. EDT today. This is ULA’s 7th launch of the year, the 32nd Atlas V launch and marked the 63rd launch since ULA was formed in December 2006.", "\"The ULA team and our many mission partners are very proud of our role in delivering the twin RBPS spacecraft to orbit to conduct research about our space weather and gather important data that impacts our everyday life on Earth,\" said Jim Sponnick, ULA vice president, Mission Operations. \"The successful launch of this mission is a tribute to the partnerships with the highly skilled and professional teams from NASA’s Launch Services Program and The Johns Hopkins University Applied Physics Laboratory.\"", "This mission was launched aboard an Atlas V EELV 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL10A-4 engine.", "RBSP will explore space weather -- changes in Earth's space environment caused by the sun -- that can disable satellites, create power grid failures, and disrupt GPS service. The mission also will allow researchers to understand fundamental radiation and particle acceleration processes throughout the universe."],
         "livestreamLink" : "",
     },
     {
@@ -788,7 +788,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying a payload for the National Reconnaissance Office (NRO) lifted off from Space Launch Complex-3 here at 2:39 p.m. PDT today. Designated NROL-36, the mission is in support of national defense.", "\"Today’s successful launch of the NROL-36 mission occurred on the same day as the national memorial service honoring American hero Neil Armstrong. The scientists and engineers developing and operating these remarkable current-day launch and spacecraft systems reflect Neil’s incredible legacy to mankind,\" said Jim Sponnick, ULA vice president, Mission Operations. \"Today’s launch marks the fourth and final EELV mission for the NRO’s Road to Launch 2012 accomplished in the last five months. This launch tempo is a tribute to all of the mission partners’ dedication and continued focus on mission success – one launch at a time.\"", "This mission was launched aboard an Atlas V EELV 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL10A-4 engine.", "In addition to the NROL-36 payload, 11 CubeSats took advantage of available volume and structural capacity of the Atlas V launch vehicle for a ride share. The NRO and ULA partnered to develop an Aft Bulkhead Carrier (ABC) on the Centaur second stage, which is a platform for accommodating auxiliary payloads aboard Atlas V missions.  Affixed to the ABC was an auxiliary payload called Operationally Unique Technologies Satellite, or OUTSat, carrying the 11 CubeSats in various configurations.", "The CubeSats are sponsored by the NRO Mission Support Directorate and NASA's Launch Support Program, and were developed by the Space and Missile Defense Command, The Aerospace Corporation, University of Southern California, University of Colorado, California Polytechnic State University, MoreheadStateUniversity, University of California Berkeley and the Lawrence Livermore National Lab.", "\"These auxiliary payloads are the first of their kind for an Atlas V mission,\" said Sponnick. \"We are pleased we could support the NRO, NASA, and all of the associated institutions to deliver these important CubeSats which will study space weather and communications, debris mitigation, maritime shipping container tracking as well as space flight safety and orbit refinement.\""],
         "livestreamLink" : "",
     },
     {
@@ -812,7 +812,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched the third Orbital Test Vehicle (OTV-3) for the Air Force’s Rapid Capabilities Office (AFRCO) at 1:03 p.m. EST today from Space Launch Complex-41. The OTV, also known as the X-37B, supports space experimentation, risk reduction, and concept of operations development for long duration and reusable space vehicle technologies. The first two OTV missions also were successfully launched by ULA respectively on April 22, 2010 and March 5, 2011.", "\"The ULA team is proud to have played a critical role in successfully launching these three important Orbital Test Vehicle missions for the Air Force RCO,\" said Jim Sponnick, ULA vice president, Mission Operations. \"This is a unique spacecraft since it is the first to launch on an Atlas V, return to Earth landing at Vandenberg Air Force Base in California, and then fly again on this mission.\"", "This launch completes the most aggressive campaign in the history of the Evolved Expendable Launch Vehicle (EELV) program with 10 missions launched during 2012, including eight launches from Cape Canaveral Air Force Station in Florida and two from Vandenberg Air Force Station in California.", "This mission was launched aboard an Atlas V EELV 501 configuration vehicle, which includes a 5-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne (PWR) RL10A-4 engine.", "\"I sincerely congratulate our OTV customer on today’s successful launch as well as our integrated team of mission partners that successfully accomplished ten critical one-at-a-time launches in 2012,\" said Sponnick."],
         "livestreamLink" : "",
     },
     {
@@ -836,7 +836,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched NASA’s Tracking and Data Relay Satellite (TDRS-K) payload at 8:48 p.m. EST today from Space Launch Complex-41. This was the first of 13 ULA launches scheduled for 2013, the 35th Atlas V mission, and the 67th ULA launch.", "\"ULA and our mission partners are honored to work with the outstanding NASA team and we are proud of the vitally important data relay capabilities that were safely delivered today,\" said Jim Sponnick, ULA vice president, Mission Operations.", "This mission was launched aboard an Atlas V 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne (PWR) RL10A-4 engine.", "NASA established the TDRS project in 1973 to provide around-the-clock and around-the-Earth communications for the network that routes voice calls, telemetry streams and television signals from the International Space Station, as well as science information from the Hubble Space Telescope and other orbiting spacecraft.", "\"With this team’s innovative and ever-present focus on delivering mission success and best value through Perfect Product Delivery, final work at the Cape to prepare the Atlas V rocket that launched today was completed in record time – 27 days from when the vehicle was first erected to launch,\" said Sponnick. \"The ability for ULA to reduce its processing time both during manufacturing and at the launch sites, offers our customers added manifest flexibility as well as additional launch opportunities to ensure their payloads are delivered reliably and on-time.\""],
         "livestreamLink" : "",
     },
     {
@@ -860,7 +860,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched NASA’s Landsat Data Continuity Mission (LDCM) payload at 10:02 a.m. PST today from Space Launch Complex-3. This was the 2nd ULA launch of the year, the 36th Atlas V mission, and the 68th ULA launch in just over six years.", "\"We are privileged to work together with NASA and such a strong LDCM mission team,\" said Jim Sponnick, ULA vice president, Mission Operations. \"This is the second NASA mission ULA has launched in just 12 days. The ability to successfully execute this launch rate is a testament to a very dedicated and skilled workforce, excellent teamwork with our NASA customer and all of our mission partners, and a one-launch-at-a-time focus that enabled both the TDRS-K launch on Jan. 30 and today’s LDCM launch, both of which delivered critical capabilities to orbit.\"", "Today’s mission was launched aboard an Atlas V 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne (PWR) RL10A-4 engine.", "The Landsat Program provides repetitive acquisition of high resolution multispectral data of the Earth's surface on a global basis. The data from the Landsat spacecraft constitute the longest record of the Earth's continental surfaces as seen from space."],
         "livestreamLink" : "",
     },
     {
@@ -884,7 +884,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched the second Space-Based Infrared System (SBIRS) GEO-2 satellite for the U.S. Air Force at 5:21 p.m. EDT today from Space Launch Complex-41. ULA launched the first satellite in the constellation, GEO-1, aboard an Atlas V on May 7, 2011.", "This was the 3rd ULA launch of the year, the 37th Atlas V mission, and the 69th ULA launch since the company was formed in December 2006.", "\"The ULA team is honored to serve a pivotal role in placing this critical capability in orbit for our women and men serving around the world and protecting our freedom,\" said Jim Sponnick, ULA vice president, Mission Operations. \"From nearly two years ago when we began production of the launch vehicle, through today’s successful mission delivery, this very strong and well-integrated government and industry team has ensured that mission success remains the highest priority at every step in the process.\"", "This mission was launched aboard an Atlas V 401 Evolved Expendable Launch Vehicle (EELV), which includes a 4-meter diameter payload fairing. The booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL-10A engine.", "SBIRS is a consolidated system intended to meet United States infrared space surveillance needs for decades to come. The SBIRS program addresses critical warfighter needs in the areas of missile warning, missile defense, technical intelligence and battlespace characterization."],
         "livestreamLink" : "",
     },
     {
@@ -908,7 +908,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched the fourth Global Positioning System (GPS) IIF-4 satellite for the U.S. Air Force at 5:38 p.m. EDT today from Space Launch Complex-41.", "\"The ULA team is honored to place another next-generation GPS satellite on orbit for our U.S. Air Force customer,\" said Jim Sponnick, ULA vice president, Mission Operations. \"Today’s successful delivery of the GPS IIF-4 mission represents the 70th launch success in the 77 months since ULA was formed – an accomplishment made possible by seamless integration of the customer and industry team; reliable production and launch operation processes; and a one-launch-at-a-time focus on mission success for these critical space assets.\"", "This mission was launched aboard an Atlas V 401 Evolved Expendable Launch Vehicle (EELV), which includes a 4-meter diameter payload fairing. The booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Pratt & Whitney Rocketdyne RL-10A engine.", "\"The ULA team has launched 51 GPS missions on Delta II and Delta IV vehicles and this mission marks the first operational GPS mission launched on an Atlas V launch vehicle,\" said Sponnick. \"Successfully and efficiently integrating and launching these satellites on both EELV launch systems provides operational flexibility and in the future, capabilities such as dual launch will provide even greater flexibility and also enable lower launch costs for our customers.\"", "GPS IIF-4 is the fourth in a series of next generation GPS satellites and will join a worldwide timing and navigation system utilizing 24 satellites in six different planes, with a minimum of four satellites per plane positioned in orbit approximately 11,000 miles above the Earth’s surface. The GPS IIF series provides improved accuracy and enhanced performance for GPS users."],
         "livestreamLink" : "",
     },
     {
@@ -932,7 +932,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket carrying the second Mobile User Objective System (MUOS-2) satellite for the United States Navy lifted off from Space Launch Complex-41 here at 9 a.m. EDT today. This was ULA’s 6th launch of an aggressive 12 mission schedule for the year and the 72nd ULA mission since its formation in 2006.", "\"United Launch Alliance is honored to serve with our mission partners in the preparation and launch of this critical mission for the U.S. Navy and for our U.S. Air Force customer,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs. \"This joint government and industry team is keenly focused on mission success and enabling MUOS-2 to provide vital communications capability to the women and men protecting our freedom around the world.\"", "The MUOS-2 mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 551 configuration vehicle, which includes a 5.4-meter diameter RUAG Space payload fairing along with five Aerojet Rocketdyne solid rocket motors attached to the Atlas booster. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Aerojet Rocketdyne RL10A engine.", "\"At nearly 15,000 pounds, MUOS-2 is the heaviest satellite launched to date by an Atlas launch vehicle, and today’s Atlas vehicle provided 2.5 million pounds of thrust during the boost phase,\" said Sponnick.", "MUOS is a next-generation narrowband tactical satellite communications system designed to significantly improve beyond-line-of-sight communications for U.S. forces on the move. MUOS will provide military users 10 times more communications capacity over the existing system by leveraging 3G mobile communications technology, and will provide simultaneous voice and data capability."],
         "livestreamLink" : "",
     },
     {
@@ -956,7 +956,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Advanced Extremely High Frequency-3 (AEHF-3) satellite for the United States Air Force lifted off from Space Launch Complex-41 here at 4:10 a.m. EDT today. This was ULA’s 9th launch of an ambitious 12-mission schedule for the year and marks the 40th Atlas V mission and the 75th launch for ULA.", "\"The United Launch Alliance team is proud to serve alongside our mission partners and privileged that the Air Force has entrusted the ULA team to deliver the critical national security capabilities provided by AEHF-3 to orbit for our soldiers, sailors, airmen and Marines around the world,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs.", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 531 configuration vehicle, which includes a 5-meter diameter RUAG Space payload fairing along with three Aerojet Rocketdyne(?) solid rocket motors attached to the Atlas booster. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine and the Centaur upper stage was powered by a single Aerojet Rocketdyne RL10A engine.", "\"Today’s successful launch was the 75th since ULA was formed nearly seven years ago, the 40th Atlas V mission, and the fourth ULA launch in the last two months,\" said Sponnick.  \"The ULA team and our many mission partners emphasize a one-launch-at-a-time focus on mission success along with a strong commitment to continuous improvement – these elements together are the keys to launching our customer’s missions successfully at this unprecedented tempo in a reliable and cost-effective manner.\"", "The AEHF constellation is a joint-service satellite communications system that will provide survivable, global, secure, protected and jam-resistant communications for high-priority military ground, sea and air assets.", "Developed by the United States Air Force to provide assured access to space for Department of Defense and other government payloads, the EELV Program supports the full range of government mission requirements, while delivering on schedule and providing significant cost savings over the heritage launch systems."],
         "livestreamLink" : "",
     },
     {
@@ -980,7 +980,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V rocket is set to launch NASA’s Mars Atmosphere and Volatile EvolutioN (MAVEN) spacecraft on Monday, Nov. 18, at 1:28 p.m. Eastern Standard Time.", "This mission will be launched aboard an Atlas V 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission will be powered by the RD AMROSS RD-180 engine, and the Centaur upper stage will be powered by a single Aerojet Rocketdyne RL10A engine.", "\"United Launch Alliance is proud to provide NASA’s ride to Mars for this very critical science mission,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs. \"Over the last decade, ULA launch systems have successfully launched all of NASA’s missions to the red planet, including the Spirit and Opportunity rovers and most recently the Mars Science Lab mission with the Curiosity rover.\"", "Less than an hour into flight, spacecraft separation from the Centaur upper stage will occur over Australia, sending MAVEN on its 10-month journey to the red planet.", "MAVEN will examine specific processes on Mars that led to the loss of much of its atmosphere. Data and analysis will help planetary scientists understand the history of climate change on the red planet and provide further information on the history of planetary habitability."],
         "livestreamLink" : "",
     },
     {
@@ -1004,7 +1004,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying a payload for the National Reconnaissance Office (NRO) lifted off from Space Launch Complex-3 on Dec. 5 at 11:14 p.m. PST. Designated NROL-39, the mission is in support of national defense.", "\"Today’s successful launch of the NROL-39 mission is a testament to the tremendous government-industry partnership. We greatly appreciate the teamwork with the NRO Office of Space Launch and our many mission partners,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs. \"We are honored to be entrusted to launch these one-of-a-kind national assets to orbit to protect our national security and to support the many brave men and women serving around the world.\"", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle 501 configuration vehicle, which includes a 5-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine, and the Centaur upper stage was powered by a single Aerojet Rocketdyne RL10A-4 engine.", "In addition to the NROL-39 payload, the Government Experimental Multi-Satellite (GEMSat), consisting of 12 CubeSats, took advantage of the Atlas V launch vehicle ride share capabilities and were deployed following completion of the primary mission. The NRO and ULA partnered to develop an Aft Bulkhead Carrier (ABC) on the Centaur upper stage, which is a platform for accommodating auxiliary payloads aboard Atlas V missions.", "The CubeSats were developed under a sponsorship of both the NRO and NASA. The Aerospace Corporation, the Air Force Institute of Technology and the Army developed the seven NRO-sponsored CubeSats. The five NASA-sponsored CubeSats were developed by Montana State University, California Polytechnic State University, the University of Michigan, and Medgar Evers College of the City University of New York.", "\"We are pleased we could support the NRO, NASA and all of the associated institutions by successfully delivering these important auxiliary payloads which will test and validate new technologies for debris mitigation, propulsion, space weather, communications, on-orbit data processing and the use of commercially available components,\" said Sponnick."],
         "livestreamLink" : "",
     },
     {
@@ -1028,7 +1028,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched NASA’s Tracking and Data Relay Satellite (TDRS-L) payload at 9:33 p.m. EST today from Space Launch Complex-41. This was the first of 15 ULA launches scheduled for 2014 and the 78th ULA launch for ULA in just over seven years.", "\"ULA and our mission partners are honored to work with the outstanding NASA team and we are proud of the vitally important data relay capabilities that were safely delivered today,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs. \"With 43 successful missions spanning a decade of operational service and launched with a one-launch-at-a-time focus on mission success, the Atlas V continues to provide reliable, cost-effective launch services for our nation’s most complex and valued payloads.\"", "This mission was launched aboard an Atlas V 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine, and the Centaur upper stage was powered by a single Aerojet Rocketdyne RL10A-4 engine.", "NASA established the TDRS project in 1973, with the first launch in 1983, to provide around-the-clock and around-the-Earth communications for the network that routes voice calls, telemetry streams and television signals from the International Space Station, as well as telemetry and science data from the Hubble Space Telescope and other orbiting spacecraft.", "\"Atlas and TDRS have supported each other for almost 20 years, and all three of the second generation satellites, now known as TDRS 8, 9, and 10, launched on Atlas vehicles in 2000 and 2002,\" said Sponnick. \"While we were integrating those spacecraft onto Atlas in the late 1990s, we also developed a new TDRS-compatible transmitter so that Atlas could use the TDRS constellation to receive and distribute the launch vehicle telemetry relay during flight. We are now also using TDRS services for our Delta II and Delta IV programs.\""],
         "livestreamLink" : "",
     },
     {
@@ -1052,7 +1052,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket successfully launched the Air Force’s Defense Meteorological Satellite Program (DMSP-19) payload at 7:46 a.m. PDT today from Space Launch Complex-3. This is the third mission of 15 scheduled for 2014 and the 80th mission since ULA was formed in December 2006.", "\"Congratulations to the Air Force and all of our mission partners on this morning’s successful launch of DMSP-19! ULA takes tremendous pride in the national capabilities we place on orbit for our customers and in the critical information that satellites such as DMSP provide to military and civilian users worldwide,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs. \"Achieving on-time launches for our customer’s missions with 100 percent mission success is a testament to this strong government and industry team being singularly focused on one launch at a time.\"", "This mission was launched aboard an Atlas V 401 configuration vehicle, which includes a 4-meter diameter payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine, and the Centaur upper stage was powered by a single Aerojet Rocketdyne RL10A-4 engine.", "For the past 50 years, the DMSP satellites have fulfilled the military's most critical requirements for global atmospheric, oceanic, terrestrial and space environment information. Through these satellites, military users find, track and forecast weather systems over remote and hostile areas for deployed troops. Additionally, DMSP supports a broad range of civil users with sensing capabilities not provided by U.S. civil and foreign weather satellite systems."],
         "livestreamLink" : "",
     },
     {
@@ -1076,7 +1076,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying a payload for the National Reconnaissance Office (NRO) lifted off from Space Launch Complex-41 on April 10 at 1:45 p.m. EDT. Designated NROL-67, the mission is in support of national defense.", "\"We are honored to deliver this national security asset to orbit together with our customers the NRO Office of Space Launch and the Air Force,\" said Jim Sponnick, ULA vice president, Atlas and Delta Programs. \"Successfully launching two missions from two different coasts in just seven days is a testament to the team’s one-launch-at-a-time focus and ULA’s commitment to mission success and schedule reliability.\"", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 541 configuration vehicle, which includes a 5-meter diameter payload fairing along with four Aerojet Rocketdyne solid rocket motors attached to the Atlas booster. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine, and the Centaur upper stage was powered by a single Aerojet Rocketdyne RL10A engine."],
         "livestreamLink" : "",
     },
     {
@@ -1100,7 +1100,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 401 will launch the NROL-33 mission for the National Reconnaissance Office (NRO).", "Thursday, May 22, from Space Launch Complex (SLC) 41 at Cape Canaveral Air Force Station, Fla. Launch is planned for 9:05 a.m. EDT.", "NROL-33 will be the 46th Atlas V mission since the vehicle’s inaugural launch in 2002. It will be the sixth of 15 planned missions ULA is slated to launch in 2014, and ULA’s 83rd since the company formed in 2006.", "The mission will be launched for the National Reconnaissance Office in support of national defense."],
         "livestreamLink" : "",
     },
     {
@@ -1124,7 +1124,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 401 will launch the GPS IIF-7 mission for the U.S. Air Force.", "Friday, Aug. 1, 2014, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Fla. The 18-minute launch window opens at 11:23 p.m. EDT.", "GPS satellites serve and protect our warfighters by providing navigational assistance for U.S. military operations on land, at sea, and in the air. Civilian users around the world also use and depend on GPS for highly accurate time, location, and velocity information.", "GPS IIF-7 is one of the next-generation GPS satellites, incorporating various improvements to provide greater accuracy, increased signals, and enhanced performance for users.", "GPS IIF-7 will be the ninth of 15 planned missions ULA is slated to launch in 2014, and ULA's 86th since the company formed in 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1148,7 +1148,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 401 will launch the WorldView-3 for Digital Globe. The United Launch Alliance Atlas V is provided by Lockheed Martin Commercial Launch Services.", "Wednesday, Aug. 13, 2014, from Space Launch Complex-3 at Vandenberg Air Force Base, California. The 15-minute launch window opens at 11:30 a.m. PDT.", "WorldView-3 will enhance DigitalGlobe’s industry-leading constellation and will further support customers across a variety of industries, such as agriculture, mining, and oil and gas. For more information about the WorldView-3 satellite, visit http://worldview3.digitalglobe.com/.", "WorldView-3 will be the 10th of 15 planned missions ULA is slated to launch in 2014, and ULA's 86th since the company formed in 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1172,7 +1172,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 401 will launch the CLIO mission for the U.S. government.", "Tuesday, Sept. 16, 2014, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 2-hour, 26-minute launch window opens at 5:44 p.m. EDT.", "The CLIO mission will mark the 49th Atlas V launch and the 25th of the 401 configuration. CLIO also will be the 60th ULA launch from Cape Canaveral and the company’s 11th of 2014."],
         "livestreamLink" : "",
     },
     {
@@ -1196,7 +1196,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 401 will launch the GPS IIF-8 mission for the U.S. Air Force.", "Wednesday, Oct. 29, 2014, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Fla. The 18-minute launch window opens at 1:21 p.m. EDT.", "GPS satellites serve and protect our warfighters by providing navigational assistance for U.S. military operations on land, at sea, and in the air. Civilian users around the world also use and depend on GPS for highly accurate time, location, and velocity information.", "GPS IIF-8 is one of the next-generation GPS satellites, incorporating various improvements to provide greater accuracy, increased signals, and enhanced performance for users.", "GPS IIF-8 will be ULA’s fourth GPS launch of 2014 and the 12th of the year. The mission will mark ULA’s 89th mission since the company was founded in 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1220,7 +1220,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 541 will launch the NROL-35 mission for the National Reconnaissance Office (NRO).", "Friday, Dec. 12, 2014, from Space Launch Complex (SLC)-3 at Vandenberg Air Force Base, California. Launch is planned for 7:13 p.m. PST.", "NROL-35 will be the 51st Atlas V mission since the vehicle’s inaugural launch in 2002, and the third launch in the 541 configuration. An Atlas V 541 successfully launched the NROL-67 mission for the National Reconnaissance Office earlier this year and NASA’s Curiosity rover to Mars in 2011.", "The mission will be launched for the National Reconnaissance Office in support of national defense."],
         "livestreamLink" : "",
     },
     {
@@ -1244,7 +1244,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 551 will launch the Navy’s third Mobile User Objective System (MUOS-3) satellite.", "Tuesday, Jan. 20, 2015, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 44-minute launch window opens at 7:43 p.m. EST.", "The Mobile User Objective System (MUOS) is a next-generation narrowband tactical satellite communications system designed to significantly improve ground communications for U.S. forces on the move.", "MUOS will provide military users 10 times more communications capability over existing systems, including simultaneous voice, video and data, leveraging 3G mobile communications technology.", "MUOS-3 will mark United Launch Alliance’s first launch of 2015, and the 52nd Atlas V since the vehicle’s inaugural launch in 2002. MUOS-1 and MUOS-2 also launched on an Atlas V 551: MUOS-1 launched Feb. 24, 2012, and MUOS-2 launched July 19, 2013."],
         "livestreamLink" : "",
     },
     {
@@ -1268,7 +1268,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 421 will launch the Magnetospheric Multiscale (MMS) mission for NASA.", "Thursday, March 12, 2015, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 30-minute launch window opens at 10:44 p.m. EDT.", "The Magnetospheric Multiscale, or MMS, mission studies the mystery of how magnetic fields around Earth connect and disconnect, explosively releasing energy via a process known as magnetic reconnection. MMS consists of four identical spacecraft that work together to provide the first three-dimensional view of this fundamental process, which occurs throughout the universe.", "MMS will be United Launch Alliance’s 94th launch since the company was founded in December 2006. It will mark the third of 13 planned ULA missions in 2015."],
         "livestreamLink" : "",
     },
     {
@@ -1292,7 +1292,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 501 will launch the AFSPC-5 mission for the U.S. Air Force.", "May 20, 2015, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida. The launch windows are 11:05-11:15 a.m. and 12:42-12:52 p.m. EDT.", "AFSPC-5 is carrying OTV-4 for the U.S. Air Force in support of national security. The Atlas V vehicle will also launch an Aft Bulkhead Carrier (ABC) containing eight P-Pods that will release 10 CubeSats. Following primary spacecraft separation the Centaur will change altitude and inclination in order to release the CubeSat spacecraft which are sponsored by the National Reconnaissance Office (NRO) and the National Aeronautics and Space Administration (NASA). The ten CubeSats were developed by the U.S. Naval Academy, the Aerospace Corporation, the Air Force Research Laboratory, California Polytechnic State University, and Planetary Society.", "AFSPC-5 marks ULA’s 96th mission since the company was founded in 2006 and the fifth ULA launch of 2015. AFSPC-5 also will be the 54th Atlas V launch since the vehicle’s inaugural mission in 2002."],
         "livestreamLink" : "",
     },
     {
@@ -1316,7 +1316,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch the GPS IIF-10 mission for the U.S. Air Force.", "Wednesday, July 15, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida. The 18-minute launch window opens at 11:36 a.m. EDT.", "GPS satellites serve and protect our warfighters by providing navigational assistance for U.S. military operations on land, at sea, and in the air. Civilian users around the world also use and depend on GPS for highly accurate time, location, and velocity information.", "GPS IIF-10 is one of the next-generation GPS satellites, incorporating various improvements to provide greater accuracy, increased signals, and enhanced performance for users.", "GPS IIF-10 marks the 55th Atlas V launch since the vehicle’s inaugural launch in 2002 and the 27th flight of the 401 configuration. Every operational GPS mission has launched on a ULA or heritage rocket."],
         "livestreamLink" : "",
     },
     {
@@ -1340,7 +1340,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 551 will launch the U.S. Navy’s fourth Mobile User Objective System (MUOS-4) satellite, built by Lockheed Martin.", "Wednesday, Sept. 2, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 44-minute launch window opens at 5:59 a.m. EDT.", "The Navy’s Mobile User Objective System (MUOS) is a next-generation narrowband tactical satellite communications system designed using a combination of orbiting satellites and relay ground stations to significantly improve communications for U.S. forces on the move. MUOS will provide new beyond-line-of-sight secure communications capabilities, with smartphone-like simultaneous voice, video and data – to connect military users almost anywhere around the globe.", "MUOS-4 will mark the 56th Atlas V since the vehicle’s inaugural launch in August 2002 and the sixth in the 551 configuration. Previous missions launched on Atlas V 551 missions include three MUOS missions as well as the New Horizons mission to Pluto and the Juno mission to Jupiter."],
         "livestreamLink" : "",
     },
     {
@@ -1364,7 +1364,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 421 will launch the Morelos-3 mission for Mexico’s Secretaria de Comunicaciones y Transportes (Ministry of Communications and Transportation). The United Launch Alliance Atlas V is provided by Lockheed Martin Commercial Launch Services.", "Friday, Oct. 2, 2015, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The launch window is 6:08–6:28 a.m. EDT.", "Morelos-3 will be part of the Mexsat constellation of satellites owned by Secretaria de Comunicaciones y Transportes and operated by Telecomunicaciones de Mexico that delivers advanced telecommunications throughout Mexico.", "The Mexsat program provides secure communications for Mexico’s national security needs in addition to providing communications to rural zones, as a complement to other existing networks. These satellite communication services include education and health programs, voice, data, video, and internet services.", "Morelos-3 will be the 57th Atlas V launch since the vehicle’s inaugural mission in 2002 and the fifth in the 421 configuration."],
         "livestreamLink" : "",
     },
     {
@@ -1388,7 +1388,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch the NROL-55 mission for the National Reconnaissance Office (NRO).", "Thursday, Oct. 8 2015, from Space Launch Complex (SLC)-3 at Vandenberg Air Force Base, California. Launch is planned for 5:49 a.m. PDT.", "NROL-55 will be the 58th Atlas V mission since the vehicle’s inaugural launch in 2002. The mission is ULA’s 10th of 2015 and 101st since the company was founded in December 2006.", "The mission will be launched for the National Reconnaissance Office in support of national defense. Thirteen CubeSats also will launch aboard the Atlas V aboard the NRO’s Government Rideshare Advanced Concepts Experiment (GRACE) auxiliary payload. Nine of the CubeSats are sponsored by the NRO, and four are sponsored by NASA. The GRACE payloads will be delivered to space on the Aft Bulkhead Carrier, located on the rear of the Centaur upper stage. Additional GRACE CubeSat information can be found on the NRO website."],
         "livestreamLink" : "",
     },
     {
@@ -1412,7 +1412,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch the GPS IIF-11 mission for the U.S. Air Force.", "Saturday, Oct. 31, 2015, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 19-minute launch window opens at 12:13 p.m. EDT.", "GPS satellites serve and protect our warfighters by providing navigational assistance for U.S. military operations on land, at sea, and in the air. Civilian users around the world also use and depend on GPS for highly accurate time, location, and velocity information.", "GPS IIF-11 is one of the next-generation GPS satellites, incorporating various improvements to provide greater accuracy, increased signals, and enhanced performance for users.", "GPS IIF-11 will be the third GPS mission ULA launches in 2015: GPS IIF-9 launched on a Delta IV in March, and GPS IIF-10 launched in July. This mission will be ULA’s 11th in 2015 and 102nd since the company was founded in 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1436,7 +1436,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The launch is rescheduled for Sunday, Dec. 6, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The preliminary launch time is 4:44 p.m. EST at the opening of a 30-minute window. The forecast for Dec. 6 shows a 40 percent chance of favorable weather conditions for the launch tomorrow.", "A United Launch Alliance Atlas V 401 will launch Orbital ATK's Cygnus™ spacecraft on the initial leg of its cargo resupply mission to the International Space Station (ISS).", "Sunday, Dec. 6, 2015, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 30-minute launch window opens at 4:44 p.m. EST.", "Cygnus is a low-risk design incorporating elements drawn from Orbital ATK and its partners’ existing, flight-proven spacecraft technologies. Cygnus consists of a common Service Module (SM) and a Pressurized Cargo Module (PCM). The SM is assembled and tested at Orbital ATK’s Dulles, Virginia, satellite manufacturing facility and incorporates systems from Orbital ATK’s flight-proven LEOStar™ and GEOStar™ satellite product lines. The PCM is based on the Multi-Purpose Logistics Module (MPLM), developed and built by Thales Alenia Space of Italy.", "The Cygnus spacecraft for the OA-4 mission is the first to employ the longer, \"enhanced,\" PCM which can carry a greater volume of cargo than the PCM flown on previous missions, and lightweight UltraFlex arrays developed and built by Orbital ATK’s Goleta, California, facility.", "OA-4 will mark the 60th launch of the Atlas V and the 30th launch in the 401 configuration. It also marks ULA’s first mission supporting ISS cargo resupply."],
         "livestreamLink" : "",
     },
     {
@@ -1460,7 +1460,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch the GPS IIF-12 mission for the U.S. Air Force.", "Friday, Feb. 5, 2016, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 19-minute launch window opens at 8:38 a.m. EST.", "GPS satellites serve and protect our warfighters by providing navigational assistance for U.S. military operations on land, at sea, and in the air. Civilian users around the world also use and depend on GPS for highly accurate time, location, and velocity information.", "GPS IIF-12 is one of the next-generation GPS satellites, incorporating various improvements to provide greater accuracy, increased signals, and enhanced performance for users.", "GPS IIF-12 will be ULA’s first mission of 2016 and the 60th operational GPS mission to launch on a ULA or heritage rocket."],
         "livestreamLink" : "",
     },
     {
@@ -1484,7 +1484,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch Orbital ATK’s Cygnus™ spacecraft on the initial leg of its cargo resupply mission to the International Space Station (ISS).", "Tuesday, March 22, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 30-minute launch window opens at approximately 11:05 p.m. EDT.", "Cygnus is a low-risk design incorporating elements drawn from Orbital ATK and its partners’ existing, flight-proven spacecraft technologies. Cygnus consists of a common Service Module (SM) and a Pressurized Cargo Module (PCM). The SM is assembled and tested at Orbital ATK’s Dulles, Virginia, satellite manufacturing facility and incorporates systems from Orbital ATK’s flight-proven LEOStar™ and GEOStar™ satellite product lines. The PCM is based on the Multi-Purpose Logistics Module (MPLM), developed and built by Thales Alenia Space of Italy.", "OA-6 will mark the 62nd launch of the Atlas V and ULA’s 106th launch since the company was founded in 2006. This will be ULA’s second mission supporting ISS cargo resupply."],
         "livestreamLink" : "",
     },
     {
@@ -1508,7 +1508,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["An Atlas V 551 will launch the U.S. Navy’s fifth Mobile User Objective System (MUOS-5) satellite, built by Lockheed Martin.", "Friday, June 24, 2016, from Space Launch Complex-41 at Cape Canaveral Air Force Station, Florida. The 44-minute launch window opens at 10:30 a.m. EDT.", "The fifth Mobile User Objective System (MUOS-5) satellite is the latest addition to a network of orbiting satellites and relay ground stations that is revolutionizing secure communications for mobile military forces. Users with operational MUOS terminals can seamlessly connect beyond line-of-sight around the world and into the Global Information Grid. MUOS’ new commercial, cellular-based capabilities include simultaneous, crystal-clear voice, video and mission data, over a secure high-speed Internet Protocol-based system.", "MUOS-5 will mark the 63rd Atlas V since the vehicle’s inaugural launch in August 2002. MUOS-5 will be the seventh mission to launch in the 551 configuration; other missions launched in this configuration include four previous MUOS missions as well as the New Horizons mission to Pluto and the Juno mission to Jupiter."],
         "livestreamLink" : "",
     },
     {
@@ -1532,7 +1532,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 421 configuration rocket will launch the NROL-61 mission for the National Reconnaissance Office (NRO).", "Thursday, July 28, 2016, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida.", "NROL-61 will mark ULA’s sixth launch of 2016 and the 109th since the company was founded in 2006. It also will be the sixth Atlas V to launch in the 421 configuration.", "The mission will be launched for the National Reconnaissance Office in support of national defense."],
         "livestreamLink" : "",
     },
     {
@@ -1556,7 +1556,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 411 configuration rocket will launch the Origins, Spectral Interpretation, Resource Identification, Security-Regolith Explorer (OSIRIS-REx) mission for NASA.", "Thursday, Sept. 8, 2016, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida. The launch window is 7:05-9 p.m. EDT.", "OSIRIS-REx marks the 65th Atlas V launch and the fourth in the 411 configuration. This also will be ULA’s 111th launch since the company was formed in 2006.", "The OSIRIS-REx mission will help scientists investigate the origins of our solar system, how water and organic material traveled to Earth, and increase understanding of asteroids that could impact Earth. In addition, the sample returned to Earth will further our understanding of water, organics and precious metals on asteroids, which could fuel future exploration missions."],
         "livestreamLink" : "",
     },
     {
@@ -1580,7 +1580,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 configuration rocket will launch the WorldView-4 mission for DigitalGlobe. The Atlas V is provided by Lockheed Martin Commercial Launch Services.", "Friday, Nov. 11, 2016, from Space Launch Complex (SLC)-3 at Vandenberg Air Force Base, California. The launch window is 10:30-10:45 a.m. PST.", "WorldView-4, a multispectral, high-resolution commercial imaging satellite owned and operated by DigitalGlobe, will help customers around the world see more of our changing planet. The satellite was built by Lockheed Martin Space Systems Company and will provide 31-centimeter panchromatic resolution and 1.24-meter multispectral resolution—the same resolution offered by the WorldView-3 satellite. This industry-leading resolution provides the sharpest view of vital details on the ground, to give customers confidence when making critical decisions.", "WorldView-4 marks ULA’s 9th launch of 2016 and 112th since the company was founded in 2006. ULA also launched WorldView-3 on Atlas V in 2014."],
         "livestreamLink" : "",
     },
     {
@@ -1604,7 +1604,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 541 configuration rocket will launch the Geostationary Operational Environmental Satellite-R (GOES-R) mission for the National Oceanic and Atmospheric Administration and NASA.", "Saturday, Nov. 19, 2016, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida. The one-hour launch window opens at 5:42 p.m. EST.", "ULA and our heritage rockets have launched all of the operational GOES satellites. GOES-R marks the fourth Atlas V to launch in the 541 configuration, the first of which was the rocket that launched NASA’s Curiosity rover to Mars in 2011.", "GOES-R is the first of four satellites to be launched for NOAA in a new and advanced series of spacecraft. Once in geostationary orbit, it will be known as GOES-16. Compared with today’s geostationary satellites, GOES-R will scan the Earth five times faster at four times image resolution and triple the number of channels scientists can tap into to observe global weather and climate. GOES-R will support short-term forecasts and severe storm watches and warnings, maritime forecasts, seasonal predictions, drought outlooks and space weather predictions. The satellite also will improve hurricane tracking and intensity forecasts, increase thunderstorm and tornado warning lead time, improve aviation flight route planning, and provide data for long-term climate variability studies.", "In addition to weather forecasting, GOES-R carries a transponder to detect distress signals from emergency beacons on aircraft, boats/ships and carried by individuals as part of the Search and Rescue Satellite Aided Tracking (SARSAT) system."],
         "livestreamLink" : "",
     },
     {
@@ -1628,7 +1628,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 431 configuration rocket will launch the EchoStar XIX mission for Hughes. The Atlas V is provided by Lockheed Martin Commercial Launch Services.", "Sunday, Dec. 18, 2016, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida. The two-hour launch window opens at 1:27 p.m. EST.", "EchoStar XIX will mark the 68th launch of the Atlas V rocket and the third in the 431 configuration. This mission will be ULA’s 12th of 2016 and the 115th since the company was formed 10 years ago.", "EchoStar XIX will be the world’s highest capacity broadband satellite in orbit, dramatically increasing capacity for HughesNet® high-speed satellite Internet service to homes and businesses in North America. This large, multi-spot beam Ka-band satellite, based on the powerful SSL 1300 platform, will be stationed at 97.1 degrees West longitude. Building from their experience on the highly successful EchoStar XVII broadband satellite, SSL and Hughes collaboratively engineered thespecific design details of this payload for optimum performance."],
         "livestreamLink" : "",
     },
     {
@@ -1652,7 +1652,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch the Space-Based Infrared System (SBIRS) GEO Flight 3 mission for the U.S. Air Force.", "Friday, Jan. 20, 2017, from Space Launch Complex (SLC)-41 at Cape Canaveral Air Force Station, Florida. The 40-minute launch window opens at 7:42 p.m. EST.", "SBIRS GEO Flight 3 will be ULA’s first launch of 2017 and the 69th Atlas V mission overall. This mission marks the 34th Atlas V mission in the 401 configuration; the two previous SBIRS GEO missions also launched on the Atlas V 401 rocket.", "SBIRS, considered one of the nation's highest priority space programs, is designed to provide global, persistent, infrared surveillance capabilities to meet 21st century demands in four national security mission areas including: missile warning, missile defense, technical intelligence and battlespace awareness."],
         "livestreamLink" : "",
     },
     {
@@ -1676,7 +1676,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 configuration rocket will launch the NROL-79 mission for the National Reconnaissance Office (NRO).", "Wednesday, March 1, 2017, from Space Launch Complex (SLC)-3 at Vandenberg Air Force Base, California. Launch is planned for 9:50 a.m. PST.", "NROL-79 will mark the 70th Atlas V launch and the 35th in the 401 configuration since the rocket’s inaugural mission in 2002."],
         "livestreamLink" : "",
     },
     {
@@ -1700,7 +1700,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance Atlas V 401 will launch Orbital ATK’s Cygnus™ spacecraft on the initial leg of its cargo resupply mission to the International Space Station (ISS).", "Tuesday, April 18, from Space Launch Complex-41 at Cape Canaveral Air Force Station. The 30-minute launch window opens at 11:11 a.m. EDT.", "Orbital ATK developed the Cygnus advanced maneuvering spacecraft to perform ISS cargo delivery missions under the Commercial Resupply Service (CRS) contract with NASA. At a total weight of approximately 7,225 kg (15,928 lb), OA-7 will include approximately 3,380 kg (7,452 lb) of internal cargo and an 83 kg (183 lb) external deployer carrying CubeSats.", "This mission marks the third time ULA’s Atlas V has launched Orbital ATK’s Cygnus™ spacecraft on its way to the ISS. OA-7 will be the 71st launch of the Atlas V rocket since its first launch in 2002. The Atlas V 401 configuration rocket has flown 35 times, supporting a diverse set of missions, including national security, science and exploration, commercial as well as International Space Station resupply."],
         "livestreamLink" : "",
     },
     {
@@ -1724,7 +1724,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The addition of TDRS-M to the Space Network (SN) will provide the ability to support space communication for an additional 15 years. The network consists of TDRS satellites that transmit data to and from ground stations on Earth for NASA missions and expendable launch vehicles. Without the Space Network, scientists, engineers and control room staff would be unable to readily access data from missions like the Hubble Space Telescope and the International Space Station.", "This launch will be ULA’s fifth of 2017 and 120th overall. A ULA Atlas V also launched TDRS-K mission in 2013 and TDRS-L in 2014. This mission will mark the 72nd Atlas V rocket since its inaugural launch in 2002."],
         "livestreamLink" : "",
     },
     {
@@ -1748,7 +1748,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["This launch will be ULA’s sixth of 2017 and 121st overall. NROL-42 will be the 25th mission that ULA has launched for the National Reconnaissance Office (NRO) since the company was founded in 2006. This mission will mark the 73rd Atlas V launch since its inaugural launch on Aug. 21 2002."],
         "livestreamLink" : "",
     },
     {
@@ -1772,7 +1772,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["The NROL-52 mission will mark ULA’s seventh launch of 2017 and 26th for the National Reconnaissance Office. NROL-52 will be the 74th flight of the Atlas V rocket and the seventh in the 421 configuration."],
         "livestreamLink" : "",
     },
     {
@@ -1796,7 +1796,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Space Based Infrared System (SBIRS) GEO Flight 4 mission lifted off from Space Launch Complex-41 on Jan. 19 at 7:48 p.m. EST. SBIRS is considered one of the nation’s highest priority space programs, and is designed to provide global, persistent, infrared surveillance capabilities to meet 21st century demands.", "\"Meeting the challenge of launching two critical national security missions from opposite coasts within a week, the entire ULA team once again demonstrated its unwavering dedication to 100% mission success,\" said Laura Maginnis, ULA vice president of Government Satellite Launch. \"Thank you to our U.S. Air Force and industry teammates for their outstanding partnership in successfully delivering SBIRS to orbit today.\"", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 411 configuration vehicle, which includes a 4-meter Payload Fairing (PLF). The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the AJ-60A solid rocket booster (SRB) and RL10C-1 engine for the Centaur upper stage.", "This is the 75th launch of the Atlas V rocket, ULA’s 2nd launch in 2018 and the 125th successful launch since the company was formed in December 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1820,7 +1820,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["GOES-S is the second of four satellites to be launched for the National Oceanic and Atmospheric Administration (NOAA) in a new and advanced series of spacecraft. Once in geostationary orbit, it will be known as GOES-17. Like the other satellites in the series, GOES-S carries a suite of sophisticated Earth-sensing, lightning-detecting, solar imaging and space weather monitoring instruments. The advanced technology on board GOES-S will provide critical data and imagery in near-real time on severe weather events such as thunderstorms, tornadoes, hurricanes and flash floods, as well as hazards like fog, aerosols, dust storms, volcanic eruptions and forest fires.", "ULA and our heritage rockets have launched all of the operational GOES satellites, including GOES-R in November 2016. GOES-S marks the sixth Atlas V to launch in the 541 configuration, the first of which was the rocket that launched NASA's Curiosity rover to Mars in 2011."],
         "livestreamLink" : "",
     },
     {
@@ -1844,7 +1844,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Air Force Space Command (AFSPC)-11 mission lifted off from Space Launch Complex-41 on April 14 at 7:13 p.m. EDT. AFSPC-11 is a multi-payload mission. The forward payload is referred to as CBAS (Continuous Broadcast Augmenting SATCOM) and the aft spacecraft is EAGLE (EELV Secondary Payload Adapter (ESPA) Augmented Geosynchronous Experiment).", "\"Today’s launch is a testament to why the ULA team continually serves as our nation’s most reliable and successful launch provider for our nation’s most critical space assets,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"I want to thank the entire ULA team, and the phenomenal teamwork of our mission partners.\"", "This mission was launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 551 configuration vehicle, which includes a 5-meter large Payload Fairing (PLF). The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the five AJ-60A solid rocket boosters (SRBs) and RL10C-1 engine for the Centaur upper stage.", "This is the 77th launch of the Atlas V rocket, ULA’s 4th launch in 2018 and the 127th successful launch since the company was formed in December 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1868,7 +1868,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying NASA’s InSight Mars lander lifted off from Space Launch Complex-3 on May 5 at 4:05 a.m. PDT. InSight is the first mission launched to another planet from the West Coast, which requires more energy than an East Coast launch that takes advantage of the Earth’s rotation. The West Coast Mars launch was made possible by the performance of the Atlas V and an optimized trajectory design to achieve the very exact hyperbolic injection required to deliver the spacecraft to Mars.", "ULA and its heritage rockets have launched every U.S. spacecraft to the Red Planet since the 1960s, including Mars Science Lab, as well as the Spirit and Opportunity rovers. This was the 10th Mars launch on an Atlas rocket, and the fourth by the Atlas V following the Mars Reconnaissance Orbiter in 2005, the Curiosity rover in 2011 and the MAVEN orbiter in 2013.", "In addition to InSight, the mission included two CubeSats which launched from dispensers mounted on the aft bulkhead carrier on the Atlas V Centaur second stage. The Mars Cube One (MarCO) CubeSats, designed and built by the Jet Propulsion Laboratory, are the first to travel interplanetary.", "\"ULA is proud to have been a key part of this mission to explore our universe and unlock possibilities in space that will benefit all of humankind,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"I want to express my sincerest thanks to the entire ULA team, NASA and all our partners and suppliers for their exceptional teamwork and dedication to another successful mission.\"", "This mission was launched aboard an Atlas V 401 configuration vehicle, which includes a 4-meter Payload Fairing (PLF). The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage. This is the 78th launch of the Atlas V rocket, ULA’s fifth launch in 2018 and the 128th successful launch since the company was formed in December 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1892,7 +1892,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the fourth Advanced Extremely High Frequency (AEHF) mission for the U.S. Air Force lifted off from Space Launch Complex-41 on Oct. 17 at 12:15 a.m. EDT. The launch of AEHF-4 marks ULA’s 50th launch for the U.S. Air Force; ULA’s first Air Force mission was Space Test Program-1 (STP-1), launched March 8, 2007.", "\"ULA’s unparalleled record of successfully launching and placing payloads in orbit signifies our profound commitment to national defense,\" said Tory Bruno, ULA president and CEO. \"We remain the only launch provider capable of placing our customers’ payloads into any national security space orbit, anytime, which we’ve proudly exhibited through 50 launches for the U.S. Air Force.\"", "\"Over the past 12 years, the men and women of ULA have reliably delivered dozens of Air Force payloads into orbit from GPS to WGS, and SBIRS to AEHF,\" said Gen. Jay Raymond, commander of Air Force Space Command. \"ULA’s unprecedented 100 percent launch success has directly contributed to our national security. Congratulations to the entire launch team on a successful 50th launch for the U.S. Air Force.\"", "This mission launched aboard an Atlas V Evolved Expendable Launch Vehicle (EELV) 551 configuration vehicle, which includes a 5-meter large Payload Fairing (PLF) and stands at 197 ft. tall.", "Producing more than two and a half million pounds of thrust at liftoff, the Atlas V 551 configuration rocket is the most powerful in the Atlas V fleet. The 551 rocket has launched groundbreaking missions for our nation—from the critically important Mobile User Objective System (MUOS) constellation to historic science missions including New Horizons, the first mission to Pluto, and the Juno mission to Jupiter.", "The AEHF system, developed by Lockheed Martin, provides vastly improved global, survivable, protected communications capabilities for strategic command and tactical warfighters. AEHF-4 is ULA’s eighth launch in 2018 and 131st successful launch since the company was formed in December 2006."],
         "livestreamLink" : "",
     },
     {
@@ -1916,7 +1916,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch the fifth Advanced Extremely High Frequency (AEHF) communications satellite for the U.S. Air Force Space and Missile Systems Center. The launch is planned for Aug. 8 at Space Launch Complex-41 from Cape Canaveral Air Force Station.", "Producing more than two and a half million pounds of thrust at liftoff, the Atlas V 551 configuration rocket is the most powerful in the Atlas V fleet. The 551 rocket has launched groundbreaking missions for our nation—from the critically important MUOS constellation to historic science missions including New Horizons, the first mission to Pluto and the Juno mission to Jupiter. The Atlas V 551 configuration first launched on January 19, 2006 and has launched nine times to date.", "\"Our highest priority is to safely and reliably deliver national assets,\" said Gary Wentz, ULA vice president of Government and Commercial Programs.\"We are proud to have successfully launched the first four AEHF satellites, and look forward to launching the newest addition to the constellation in support of our nation’s national defense and the warfighter community.\"", "The AEHF system, developed by Lockheed Martin, provides vastly improved global, survivable, protected communications capabilities for strategic command and tactical warfighters.", "This mission will launch aboard an Atlas V 551 configuration vehicle, which includes a 5-meter large Payload Fairing (PLF) and stands at 197 ft. tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the five AJ-60A solid rocket boosters (SRBs) and RL10C-1 engine for the Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -1940,7 +1940,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch Boeing’s Starliner capsule on the Orbital Flight Test to the International Space Station (ISS). The launch is planned for Dec. 20 at 6:36 a.m. EST from Space Launch Complex-41 at Cape Canaveral Air Force Station.", "The Atlas V rocket will deliver Boeing’s CST-100 Starliner spacecraft to a 98-nautical mile (nmi) sub-orbital trajectory. Following separation from the Atlas V, the Starliner engines will propel the spacecraft to its final orbit and on to the ISS.", "Modified specifically for the Boeing CST-100 Starliner spacecraft, the Atlas V Starliner configuration does not include a payload fairing. Instead, the Starliner’s own protective surfaces take the place of the fairing to protect the uncrewed spacecraft during ascent. This is the inaugural flight of this configuration.", "\"We are bridging history as we prepare to launch astronauts again and the Orbital Flight Test is the first step in this process,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We are excited to fly this mission-unique Atlas V in support of Boeing’s Starliner and NASA’s Commercial Crew program.\"", "The Starliner is attached to the Atlas V using a launch vehicle adapter (LVA) which includes an aeroskirt to reduce aerodynamic loads on the vehicle. The Atlas V configuration for this mission is powered by dual Aerojet Rocketdyne RL10A-4-2 engines, each producing 22,600 lbs. of thrust. The Centaur also includes an Emergency Detection System (EDS) that monitors the health of the rocket throughout flight."],
         "livestreamLink" : "",
     },
     {
@@ -1964,7 +1964,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch the Solar Orbiter mission, an international cooperative mission between the European Space Agency (ESA) and NASA. The launch is on track for Feb. 9 at Space Launch Complex-41 from Cape Canaveral Air Force Station. Launch is planned for 11:03 p.m. EST at the opening of a two-hour launch window.", "Solar Orbiter will leave the launch pad atop 1.2 million pounds of thrust from the Atlas V main engine and single solid rocket booster (SRB). The SRB will burn for about 90 seconds while the first stage engine will burn for four minutes. Two burns by the Centaur upper stage achieve escape velocity, propelling Solar Orbiter to 27,000 mph for deployment less than an hour after liftoff.", "The Atlas V 411 rocket, a unique configuration that includes just one solid rocket booster, provides the optimal performance to precisely deliver a range of mission types. In its nearly 14 years of service, the 411 rocket has completed five flights, including NASA’s OSIRIS-REx mission. With a distinctive appearance, the Atlas V 411 is tailored to the performance needed to achieve the Earth departure trajectory for making repeated close encounters to the sun. This configuration first launched on April 20, 2006.", "\"We are proud to launch Solar Orbiter in support of our NASA and international mission partners,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"This exciting mission will allow us to further explore our universe and understand the intricacies of the sun.\"", "This Atlas V 411 configuration vehicle includes a 4-meter large payload fairing (PLF) and stands 189 ft. tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the one AJ-60A SRB and RL10A-4-2 engine for the Centaur upper stage. NASA's Launch Services Program at the agency's Kennedy Space Center in Florida selected ULA’s proven Atlas V vehicle for this mission and is responsible for management and oversight of the Atlas V launch services."],
         "livestreamLink" : "",
     },
     {
@@ -1988,7 +1988,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the sixth Advanced Extremely High Frequency (AEHF) communications satellite for the U.S. Space Force’s Space and Missile Systems Center lifted off from Space Launch Complex-41 on March 26 at 4:18 p.m. EDT. This marks the 83rd successful launch of an Atlas V rocket, 138th launch for ULA and first mission for the U.S. Space Force.", "\"The success of today’s launch is the culmination of years of dedication, hard work and teamwork with several of our mission partners,\" said Gen. Jay Raymond, Chief of Space Operations, U.S. Space Force. \"From our acquisition experts at SMC, to the satellite developers at Lockheed Martin, to the aircrews at Air Mobility Command, and our range support teams at the 45th Space Wing, we greatly appreciate the collaboration with the ULA team who all contributed to this historic, first National Security Space launch under the U.S. Space Force,\" added Raymond. \"On behalf of the U.S. Space Force and all of our joint warfighters who depend on protected SATCOM, thank you and congratulations on today’s successful launch.\"", "\"Congratulations to the U.S. Space Force on liftoff of your first mission,\" said Tory Bruno, ULA president and CEO. \"We are proud to be your partner for this historic mission and honored to have launched the entire Lockheed Martin produced AEHF constellation on Atlas V rockets. We understand the critical importance of delivering protected communications to strategic command and tactical warfighters operating on ground, sea and air.\"", "This mission launched aboard an Atlas V 551 configuration vehicle, producing more than two and a half million pounds of thrust at liftoff. The most powerful in the Atlas V fleet, the Atlas V 551 includes a 5-meter Payload Fairing (PLF) and stands at 197 ft. tall. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the five AJ-60A solid rocket boosters (SRBs) and RL10C-1 engine for the Centaur upper stage."],
         "livestreamLink" : "",
     },
     {
@@ -2012,7 +2012,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V 501 rocket carrying the USSF-7 mission for the U.S. Space Force lifted off on May 17, 9:14 a.m. EDT, from Space Launch Complex-41. This marks the 84th successful launch of an Atlas V rocket, 139th launch for ULA, the second launch for the U.S. Space Force and the sixth flight of the X-37B Orbital Test Vehicle (OTV-6).", "\"The success of this mission resulted from collaboration with our customer while working through challenging, and ever changing, health and safety conditions,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We were honored to partner with the U.S. Space Force to dedicate this mission to first responders, front-line workers, and those affected by COVID-19. It is truly a unique time in our history and I want to thank the entire team for their continued dedication and focus on mission success.\"", "Along with OTV-6, this mission deployed FalconSat-8, a small satellite developed by the U.S. Air Force Academy and sponsored by the Air Force Research Laboratory (AFRL) to conduct experiments on orbit. The mission also carried two NASA experiments, including a material sample plate to determine the results of radiation and other space effects on various materials, and an experiment which will assess space effects on seeds used to grow food. Another experiment sponsored by the Naval Research Laboratory will examine the ability to transform solar power into radio frequency microwave energy which could be transmitted to the ground.", "This mission launched aboard an Atlas V 501 configuration rocket that included a 5-meter-diameter payload fairing. The Atlas booster was powered by the RD AMROSS RD-180 engine, and the Centaur upper stage was powered by the Aerojet Rocketdyne RL10C-1 engine."],
         "livestreamLink" : "",
     },
     {
@@ -2036,7 +2036,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch NASA’s Mars 2020 mission with the Perseverance rover. The launch is on track for July 30 at Space Launch Complex-41 from Cape Canaveral Air Force Station. Launch is planned for 7:50 a.m. EDT at the opening of a two-hour launch window.", "ULA has a significant history launching to the red planet. ULA and its heritage rockets have launched every U.S. led mission to Mars, beginning in the 1960s. The launch of this mission will mark ULA’s 20th trip to Mars. Mars 2020 will be the fifth mission to Mars launched by the Atlas V rocket, following the Mars Reconnaissance Orbiter in 2005, the Curiosity rover in 2011, the MAVEN orbiter in 2013 and the InSight lander in 2018.", "\"We are proud to launch the Mars 2020 mission to orbit,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"The discoveries from the Mars 2020 mission will provide crucial science and research that will help inform NASA’s future plans to put humans on the Moon and Mars. We look forward to continuing the Mars mission legacy with our NASA partners.\"", "One of the most powerful rockets in the Atlas V fleet, the 541 configuration, with four solid rocket boosters, provides optimum performance to precisely deliver a range of mission types. In addition to three national security and two weather satellites, an Atlas V 541 rocket launched NASA’s Curiosity rover on its 10-month, 354 million-mile journey to the surface of Mars.", "This Atlas V 541 configuration vehicle includes a 5-meter payload fairing (PLF) and stands 197 ft. tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the four AJ-60A SRBs and RL10C-1 engine for the Centaur upper stage.", "NASA's Launch Services Program (LSP) at the agency's Kennedy Space Center in Florida selected United Launch Alliance’s (ULA’s) proven Atlas V vehicle for this mission and is responsible for management and oversight of the Atlas V launch services. LSP selected this rocket because it has the right liftoff capability for the \"heavy weight\" requirements for NASA’s Mars 2020 Perseverance rover launch. To date ULA has launched 139 times with 100 percent mission success."],
         "livestreamLink" : "",
     },
     {
@@ -2060,7 +2060,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch the NROL-101 mission for the National Reconnaissance Office (NRO). The launch is on track for Nov. 3 from Space Launch Complex-41 from Cape Canaveral Air Force Station. Launch is planned for 5:58 p.m. EST.", "\"ULA is proud to play a pivotal role in support of our mission partners and national security by keeping our country safe one launch at a time,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We thank our mission partners for their continued trust and teamwork. The NROL-101 mission will be ULA’s 29th mission launched for the National Reconnaissance Office and the 17th NRO mission launched on an Atlas V.\"", "The mission will launch on an Atlas V 531, a rocket that delivers unique capacity and the performance required for a range of mission types. The 531 configuration launched the first three Advanced Extremely High Frequency (AEHF) satellites for the United States Space Force and will loft a pair of C-band satellites for SES in 2022.", "The NROL-101 mission will be the first ULA launch flying the new Northrop Grumman Graphite Epoxy Motors (GEM) 63 solid rocket boosters that burn solid propellant and augment the lifting capacity of rocket's first stage. The GEM 63s measure 63 in. (1.6 meters) in diameter and 66 ft. (20.11 meters) in length. They will be ignited at the launch pad and burn for 94 seconds, each consuming 97,500 pounds (44,225.2 kg) of propellant to produce 371,550 pounds (1.6 mega-Newtons) of max thrust to augment the 860,200 pounds (3.83 mega-Newtons) of thrust produced by the RD-180 main engine to power the Atlas V rocket skyward. At liftoff, the combined thrust will be nearly 1.8 million pounds or 8 million mega-Newtons.", "The Atlas V 531 configuration includes a 17 ft. (5 meter) payload fairing and stands 206 ft. (63 meters) tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage. This will be the 86th launch of the Atlas V rocket and the 71st Atlas V to launch from Space Launch Complex-41 in Florida. To date ULA has launched 140 times with 100 percent mission success."],
         "livestreamLink" : "",
     },
     {
@@ -2084,7 +2084,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch the Space Based Infrared System Geosynchronous Earth Orbit (SBIRS GEO) Flight 5 mission for the U.S. Space Force’s Space and Missile Systems Center (SMC). The launch is on track for May 17 from Space Launch Complex-41 at Cape Canaveral Space Force Station.", "\"We take our role in national security very seriously and pride ourselves in being partners in space with the U.S. Space Force. We are launching critical capabilities for the warfighter and understand the need for reliability and consistency,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"This mission marks our 91st launch in support of national security space.  As we prepare to launch the fifth SBIRS mission, we thank our partners for their outstanding teamwork and collaboration.\"", "ULA has launched all SBIRS GEO satellites to date and will launch this fifth and the sixth satellite to complete the constellation. The SBIRS constellation, built by Lockheed Martin, consists of a network of GEO satellites and HEO payloads that provide persistent, infrared surveillance – as well as sophisticated ground control systems that manage the data – to support missile warning, missile defense, battlespace awareness and technical intelligence. Additionally, SMC’s Mission Manifest Office, in partnership with the United States Air Force Academy, will be flying the EZ-3 and EZ-4 flight systems on this mission.", "The mission will launch on an Atlas V 421 configuration rocket, that includes a 13.7-ft (4-m) Extra Extended Payload Fairing (XEPF) and stands 194 ft. (59 meters) tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1-1 engine for the Centaur upper stage and the two AJ-60A solid rocket boosters. This will be the 87th launch of the Atlas V rocket and the 72nd Atlas V to launch from Space Launch Complex-41 in Florida. To date ULA has launched 143 times with 100 percent mission success."],
         "livestreamLink" : "",
     },
     {
@@ -2108,7 +2108,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch the Landsat 9 mission for NASA. The launch is on track for Sept. 27 from Space Launch Complex-3 at Vandenberg Space Force Base. Launch is planned for 11:12 a.m. PDT.", "\"We are proud to continue to serve as the primary launch provider for Landsat missions. ULA and our heritage launch vehicles have launched every successful Landsat mission since 1972,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"The Landsat series provides outstanding data for Earth environment and science-based research and Landsat 9 will add to these capabilities. We have worked alongside our partners, in a challenging health environment, to prepare to launch this important mission that will empower Earth research from space for decades to come.\"", "Landsat 9 is a joint mission of NASA and the U.S. Geological Survey (USGS). In addition to Landsat 9, this mission includes the ESPA Flight System (EFS) which will deploy multiple CubeSats after Landsat 9 separation. The Atlas V will deploy Landsat 9 and the CubeSats into two different orbits, enabling the first four-burn Centaur mission for ULA on an Atlas V rocket. The Centaur upper stage has the capacity for increased performance, and the flight design of the Landsat 9 mission takes advantage of that capability.", "The mission will launch on an Atlas V 401 configuration rocket, that includes a 13.7-ft (4-m) Extra Extended Payload Fairing (XEPF) and stands 194 ft. (59 meters) tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage. This will be the 88th launch of the Atlas V rocket and 20th mission launched on an Atlas V in partnership with NASA’s Launch Services Program (LSP)."],
         "livestreamLink" : "",
     },
     {
@@ -2132,7 +2132,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Lucy mission for NASA lifted off on Oct. 16 at 5:34 a.m. EDT from Space Launch Complex-41 at Cape Canaveral Space Force Station. To date ULA has launched 146 times with 100 percent mission success.", "\"We are honored to partner with NASA to launch this one-of-a-kind mission and are proud to add the Lucy mission to the Trojan Asteroids to our list of exploration launch successes,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We are very proud to launch this spacecraft on its historic 12-year journey to eight different asteroids, and thank our mission partners for their teamwork.\"", "The Atlas V delivered the Lucy spacecraft into an interplanetary trajectory. The mission launched on an Atlas V 401 configuration rocket that included a 14-ft (4-m) large payload fairing (LPF). The Atlas booster was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage. This was the 89th launch of an Atlas V rocket and 21st mission launched on an Atlas V in partnership with NASA’s Launch Services Program (LSP)."],
         "livestreamLink" : "",
     },
     {
@@ -2156,7 +2156,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket is in final preparations to launch the Space Test Program (STP)-3 mission for the U.S. Space Force’s Space Systems Command. The launch is on track for Dec. 5, 2021 from Space Launch Complex-41 at Cape Canaveral Space Force Station. Launch is planned for 4:04 a.m. EST.", "\"STP-3 is a unique mission as the Atlas V will deliver STP-3 directly into Geosynchronous Equatorial Orbit (GEO). This is a highly complex orbital insertion that requires three Centaur burns and precise navigation, a capability unique to the Atlas V. This is our longest mission to date at seven hours and 10 minutes until final spacecraft separation,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We are proud to work alongside our mission partners to prepare to launch this challenging mission and thank them for their outstanding teamwork.\"", "The STP-3 mission consists of the STPSat-6 satellite that hosts the National Nuclear Security Administration's Space and Atmospheric Burst Reporting System-3 (SABRS-3) package and NASA's Laser Communications Relay Demonstration (LCRD) experiment. The launch also includes a propulsive secondary payload adapter carrying additional small science and technology missions.", "The mission will launch on an Atlas V 551 configuration rocket, that includes a 5.4 meter payload fairing and stands 196 ft. (59.7 m) tall. The Atlas booster for this mission is powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage and Northrop Grumman provided the five Graphite Epoxy Motors (GEM) 63 solid rocket boosters. This will be the 90th launch of the Atlas V rocket. To date ULA has launched 146 times with 100 percent mission success."],
         "livestreamLink" : "",
     },
     {
@@ -2180,14 +2180,14 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the USSF-8 mission for the U.S. Space Force’s Space Systems Command lifted off on Jan. 21 at 2:00 p.m. EST from Space Launch Complex-41 at Cape Canaveral Space Force Station. To date ULA has launched 148 times with 100 percent mission success.", "\"ULA continues to launch national security assets into highly complex orbits. The USSF-8 mission was successfully delivered to near-geosynchronous orbit after a nearly 7-hour mission,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We want to thank the U.S. Space Force and our mission partners for their teamwork for the successful launch and delivery to orbit.\"", "The mission launched on an Atlas V 511 configuration rocket, that included a 5-meter short payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage and Northrop Grumman provided the Graphite Epoxy Motor (GEM) 63 solid rocket booster."],
         "livestreamLink" : "",
     },
     {
         "cosparCode" : "2022-021",
         "name" : "Geostationary Operational Environmental Satellite - 18",
         "alternativeName" : "",
-        "abbreviatedName" : "GOES-R",
+        "abbreviatedName" : "GOES-T",
         "liftOffTime" : "2022-03-01T21:38:00+0000",
         "locationName" : "Cape Canaveral",
         "locationPad" : "SLC-41",
@@ -2204,7 +2204,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the GOES-T spacecraft for the National Oceanic and Atmospheric Administration (NOAA) and NASA lifted off on March 1 at 4:38 p.m. EST from Space Launch Complex-41 at Cape Canaveral Space Force Station. To date ULA has launched 149 times with 100 percent mission success.", "\"Thank you to NASA, NOAA and our mission partners for your teamwork to launch this important mission. This successful launch adds to the GOES-R series, the Western Hemisphere’s most sophisticated weather observation and environmental monitoring system,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"The Atlas V delivered GOES-T directly to a geosynchronous transfer orbit. The orbital delivery accurately placed the spacecraft closer to its final destination which conserves the satellite’s fuel supply and enables a longer mission life.\"", "The mission launched on an Atlas V 541 configuration rocket, which first flew in November 2011 with NASA's Mars Curiosity rover. This configuration has launched missions for the National Reconnaissance Office, carried the GOES-R and -S satellites into space, and most recently launched the Mars 2020 mission with the Perseverance rover and Ingenuity helicopter.", "The Atlas V 541 included a 17-ft (5-m) diameter short payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage and Northrop Grumman provided the Graphite Epoxy Motor (GEM) 63 solid rocket boosters. This was the 92nd launch of an Atlas V rocket and 22nd mission launched on an Atlas V in partnership with NASA’s Launch Services Program (LSP). "],
         "livestreamLink" : "",
     },
     {
@@ -2228,7 +2228,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V carrying Boeing’s CST-100 Starliner spacecraft on Orbital Flight Test-2 (OFT-2) to the International Space Station (ISS) as part of NASA’s Commercial Crew Program, lifted off on May 19 at 6:54 p.m. EDT, from Space Launch Complex-41 (SLC) at Cape Canaveral Space Force Station. To date ULA has launched 150 times with 100 percent mission success. This marks the 93rd successful launch of an Atlas V rocket, and the 104th launch from SLC-41.", "\"The integrated NASA, Boeing, and ULA team has worked diligently to ensure the highest level of safety for future astronaut crews,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"This launch is a critical step towards future human spaceflight onboard Atlas V and we look forward to the remainder of this mission. Thank you to all of our mission partners for the outstanding teamwork to deliver this spacecraft to orbit.\"", "The Atlas V rocket delivered the Boeing Starliner spacecraft to a 98-nautical mile (nmi) sub-orbital trajectory. Following separation from the Atlas V, the Starliner engines ignited to put the Starliner on its orbital path toward the ISS. Producing more than one and a half million pounds of thrust at liftoff, the Atlas V configuration was modified specifically for the Starliner spacecraft."],
         "livestreamLink" : "",
     },
     {
@@ -2252,7 +2252,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the USSF-12 mission for the U.S. Space Force’s Space Systems Command lifted off on July 1 at 7:15 p.m. EDT from Space Launch Complex-41 at Cape Canaveral Space Force Station. To date ULA has launched 151 times with 100 percent mission success.", "\"This mission once again demonstrated ULA’s unmatched capability of precisely delivering the country’s most critical assets to a highly complex orbit,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"Our strong partnership with the USSF team is essential to maintain our nation’s security advantages and achieve robust mission assurance. Thank you to the ULA team and our mission partners for the indelible commitment to mission success.\"", "The mission launched on an Atlas V 541 configuration rocket thatincluded a 5-meter short payload fairing. The Atlas booster for this mission was powered by the RD AMROSS RD-180 engine. Aerojet Rocketdyne provided the RL10C-1 engine for the Centaur upper stage and Northrop Grumman provided the Graphite Epoxy Motor (GEM) 63 solid rocket boosters."],
         "livestreamLink" : "",
     },
     {
@@ -2276,7 +2276,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Space Based Infrared System Geosynchronous Earth Orbit-6 (SBIRS GEO 6) mission for the U.S. Space Force’s Space Systems Command lifted off on Aug. 4 at 6:29 a.m. EDT from Space Launch Complex-41 at Cape Canaveral Space Force Station. To date ULA has launched 152 times with 100 percent mission success.", "\"Thank you to our U.S. Space Force and industry partners for their outstanding teamwork in successfully delivering the sixth and final SBIRS satellite to orbit,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"We are proud of our role in supporting the warfighter by launching the entire SBIRS satellite constellation, a critical constellation of missile warning satellites that expands the U.S. military’s situational awareness on the battlefield and beyond.\""],
         "livestreamLink" : "",
     },
     {
@@ -2300,7 +2300,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the SES-20 and SES-21 satellites in a dual-satellite configuration lifted off on Oct. 4 at 5:36 p.m. EDT from Space Launch Complex-41 at Cape Canaveral Space Force Station. To date ULA has launched 154 times with 100 percent mission success.", "\"We’re excited to support our commercial partner SES in their C-band transition efforts to meet the FCC’s objective to deploy 5G service across the U.S. Their mission aligns with our mission to connect the world and these capabilities will enable uninterrupted commercial services to many Americans,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"The Atlas V delivered the satellites accurately to a near-geosynchronous orbit 22,300 miles (35,888 km) above the equator. Thank you to the ULA team and our partners for ensuring the successful delivery of this multi-payload mission to orbit.", "The Boeing-built C-band satellites, launched on an Atlas V 531 configuration rocket, will enable SES to continue providing critical data and TV transmission services to nearly 120 million American homes. The launch of SES-20 and SES-21 is part of a broader Federal Communications Commission (FCC) program to clear a portion of C-band spectrum to enable wireless operators to deploy 5G services across the contiguous US (CONUS). This was the 96th launch of the Atlas V rocket, the 80th Atlas V launch from SLC-41 and the 107th launch from SLC-41."],
         "livestreamLink" : "",
     },
     {
@@ -2324,7 +2324,7 @@
         "fairingRecoveryAttempted" : ["false", "false"],
         "fairingRecoveryMethod" : ["Expended", "Expended"],
         "status" : "Success",
-        "description" : [""],
+        "description" : ["A United Launch Alliance (ULA) Atlas V rocket carrying the Joint Polar Satellite System (JPSS)-2 mission for the National Oceanic and Atmospheric Administration (NOAA) and National Aeronautics and Space Administration (NASA) and NASA’s Low-Earth Orbit Flight Test of an Inflatable Decelerator (LOFTID) lifted off on Nov. 10 at 1:49 a.m. PST from Space Launch Complex-3 at Vandenberg Space Force Base. To date ULA has launched 155 times with 100 percent mission success.", "\"We depend on accuracy and timeliness of weather prediction models for enhanced weather forecasting and climate observations. Our ULA team is proud to launch the JPSS-2 mission that supports advanced forecasting of extreme weather and global climate monitoring,\" said Gary Wentz, ULA vice president of Government and Commercial Programs. \"Additionally, we look forward to reviewing the data collected from LOFTID as we explore Hypersonic Inflatable Aerodynamic Decelerator (HIAD) technology for engine reusability on our future Vulcan rocket. Successfully deploying these two payloads is a monumental achievement; thank you to our mission partners for their outstanding teamwork.\"", "The Atlas V rocket delivered the JPSS-2 spacecraft to a sun-synchronous low-Earth orbit. After delivering the JPSS-2 spacecraft, subsequent burns by the Centaur upper stage lowered the altitude to a re-entry trajectory to deploy the LOFTID experiment. Once separated, LOFTID reentered Earth’s atmosphere, deployed its parachute and landed off the coast of Hawaii. This experiment demonstrates how an inflatable aeroshell, or heat shield, could deliver heavy payloads safely through the atmosphere to the surface of Earth and potentially other planets."],
         "livestreamLink" : "",
     },
     {

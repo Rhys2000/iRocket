@@ -245,6 +245,7 @@ public class LaunchDataLoader {
 enum LaunchProvider: String, Codable {
     case SpaceX = "SpaceX" //Space Exploration Technologies Corporation
     case ULA = "ULA" //United Launch Alliance
+    case ILS = "ILS" //International Launch Services
 }
 
 enum OrbitDestination: String, Codable {
