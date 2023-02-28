@@ -7887,7 +7887,7 @@
         "livestreamLink" : "",
     },
     {
-        "cosparCode" : "",
+        "cosparCode" : "2023-026",
         "name" : "Starlink Group 6-1",
         "alternativeName" : "Starlink G6-1",
         "abbreviatedName" : "Starlink",
@@ -7907,7 +7907,7 @@
         "boosterRecoveryLocation" : ["ASOG"],
         "boosterRecoveryDistance" : ["637"],
         "boosterRecoveryStatus" : ["Success"],
-        "fairingFlights" : ["0", "0"],
+        "fairingFlights" : ["2", "2"],
         "fairingRecoveryAttempted" : ["true", "true"],
         "fairingRecoveryMethod" : ["Splashdown", "Splashdown"],
         "fairingRecoveryLocation" : ["Atlantic", "Atlantic"],
